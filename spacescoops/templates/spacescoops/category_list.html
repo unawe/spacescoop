@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load staticfiles i18n %}
+
+{% block content %}
+  {% if object_list %}
+      <div class="row">
+        <div class="page-title">
+          <div class="section-title category">{% trans 'Topics' %}</div>
+        </div>
+    {% for object in object_list %}
+      {% if forloop.counter0|divisibleby:4 %}</div> <div class="row category-list">{% endif %}
+        <div class="col-md-3 category-entry">
+        {% include 'spacescoops/category_inline_icon.html' with category=object %}
+          <div class="legend">
+            <div class="title"><a href="{% url 'categories:detail' slug=object.slug %}">{{ object.title }}</a></div>
+          </div>
+        </div>
+    {% endfor %}            
+      </div>
+
+
+  {% else %}
+      <div class="row">
+        <p>{% trans 'No articles are available.' %}</p>
+      </div>
+  {% endif %}
+{% endblock %}
+

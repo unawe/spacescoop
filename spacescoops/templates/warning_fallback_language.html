@@ -1,0 +1,6 @@
+{% load i18n %}
+{% if object.is_translation_fallback or object.language_code != LANGUAGE_CODE %}
+<div class="warning">
+{% trans "This page isn't available in your language yet, if you'd like to provide a translation please contact us at " %}<a href="mailto:info@unawe.org">info@unawe.org</a>
+</div>
+{% endif %}

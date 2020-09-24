@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load thumbnail static i18n %}
+
+{% block content %}
+  {% if object_list %}
+      <div class="row">
+        <div class="page-title">
+          <div class="section-title glossary">{% trans 'Space Words' %}</div>
+        </div>
+      </div>
+    {% for object in object_list %}
+       <div class="row glossary-list">
+        <div class="glossary-list-entry">
+          <a href="{% url 'glossary:detail' slug=object.slug %}">
+            <span class="title">{{ object.title }}</span> {{ object.short_description }}
+          </a>
+        </div>
+      </div>
+    {% endfor %}            
+
+  {% else %}
+      <div class="row">
+        <p>{% trans 'No articles are available.' %}</p>
+      </div>
+  {% endif %}
+{% endblock %}
+
+

@@ -1,0 +1,20 @@
+{% load thumbnail %}
+
+          <div class="grid-item">
+            <div class="categories">
+              {% for category in object.categories.all %}
+                {% include 'spacescoops/category_inline_icon.html' with category=category do_link=False %}
+              {% endfor %}
+            </div>
+      {% if object.main_visual %}
+            <a href="{% url 'scoops:detail' code=object.code slug=object.slug %}">
+        {% thumbnail object.main_visual THUMBNAIL_ALIASES.article_thumb crop="center" as thumb %}
+        <img src="{{ thumb.url }}" width="{{ thumb.width }}" height="{{ thumb.height }}" />
+        {% endthumbnail %}
+      {% endif %}
+            </a>
+            <div class="legend">
+              <div class="date">{{ object.release_date|date:"DATE_FORMAT" }}</div>
+              <div class="title"><a href="{% url 'scoops:detail' code=object.code slug=object.slug %}">{{ object.title }}</a></div>
+            </div>
+          </div>

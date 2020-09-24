@@ -11,7 +11,10 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import copy
 import dj_database_url
+from django_storage_url import dsn_configured_storage_class
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -38,6 +41,20 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'parler',
+    'ckeditor',
+    'taggit',
+    'taggit_autosuggest',
+
+    'sorl.thumbnail',
+
+    'django_ext',
+    'glossary',
+    'institutions',
+    # 'search',
+    'smartpages',
+    'spacescoops'
 ]
 
 MIDDLEWARE = [
@@ -101,7 +118,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en'
 
 TIME_ZONE = 'UTC'
 
@@ -111,6 +128,19 @@ USE_L10N = True
 
 USE_TZ = True
 
+PARLER_LANGUAGES = {
+    None: (
+        # {'code': 'en',},
+        # {'code': 'de',},
+        # {'code': 'pt',},
+        # {'code': 'ar',},
+        # {'code': 'vi',},
+    ),
+    'default': {
+        'fallbacks': ['en'],
+        'hide_untranslated': True,   # False is the default; let .active_translations() return fallbacks too.
+    }
+}
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
@@ -118,3 +148,56 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+#  media
+# DEFAULT_FILE_STORAGE is configured using DEFAULT_STORAGE_DSN
+
+# read the setting value from the environment variable
+DEFAULT_STORAGE_DSN = os.environ.get('DEFAULT_STORAGE_DSN')
+
+# dsn_configured_storage_class() requires the name of the setting
+DefaultStorageClass = dsn_configured_storage_class('DEFAULT_STORAGE_DSN')
+
+# Django's DEFAULT_FILE_STORAGE requires the class name
+DEFAULT_FILE_STORAGE = 'spacescoop.settings.DefaultStorageClass'
+
+MEDIA_URL = 'media/'
+MEDIA_ROOT = os.path.join('/data/media/')
+
+# CK editor
+CKEDITOR_UPLOAD_PATH = 'upload/'
+CKEDITOR_CONFIGS = {
+    'smartpages': {
+        'fillEmptyBlocks': False,
+        'toolbar': 'Custom',
+        'toolbar_Custom': [
+            ['Source', ],
+            ['Format', ],
+            ['Bold', 'Italic', '-', 'Underline', 'Subscript', 'Superscript', '-', 'Undo', 'Redo', 'RemoveFormat', ],
+            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', ],
+            ['Link', 'Unlink', ],
+            ['Image', 'Table', 'SpecialChar', ],
+            ['Maximize', 'ShowBlocks', ],
+            ['BidiLtr', 'BidiRtl', ],
+        ],
+        'width': 845,
+    },
+    'default': {
+        'fillEmptyBlocks': False,
+        'toolbar': 'Custom',
+        'toolbar_Custom': [
+            ['Source', ],
+            ['Bold', 'Italic', '-', 'Subscript', 'Superscript', '-', 'Undo', 'Redo', 'RemoveFormat', ],
+            ['Link', 'Unlink', ],
+            # ['Image', ],
+            ['BidiLtr', 'BidiRtl', ],
+        ],
+    },
+}
+CKEDITOR_CONFIGS['small'] = copy.deepcopy(CKEDITOR_CONFIGS['default'])
+CKEDITOR_CONFIGS['small']['height'] = 100
+
+CKEDITOR_CONFIGS['spacescoop'] = copy.deepcopy(CKEDITOR_CONFIGS['default'])
+CKEDITOR_CONFIGS['spacescoop']['extraPlugins'] = 'glossary'
+CKEDITOR_CONFIGS['spacescoop']['contentsCss'] = ['%sckeditor/ckeditor/contents.css' % STATIC_URL, '%scss/ckeditor-content.css' % STATIC_URL]
+CKEDITOR_CONFIGS['spacescoop']['toolbar_Custom'].insert(2, ['Glossary', ])

@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+{% load staticfiles thumbnail i18n %}
+
+{% comment %}<!-- 
+page.object_list = [activity1, ... ]
+page.has_previous
+page.has_next
+page.previous_page_number
+page.next_page_number
+-->{% endcomment %}
+
+
+{% block extra_js %}
+  {% include 'spacescoops/article_list_component_js.html' %}
+{% endblock %}
+
+{% block extra_body_class %} search-page{% endblock %}
+
+{% block site_title %} {% trans 'Search' %} {% endblock %}
+
+{% block content %}
+      <div class="row">
+        <div class="page-title">
+          <div class="section-title">&nbsp;<!-- {% trans 'Search' %} --></div>
+        </div>
+      </div>
+
+
+
+      <div class="row">
+
+        <!-- <form action="" method="get" id="search_form">{{ form }}<input type="submit" value="Submit" /></form>  -->
+        
+
+  {% if query %}
+        <div class="grid article-list">
+
+        {% for result in page.object_list %}
+          {% include 'spacescoops/article_list_item.html' with object=result.object %}
+            <!-- {{ result.score|floatformat:2}} -->
+        {% empty %}
+            <p class="notfound">{% trans 'Sorry, no results found that match your query.' %}</p>
+        {% endfor %}
+
+         {% if page.has_previous or page.has_next %}
+            <div>
+                {% if page.has_previous %}<a href="?q={{ query }}&amp;page={{ page.previous_page_number }}">{% endif %}&laquo; Previous{% if page.has_previous %}</a>{% endif %}
+                |
+                {% if page.has_next %}<a href="?q={{ query }}&amp;page={{ page.next_page_number }}">{% endif %}Next &raquo;{% if page.has_next %}</a>{% endif %}
+            </div>
+        {% endif %}
+        </div>
+
+    {% else %}
+        <p class="notfound">{% trans 'Sorry, no results found that match your query.' %}</p> 
+    {% endif %}
+      </div>
+
+{% endblock %}
+
+{% block extra_script %}
+<script>
+
+function submit_search() {
+    // remove unused facets
+    $('#search_form input').each(function(){
+        if ($(this).val() == '') {
+            // var id = $(this).attr('id');
+            // console.log(id);
+            $(this).remove();
+        }
+    });
+    $('#search_form').submit();
+}
+function unsetfacet(name, value) {
+    // unset value for facet
+    $('#id_'+name).val('');
+    submit_search();
+}
+function setfacet(name, value) {
+    // set value for facet
+    $('#id_'+name).val(value);
+    submit_search();
+}
+</script>
+{% endblock %}
+

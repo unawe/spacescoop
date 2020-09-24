@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+{% load i18n parler_tags static thumbnail %}
+
+
+{% block extra_head %}
+    <link rel="canonical" href="{{ SITE_URL }}{{ object.get_absolute_url }}" />
+{% endblock %}
+
+{% block content %}
+      <div class="row article-title">
+        <div class="left">
+          <div class="title">{{ object.title }}</div>
+          <div class="date">{{ object.release_date|date:"DATE_FORMAT" }}</div>
+        </div>
+        <div class="categories right">
+          {% for category in object.categories.all %}
+            {% include 'spacescoops/category_inline_icon.html' with category=category %}
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="row">
+{% if object.main_visual %} {#% for img in object.images.all %#}
+    {% thumbnail object.main_visual THUMBNAIL_ALIASES.article_cover crop="center" as im %}
+        <img src="{{ im.url }}"/>
+    {% endthumbnail %}
+{% endif %}
+      </div>
+
+      <div class="row">
+{% include "warning_fallback_language.html" with object=object %}
+      </div>
+
+      <div class="row" aria-haspopup="true">
+{{ object.story_expanded|safe }}
+      </div>
+
+      <div class="row">
+        <div class="coolfact">
+          <div class="title"><img src="{% static 'img/coolfact-ship.svg' %}"/> {% trans 'Cool Fact' %}</div>
+          <div class="text">
+{{ object.cool_fact|safe }}
+          </div>
+        </div>
+      </div>
+
+      <div class="row originalnews">
+{% if object.originalnews_set %}
+        <div class="text left">
+  {% if object.originalnews_set.all|length == 1 %}
+          {% trans 'This Space Scoop is based on a Press Release from ' %}
+    {% with n=object.originalnews_set.all.0 %}<a target="_blank" href="{{n.url}}">{{n.institution.name}}</a>{% endwith %}.
+  {% elif object.originalnews_set.all|length > 1 %}
+          {% trans 'This Space Scoop is based on Press Releases from ' %}
+    {% for n in object.originalnews_set.all %}<a target="_blank" href="{{n.url}}">{{n.institution.name}}</a>{% if not forloop.last %}, {% endif %}{% endfor %}.
+  {% endif %}
+        </div>
+        <div class="right">
+  {% for n in object.originalnews_set.all %}
+    {% thumbnail n.institution.logo THUMBNAIL_ALIASES.original_news_source crop="center" as im %}
+          <a target="_blank" href="{{ n.institution.url }}"><img src="{{ im.url }}" alt="{{ n.institution.name }}"/></a>
+    {% endthumbnail %}
+  {% endfor %}
+        </div>
+{% endif %}
+      </div>
+
+{% if object.translated_credit %}
+      <div class="row">
+        <p>{{ object.translated_credit|safe }}</p>
+      </div>
+{% endif %}
+
+      <div class="row">
+        <div class="downloads">
+          <div class="image left"><div class="table-row">
+            <div class="table-cell"><a href="{{ object.main_visual.url }}" download><img src="{% static 'img/buttons/download.svg' %}"/></a></div>
+            <div class="table-cell text">{% trans 'Image' %}</div>
+          </div></div>
+          <div class="pdf left"><div class="table-row">
+            <div class="table-cell"><a href="http://www.unawe.org/static/archives/kids/pdf/unawe{{ object.code }}{% if object.language_code != 'en' %}{{ object.language_code }}{% endif %}.pdf" download><img src="{% static 'img/buttons/download-pdf.svg' %}"/></a></div>
+            <div class="table-cell text">{% trans 'Print Friendly Version' %}</div>
+          </div></div>
+          <div class="share right"><div class="table-row">
+            <div class="title">{% trans 'Share' %}</div>
+            <div>
+                <a href="https://twitter.com/intent/tweet?url={{ SITE_URL }}{{ object.get_absolute_url }}" target="_blank">
+                    <img src="{% static 'img/social-share/twitter.svg' %}">
+                </a>
+                {% if object.main_visual %}
+                <a href="http://pinterest.com/pin/create/button/?url={{ SITE_URL }}{{ object.get_absolute_url }}&description={{ object.title }}&media={{ SITE_URL }}{{ object.main_visual.url }}" class="pin-it-button" count-layout="horizontal" target="_blank">
+                    <img src="{% static 'img/social-share/pinterest.svg' %}">
+                </a>
+                {% endif %}
+
+                {% if object.main_visual %}
+                <a href="http://www.facebook.com/sharer/sharer.php?u={{ SITE_URL }}{{ object.get_absolute_url }}&image={{ SITE_URL }}{{ object.main_visual.url }}" target="_blank">
+                    <img src="{% static 'img/social-share/facebook.svg' %}">
+                </a>
+                {% else %}
+                <a href="http://www.facebook.com/sharer/sharer.php?u={{ SITE_URL }}{{ object.get_absolute_url }}" target="_blank">
+                    <img src="{% static 'img/social-share/facebook.svg' %}">
+                </a>
+                {% endif %}
+
+
+            </div>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="row random-scoops">
+        <div class="random-scoop-title">
+          <div class="text">{% trans 'More Space Scoops' %}</div>
+        </div>
+{% include 'spacescoops/article_list_component_small.html' with object_list=random %}
+      </div>
+
+
+<!--
+<p> Glossary:
+<ul>
+{% for entry in object.get_glossary_entries %}
+<li>{{entry.title}}: {{entry.short_description}}</li>
+{% endfor %}
+</ul>
+</p>
+-->
+
+{% endblock %}

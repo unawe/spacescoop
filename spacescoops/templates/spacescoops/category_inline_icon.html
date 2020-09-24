@@ -1,0 +1,6 @@
+{% load staticfiles %}{% spaceless %}
+{% if do_link|default_if_none:True %}<a href="{% url 'categories:detail' slug=category.slug %}">{% endif %}
+    <img {% if img_class %} class="{{ img_class }}"{% endif %} src="{% static 'img/categories/' %}{{ category.code }}.svg" title="{{ category.title }}"/> 
+    {% if title %}<div class="title">{{ title }}</div>{% endif %}
+{% if do_link|default_if_none:True %}</a>{% endif %}
+{% endspaceless %}

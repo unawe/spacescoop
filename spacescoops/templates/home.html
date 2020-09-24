@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static thumbnail i18n %}
+
+
+{% block homelink %}<div style="min-height: 20px;"></div>{% endblock %}
+
+{% block top %}
+      <div class="row" id="frontispiece">
+        <div class="background"><img src="/static/img/frontispiece/backgound.bac.svg" /></div>
+        <div class="frontispiece-img">
+          <div class="rotate"></div>
+          <div class="static"></div>
+        </div>
+        <!-- <div id="logo"><img src="{% static 'img/logo.svg' %}"/></div> -->
+        <div class="slogan">{% trans 'News from Across the Universe' %}</div>
+      </div>
+{% endblock %}
+
+
+{% block content %}
+
+      <div id="article-slider" class="row" dir="lrt">
+        <div class="slide-featured">
+{% for object in featured %}
+    {% thumbnail object.main_visual THUMBNAIL_ALIASES.article_feature crop="center" as im %}
+          <a href="{{ object.get_absolute_url }}"><div class="home-feature" style="background-image: url({{ im.url }});" dir="{{ LANGUAGE_BIDI|yesno:'rtl,ltr' }}">
+    {% endthumbnail %}
+            <div class="title">{{ object.title }}</div>
+            <div class="date">{{ object.release_date|date:"DATE_FORMAT" }}</div>
+            <div class="categories">
+              {% for category in object.categories.all %}
+                {% include 'spacescoops/category_inline_icon.html' with category=category do_link=False %}
+              {% endfor %}
+            </div>
+          </div></a>
+{% endfor %}
+        </div>
+      </div>
+
+<!--       <div class="row page-down-arrow">
+        <img src="{% static 'img/page-down-arrow.svg' %}"/>
+      </div>
+ -->
+      <div class="row">
+        <h2>{% trans 'Discover more awesome topics!' %}</h2>
+        <div class="slide-categories" dir="lrt">
+{% for category in categories %}
+            {% if forloop.first %}<div class="col-md-2" dir="rtl"></div>
+            {% elif forloop.counter0|divisibleby:4 %}<div class="col-md-2"></div><div class="col-md-2"></div>{% endif %}
+            <div class="col-md-2">{% include 'spacescoops/category_inline_icon.html' with category=category img_class='category-icon' title=category.title %}</div>
+            {% if forloop.last %}<div class="col-md-2"></div>{% endif %}
+{% endfor %}
+        </div>
+      </div>
+
+{% endblock %}

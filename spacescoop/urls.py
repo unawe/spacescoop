@@ -14,8 +14,28 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from django.conf import settings
+from django.conf.urls.static import static
+from django.conf.urls.i18n import i18n_patterns
+
+from spacescoops.views import home
+# from search.views import search
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('ckeditor/', include('ckeditor_uploader.urls')),
+    path('taggit_autosuggest/', include('taggit_autosuggest.urls')),
 ]
+
+urlpatterns += i18n_patterns(
+    path('', home, name='home'),
+    # path('search/', search, name='search'),
+    path('scoops/', include('spacescoops.urls', namespace='scoops')),
+    path('topics/', include('spacescoops.urls_categories', namespace='categories')),
+    path('friends/', include('spacescoops.urls_partners', namespace='partners')),
+)
+
+if settings.DEBUG:
+    urlpatterns.extend(static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT))

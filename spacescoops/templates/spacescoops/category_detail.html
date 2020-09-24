@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load staticfiles i18n %}
+
+{% block extra_js %}
+  {{ block.super }}
+  {% include 'spacescoops/article_list_component_js.html' %}
+{% endblock %}
+
+
+{% block content %}
+      <div class="row">
+        <div class="page-title">
+          <div class="section-title category"><a href="{% url 'categories:list' %}">{% trans 'Topics' %}</a></div>
+          <div class="entry-title">
+            {% include 'spacescoops/category_inline_icon.html' with category=object do_link=False %}
+            {{ object.title }}
+          </div>
+        </div>
+      </div>
+    {% with articles as object_list %}
+      {% include 'spacescoops/article_list_component.html' %}
+    {% endwith %}
+{% endblock %}

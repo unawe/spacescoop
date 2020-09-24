@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load staticfiles thumbnail i18n %}
+
+
+{% block content %}
+
+    <div class="row">
+        <div class="page-title">
+            <div class="section-title">{% trans 'Space Scoop Friends' %}</div>
+        </div>
+    </div>
+
+    {% for object in object_list %}
+      {% if object.scoops_available|length > 0 %}
+          <div class="row partner-item">
+            <div class="col-md-12">
+              <a href="{{ object.url }}" class="logo" target="_blank">
+                {% thumbnail object.logo THUMBNAIL_ALIASES.original_news_source crop="center" as im %}
+                  <img src="{{ im.url }}"/>
+                {% endthumbnail %}
+              </a>
+              <div class="title"><a href="{% url 'partners:detail' slug=object.slug %}">{{ object.title }}</a></div>
+            </div>
+          </div>
+          <div class="row">
+        {% include 'spacescoops/article_list_component_small.html' with object_list=object.scoops_available|slice:':3' %}
+          </div>
+          <div class="row">
+            <div class="col-md-12 right">
+              {% url 'partners:detail' slug=object.slug as partner_detail_url %}
+              <a href="{% url 'scoops:list_by_institution' institution=object.slug %}">Read more Space Scoops</a> based on {{ object.name }} Press Releases.
+              {% blocktrans with partner_name=object.name partner_url=object.url %}<a href="{{ partner_url }}" target="_blank">Learn more</a> about {{ partner_name }}.{% endblocktrans %}
+            </div>
+          </div>
+      {% endif %}
+    {% endfor %}
+
+    <div class="row buffer">
+    </div>
+
+{% endblock %}

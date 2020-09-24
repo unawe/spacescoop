@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load thumbnail i18n %}
+
+{% block content %}
+
+      <div class="row">
+        <div class="page-title">
+          <div class="section-title glossary"><a href="{% url 'glossary:list' %}">{% trans 'Space Words' %}</a></div>
+          <div class="entry-title">{{ object.title }}</div>
+        </div>
+      </div>
+
+      <div class="row">
+{% include "warning_fallback_language.html" with object=object %}
+      </div>
+
+      <div class="row">
+        <p>
+        {{ object.short_description }}
+        </p>
+
+        {{ object.description|safe }}
+      </div>
+
+{% endblock %}

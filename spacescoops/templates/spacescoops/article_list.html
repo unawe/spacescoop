@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block extra_js %}
+  {{ block.super }}
+  {% include 'spacescoops/article_list_component_js.html' %}
+{% endblock %}
+
+
+{% block content %}
+      <div class="row">
+        <div class="page-title">
+          <div class="section-title gallery">{% trans 'Pictures' %}</div>
+        </div>
+      </div>
+  {% include 'spacescoops/article_list_component.html' %}
+{% endblock %}

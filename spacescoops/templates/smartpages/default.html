@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+      <div class="row">
+        <div class="page-title">
+          <div class="section-title">{{ object.title }}</div>
+        </div>
+      </div>
+      <div class="row">
+{% include "warning_fallback_language.html" with object=object %}
+      </div>
+      <div class="row">
+{{ object.content|safe }}
+      </div>
+
+{% endblock %}
