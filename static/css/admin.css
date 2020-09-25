@@ -1,0 +1,22 @@
+#id_short_description {
+    width: 830px;
+}
+
+#id_categories {
+    width: 830px;
+    margin-left: 0;
+    padding-left: 0;
+
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    -ms-column-count: 4;
+    -o-column-count: 4;
+    column-count: 4;
+}
+#id_categories li {
+    list-style-type: none;
+}
+
+label.translatable-field, label.required.translatable-field {
+    color: red !important; /* important is needed to get required fields */
+}

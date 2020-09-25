@@ -19,7 +19,8 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.conf.urls.i18n import i18n_patterns
 
-from spacescoops.views import home
+from smartpages.views import SmartPageView
+from spacescoops.views import home, search
 # from search.views import search
 
 
@@ -35,6 +36,9 @@ urlpatterns += i18n_patterns(
     path('scoops/', include('spacescoops.urls', namespace='scoops')),
     path('topics/', include('spacescoops.urls_categories', namespace='categories')),
     path('friends/', include('spacescoops.urls_partners', namespace='partners')),
+    path('words/', include('glossary.urls', namespace='glossary')),
+    path('search/', search, name='search'),
+    path('<url>/', SmartPageView.as_view(), name='smartpage'),
 )
 
 if settings.DEBUG:

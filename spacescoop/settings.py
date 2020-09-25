@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'ckeditor',
     'taggit',
     'taggit_autosuggest',
+    'compressor',
 
     'sorl.thumbnail',
 
@@ -130,11 +131,11 @@ USE_TZ = True
 
 PARLER_LANGUAGES = {
     None: (
-        # {'code': 'en',},
-        # {'code': 'de',},
-        # {'code': 'pt',},
-        # {'code': 'ar',},
-        # {'code': 'vi',},
+        {'code': 'en',},
+        {'code': 'de',},
+        {'code': 'pt',},
+        {'code': 'ar',},
+        {'code': 'vi',},
     ),
     'default': {
         'fallbacks': ['en'],
@@ -145,9 +146,47 @@ PARLER_LANGUAGES = {
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'compressor.finders.CompressorFinder',
+)
+
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+
+PIPELINE = {
+    # 'CSS_COMPRESSOR': None,
+    'JS_COMPRESSOR': None,
+    'STYLESHEETS': {
+        'styles': {
+            'source_filenames': (
+                'slick/slick.css',
+                'slick/slick-theme.css',
+                'css/main.css',
+            ),
+            'output_filename': 'css/spacescoop.min.css',
+            'extra_context': {
+                'media': 'screen',
+            },
+        },
+    },
+    'JAVASCRIPT': {
+        'scripts': {
+            'source_filenames': [
+                'js/jquery-1.11.3.min.js',
+                'js/bootstrap.min.js',
+                'slick/slick.min.js',
+                'js/jquery.sharrre.min.js',
+                'js/menus.js',
+                # 'js/scripts.js',
+            ],
+            'output_filename': 'js/spacescoop.min.js',
+        }
+    }
+}
 
 #  media
 # DEFAULT_FILE_STORAGE is configured using DEFAULT_STORAGE_DSN

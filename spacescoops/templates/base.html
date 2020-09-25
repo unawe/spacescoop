@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-{% load i18n parler_tags static smartpages pipeline %}
+{% load i18n parler_tags static smartpages %}
 
 {% get_current_language as LANGUAGE_CODE %}
 <html lang="{{ LANGUAGE_CODE }}" dir="{{ LANGUAGE_BIDI|yesno:'rtl,ltr' }}">
@@ -37,7 +37,6 @@
     <link href='https://fonts.googleapis.com/css?family=Comfortaa:300&subset=latin,greek,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Dosis:300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-    {% stylesheet 'styles' %}
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -121,7 +120,7 @@
 
         <img class="earthscape rotate" src="{% static 'img/earthscape.svg' %}" />
         <div id="social-icons">
-          <a href="{% url 'newsletter:subscribe' %}"><img src="{% static 'img/social/newsletter.svg' %}"></a>
+          <!-- a href=""><img src="{% static 'img/social/newsletter.svg' %}"></a -->
           <a href="http://twitter.com/unawe" target="_blank"><img src="{% static 'img/social/twitter.svg' %}"></a>
           <a href="http://instagram.com/space_awe/" target="_blank"><img src="{% static 'img/social/instagram.svg' %}"></a>
           <a href="http://www.facebook.com/unawe" target="_blank"><img src="{% static 'img/social/facebook.svg' %}"></a>
@@ -140,7 +139,6 @@
       </div>
     </div>
 
-{% javascript 'scripts' %}
     <script>
 	jQuery(document).ready(function(){
 		jQuery('.slide-featured').slick({

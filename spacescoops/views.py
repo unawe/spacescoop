@@ -33,6 +33,9 @@ def home(request):
         'categories': categories,
     })
 
+def search(request):
+    pass
+
 def _article_queryset(request, only_translations=True):
     qs = Article.objects.available(user=request.user)
     if only_translations:

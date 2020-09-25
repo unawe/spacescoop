@@ -45,7 +45,7 @@ class SmartPage(TranslatableModel, PublishingModel):
     #     return iri_to_uri(get_script_prefix().rstrip('/') + self.url)
 
     def get_absolute_url(self):
-        return reverse('smartpage', kwargs={'url': self.url.lstrip('/'), })
+        return reverse('smartpage', kwargs={'url': self.url.strip('/'), })
 
 
 class SmartPageTranslation(TranslatedFieldsModel):
