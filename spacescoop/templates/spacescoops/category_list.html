@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load staticfiles i18n %}
+{% load static i18n %}
 
 {% block content %}
   {% if object_list %}
@@ -15,7 +15,7 @@
             <div class="title"><a href="{% url 'categories:detail' slug=object.slug %}">{{ object.title }}</a></div>
           </div>
         </div>
-    {% endfor %}            
+    {% endfor %}
       </div>
 
 
@@ -25,4 +25,3 @@
       </div>
   {% endif %}
 {% endblock %}
-

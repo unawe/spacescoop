@@ -4,7 +4,7 @@ from django.utils.timezone import now
 
 
 def publishing_login_required():
-    return lambda user: user and user.is_authenticated()
+    return lambda user: user and user.is_authenticated
 
 
 def publishing_group_required(group):
