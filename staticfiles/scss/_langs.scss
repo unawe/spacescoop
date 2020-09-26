@@ -1,0 +1,53 @@
+
+:lang(ta) {
+    // ***** Tahmil icon titles was getting smahed together!
+
+    // @import url(http://fonts.googleapis.com/earlyaccess/droidsanstamil.css);
+    // @import url(http://fonts.googleapis.com/earlyaccess/karlatamilinclined.css);
+    // @import url(http://fonts.googleapis.com/earlyaccess/notosanstamilui.css);
+    // @import url(http://fonts.googleapis.com/earlyaccess/notosanstamil.css);
+    @import url(http://fonts.googleapis.com/earlyaccess/lohittamil.css);
+    // @import url(http://fonts.googleapis.com/earlyaccess/karlatamilupright.css);
+    .slide-categories .title, #more-info p, .category-list .title {
+        // font-family: 'Droid Sans Tamil', sans-serif;
+        // font-family: 'Karla Tamil Inclined', sans-serif;
+        // font-family: 'Noto Sans Tamil UI', sans-serif;
+        // font-family: 'Noto Sans Tamil', sans-serif;
+        font-family: 'Lohit Tamil', sans-serif;
+        // font-family: 'Karla Tamil Upright', sans-serif;
+    }
+    .slide-categories .title, #more-info p {
+        font-size: 14px;
+    }
+    .category-list .title {
+        font-size: 16px;
+    }
+}
+
+// http://whatsup.org.il/meir/talks/django-i18n/django-i18n.html
+html[dir=rtl] {
+    .slick-prev {
+        left: auto;
+        right: 0px;
+    }
+    .slick-next {
+        left: 0px;
+        right: auto;
+    }
+    .home-feature {
+        .title, .date {
+            left: auto;
+            right: 25px
+        }
+        .categories {
+            left: 35px;
+            right: auto;
+        }
+    }
+    .article-title {
+        .left { float: right; }
+        .right { float: left; }
+    }
+  // margin:0 10pt 0 0;
+  // text-align: right
+}
