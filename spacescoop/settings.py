@@ -12,13 +12,15 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 import copy
+import operator
+
 import dj_database_url
 from django_storage_url import dsn_configured_storage_class
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+PARENT_DIR = os.path.dirname(BASE_DIR)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
@@ -30,6 +32,7 @@ SECRET_KEY = 'z2=$*^40@k+--2u@z8j8&c5!^3_o1-lc06#ih5^uboqtn(*1n0'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+SITE_URL = 'http://www.spacescoop.org'
 
 
 # Application definition
@@ -68,6 +71,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.locale.LocaleMiddleware'
 ]
 
 ROOT_URLCONF = 'spacescoop.urls'
@@ -83,6 +87,11 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.i18n',
+                # THUMBNAIL_ALIASES
+                'django_ext.context_processors.thumbnail_aliases',
+                # SITE_URL
+                'django_ext.context_processors.site_url',
             ],
         },
     },
@@ -120,7 +129,111 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
+import django.conf.locale
+django.conf.locale.LANG_INFO['gu'] = {
+    'bidi': False,
+    'code': 'gu',
+    'name': 'Gurajati',
+    'name_local': 'ગુજરાતી',
+}
+django.conf.locale.LANG_INFO['hi'] = {
+    'bidi': False,
+    'code': 'hi',
+    'name': 'Hindi',
+    'name_local': 'हिंदी',
+}
+django.conf.locale.LANG_INFO['mt'] = {
+    'bidi': False,
+    'code': 'mt',
+    'name': 'Maltese',
+    'name_local': 'Malti',
+}
+django.conf.locale.LANG_INFO['si'] = {
+    'bidi': False,
+    'code': 'si',
+    'name': 'Sinhalese',
+    'name_local': 'සිංහල',
+}
+django.conf.locale.LANG_INFO['tet'] = {
+    'bidi': False,
+    'code': 'tet',
+    'name': 'Tetum',
+    'name_local': 'tetun',
+}
+django.conf.locale.LANG_INFO['zh'] = {
+    'fallback': ['zh-hans'],
+}
+django.conf.locale.LANG_INFO['quc'] = {
+    'bidi': False,
+    'code': 'quc',
+    'name': 'K’iche’',
+    'name_local': 'K’iche’',
+}
+django.conf.locale.LANG_INFO['tzj'] = {
+    'bidi': False,
+    'code': 'tzj',
+    'name': 'Tz’utujil',
+    'name_local': 'Tz’utujil',
+}
+django.conf.locale.LANG_INFO['ar'] = {
+    'bidi': False,
+    'code': 'ar',
+    'name': 'Arabic',
+    'name_local': 'العربيّة',
+}
+django.conf.locale.LANG_INFO['he'] = {
+    'bidi': False,
+    'code': 'he',
+    'name': 'Hebrew',
+    'name_local': 'עברית',
+}
+
 LANGUAGE_CODE = 'en'
+
+LANGUAGES = (
+    ('en', 'English'),
+    ('nl', 'Dutch'),
+    ('it', 'Italian'),
+    ('de', 'German'),
+    ('es', 'Spanish'),
+    ('pl', 'Polish'),
+    ('sq', 'Albanian'),
+    ('ar', 'Arabic'),
+    ('bn', 'Bengali'),
+    ('bg', 'Bulgarian'),
+    ('zh', 'Chinese'),
+    ('cs', 'Czech'),
+    ('da', 'Danish'),
+    ('fa', 'Farsi'),
+    ('fr', 'French'),
+    ('el', 'Greek'),
+    ('gu', 'Gujarati'),
+    ('he', 'Hebrew'),
+    ('hi', 'Hindi'),
+    ('hu', 'Hungarian'),
+    ('is', 'Icelandic'),
+    ('id', 'Indonesian'),
+    ('ja', 'Japanese'),
+    ('quc', 'K’iche’'),
+    ('ko', 'Korean'),
+    ('mt', 'Maltese'),
+    #('mam', 'Mam'),
+    ('no', 'Norwegian'),
+    ('pt', 'Portuguese'),
+    ('ro', 'Romanian'),
+    ('ru', 'Russian'),
+    ('si', 'Sinhalese'),
+    ('sl', 'Slovenian'),
+    ('sw', 'Swahili'),
+    ('ta', 'Tamil'),
+    ('tet', 'Tetum'),
+    ('tr', 'Turkish'),
+    ('tzj', 'Tz’utujil'),
+    ('uk', 'Ukrainian'),
+    ('vi', 'Vietnamese'),
+    ('cy', 'Welsh'),
+)
+LANGUAGES = sorted(LANGUAGES, key=operator.itemgetter(0))
 
 TIME_ZONE = 'UTC'
 
@@ -132,11 +245,11 @@ USE_TZ = True
 
 PARLER_LANGUAGES = {
     None: (
-        {'code': 'en',},
-        {'code': 'de',},
-        {'code': 'pt',},
-        {'code': 'ar',},
-        {'code': 'vi',},
+        # {'code': 'en',},
+        # {'code': 'de',},
+        # {'code': 'pt',},
+        # {'code': 'ar',},
+        # {'code': 'vi',},
     ),
     'default': {
         'fallbacks': ['en'],
@@ -171,6 +284,23 @@ DEFAULT_FILE_STORAGE = 'spacescoop.settings.DefaultStorageClass'
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join('/data/media/')
+
+# Thumbnails
+# http://sorl-thumbnail.readthedocs.org/en/latest/reference/settings.html
+THUMBNAIL_KVSTORE = 'sorl.thumbnail.kvstores.cached_db_kvstore.KVStore'
+THUMBNAIL_DBM_FILE = os.path.join(PARENT_DIR, 'usr/redis/thumbnails_spacescoop')
+# THUMBNAIL_ENGINE = 'sorl.thumbnail.engines.convert_engine.Engine'  #TODO: revisit this choice
+THUMBNAIL_ENGINE = 'sorl.thumbnail.engines.pil_engine.Engine'  #TODO: revisit this choice
+THUMBNAIL_KEY_PREFIX = 'sorl-thumbnail-spacescoop'
+THUMBNAIL_PRESERVE_FORMAT = 'True'
+# THUMBNAIL_ALTERNATIVE_RESOLUTIONS = [1.5, 2]
+THUMBNAIL_ALIASES = {
+    'original_news_source': 'x60',
+    'article_feature': '880x410',
+    'article_cover': '680x400',
+    'article_thumb': '320',
+    'article_thumb_inline': '198x200',
+}
 
 # CK editor
 CKEDITOR_UPLOAD_PATH = 'upload/'

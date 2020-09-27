@@ -23,7 +23,8 @@
         <div class="slide-featured">
 {% for object in featured %}
     {% thumbnail object.main_visual THUMBNAIL_ALIASES.article_feature crop="center" as im %}
-          <a href="{{ object.get_absolute_url }}"><div class="home-feature" style="background-image: url({{ im.url }});" dir="{{ LANGUAGE_BIDI|yesno:'rtl,ltr' }}">
+          <a href="{{ object.get_absolute_url }}">
+            <div class="home-feature" style="background-image: url({{ im.url }});" dir="{{ LANGUAGE_BIDI|yesno:'rtl,ltr' }}">
     {% endthumbnail %}
             <div class="title">{{ object.title }}</div>
             <div class="date">{{ object.release_date|date:"DATE_FORMAT" }}</div>
