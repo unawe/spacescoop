@@ -291,6 +291,8 @@ DefaultStorageClass = dsn_configured_storage_class('DEFAULT_STORAGE_DSN')
 # Django's DEFAULT_FILE_STORAGE requires the class name
 DEFAULT_FILE_STORAGE = 'spacescoop.settings.DefaultStorageClass'
 
+THUMBNAIL_DEFAULT_STORAGE  = DEFAULT_FILE_STORAGE
+
 MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join('/data/media/')
 
