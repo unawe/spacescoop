@@ -15,7 +15,8 @@
           <div class="row partner-item">
             <div class="col-md-12">
               <a href="{{ object.url }}" class="logo" target="_blank">
-                  <img src="{{ object.logo|thumbnail_url:'original_news_source' }}"/>
+                {% thumbnail object.logo 60x60 crop=scale  as thumb %}
+                  <img src="{{ thumb.url }}"/>
               </a>
               <div class="title"><a href="{% url 'partners:detail' slug=object.slug %}">{{ object.title }}</a></div>
             </div>
