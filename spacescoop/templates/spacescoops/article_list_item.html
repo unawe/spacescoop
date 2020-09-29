@@ -1,4 +1,4 @@
-{% load thumbnail %}
+{% load easy_thumbnails_tags %}
 
           <div class="grid-item">
             <div class="categories">
@@ -8,9 +8,7 @@
             </div>
       {% if object.main_visual %}
             <a href="{% url 'scoops:detail' code=object.code slug=object.slug %}">
-        {% thumbnail object.main_visual THUMBNAIL_ALIASES.article_thumb crop="center" as thumb %}
-        <img src="{{ thumb.url }}" width="{{ thumb.width }}" height="{{ thumb.height }}" />
-        {% endthumbnail %}
+        <img src="{{ object.main_visual|thumbnail_url:'article_thumb' }}" width="{{ thumb.width }}" height="{{ thumb.height }}" />
       {% endif %}
             </a>
             <div class="legend">

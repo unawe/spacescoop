@@ -15,4 +15,4 @@ django-taggit
 django-taggit-autosuggest
 pillow
 sorl-thumbnail
-django_compressor
+easy_thumbnails

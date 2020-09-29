@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load static thumbnail i18n %}
+{% load static easy_thumbnails_tags i18n %}
 
 {% block extra_js %}
   {{ block.super }}
@@ -17,9 +17,7 @@
       </div>
       <div class="row partner-item">
         <div class="col-md-12">
-    {% thumbnail object.logo THUMBNAIL_ALIASES.original_news_source crop="center" as im %}
-          <a href="{{ object.url }}" class="logo" target="_blank"><img src="{{ im.url }}"></a>
-    {% endthumbnail %}
+          <a href="{{ object.logo|thumbnail_url:'original_news_source' }}" class="logo" target="_blank"><img src="{{ im.url }}"></a>
           <div class="title">{{ object.name }}</div>
           <div class="description">
             {{ object.description|safe }}

@@ -22,12 +22,6 @@ from .models import Person, Institution, Location
 class InstitutionAdmin(TranslatableAdmin):  #, AdminImageMixin
     # form = InstitutionAdminForm
 
-    def logo_embed(self, obj):
-        if obj.logo:
-            return '<img src="%s" style="height:50px" />' % obj.logo.image.icons['64']
-    logo_embed.short_description = 'Logo'
-    logo_embed.allow_tags = True
-
     list_display = ('name', 'fullname', 'url', 'location', 'all_languages_column', ) #'logo_embed', ) #'admin_logo', )
     list_editable = ('url', )
     ordering = ('name', )

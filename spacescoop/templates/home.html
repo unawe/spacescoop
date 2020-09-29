@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load static thumbnail i18n %}
+{% load static easy_thumbnails_tags i18n %}
 
 
 {% block homelink %}<div style="min-height: 20px;"></div>{% endblock %}
@@ -22,10 +22,8 @@
       <div id="article-slider" class="row" dir="lrt">
         <div class="slide-featured">
 {% for object in featured %}
-    {% thumbnail object.main_visual THUMBNAIL_ALIASES.article_feature crop="center" as im %}
           <a href="{{ object.get_absolute_url }}">
-            <div class="home-feature" style="background-image: url({{ im.url }});" dir="{{ LANGUAGE_BIDI|yesno:'rtl,ltr' }}">
-    {% endthumbnail %}
+            <div class="home-feature" style="background-image: url({{ object.main_visual|thumbnail_url:'article_feature' }});" dir="{{ LANGUAGE_BIDI|yesno:'rtl,ltr' }}">
             <div class="title">{{ object.title }}</div>
             <div class="date">{{ object.release_date|date:"DATE_FORMAT" }}</div>
             <div class="categories">

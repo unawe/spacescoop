@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
-{% load staticfiles thumbnail i18n %}
+{% load static thumbnail i18n %}
 
-{% comment %}<!-- 
+{% comment %}<!--
 page.object_list = [activity1, ... ]
 page.has_previous
 page.has_next
@@ -30,13 +30,14 @@ page.next_page_number
       <div class="row">
 
         <!-- <form action="" method="get" id="search_form">{{ form }}<input type="submit" value="Submit" /></form>  -->
-        
+
 
   {% if query %}
         <div class="grid article-list">
 
         {% for result in page.object_list %}
-          {% include 'spacescoops/article_list_item.html' with object=result.object %}
+          {% include 'spacescoops/article_list_item.html' with object=result.master%}
+
             <!-- {{ result.score|floatformat:2}} -->
         {% empty %}
             <p class="notfound">{% trans 'Sorry, no results found that match your query.' %}</p>
@@ -52,7 +53,7 @@ page.next_page_number
         </div>
 
     {% else %}
-        <p class="notfound">{% trans 'Sorry, no results found that match your query.' %}</p> 
+        <p class="notfound">{% trans 'Sorry, no results found that match your query.' %}</p>
     {% endif %}
       </div>
 
@@ -84,4 +85,3 @@ function setfacet(name, value) {
 }
 </script>
 {% endblock %}
-

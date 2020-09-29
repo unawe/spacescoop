@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load static thumbnail i18n %}
+{% load static easy_thumbnails_tags i18n %}
 
 
 {% block content %}
@@ -15,9 +15,7 @@
           <div class="row partner-item">
             <div class="col-md-12">
               <a href="{{ object.url }}" class="logo" target="_blank">
-                {% thumbnail object.logo THUMBNAIL_ALIASES.original_news_source crop="center" as im %}
-                  <img src="{{ im.url }}"/>
-                {% endthumbnail %}
+                  <img src="{{ object.logo|thumbnail_url:'original_news_source' }}"/>
               </a>
               <div class="title"><a href="{% url 'partners:detail' slug=object.slug %}">{{ object.title }}</a></div>
             </div>

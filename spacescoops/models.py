@@ -21,7 +21,6 @@ from parler.managers import TranslatableManager, TranslatableQuerySet
 # from taggit.models import TagBase, GenericTaggedItemBase
 from taggit_autosuggest.managers import TaggableManager
 from ckeditor.fields import RichTextField
-from sorl.thumbnail import ImageField
 from autoslug import AutoSlugField
 
 from django_ext.models import PublishingModel, PublishingManager, BaseAttachmentModel
@@ -88,7 +87,7 @@ class OriginalNewsSource(TranslatableModel):
     slug = models.SlugField(max_length=200, help_text='The Slug must be unique, and closely match the title for better SEO; it is used as part of the URL.', )
     fullname = models.CharField(max_length=200, blank=True, help_text='If set, the full name will be used in some places instead of the name', )
     url = models.CharField(max_length=255)
-    logo = ImageField(null=True, blank=True, upload_to='partners')
+    logo = models.FileField(null=True, blank=True, upload_to='partners')
     article_count = models.IntegerField(default=0, editable=False, )
 
     def title(self):
@@ -232,7 +231,7 @@ def get_file_path_article_attachment(instance, filename):
 
 class Image(BaseAttachmentModel):
     hostmodel = models.ForeignKey(Article, related_name='images', on_delete=models.CASCADE)
-    file = ImageField(null=True, blank=True, upload_to=get_file_path_article_attachment)
+    file = models.FileField(null=True, blank=True, upload_to=get_file_path_article_attachment)
     # main_visual = models.BooleanField(default=False, help_text='The main visual is used as the cover image.')
 
 

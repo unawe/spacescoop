@@ -26,12 +26,21 @@ PARENT_DIR = os.path.dirname(BASE_DIR)
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'z2=$*^40@k+--2u@z8j8&c5!^3_o1-lc06#ih5^uboqtn(*1n0'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'z2=$*^40@k+--2u@z8j8&c5!^3_o1-lc06#ih5^uboqtn(*1n0')
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('DJANGO_DEBUG') == "True"
 
-ALLOWED_HOSTS = ['*']
+DIVIO_DOMAIN = os.environ.get('DOMAIN', '')
+
+DIVIO_DOMAIN_ALIASES = [
+    d.strip()
+    for d in os.environ.get('DOMAIN_ALIASES', '').split(',')
+    if d.strip()
+]
+
+ALLOWED_HOSTS = [DIVIO_DOMAIN] + DIVIO_DOMAIN_ALIASES
 SITE_URL = 'http://www.spacescoop.org'
 
 
@@ -51,12 +60,12 @@ INSTALLED_APPS = [
     'taggit_autosuggest',
     # 'compressor',
 
-    'sorl.thumbnail',
+    'easy_thumbnails',
 
     'django_ext',
     'glossary',
     'institutions',
-    # 'search',
+    'search',
     'smartpages',
     'spacescoops',
     'spacescoop'
@@ -103,7 +112,7 @@ WSGI_APPLICATION = 'spacescoop.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-DEFAULT_DATABASE_DSN = os.environ.get('DEFAULT_DATABASE_DSN')
+DEFAULT_DATABASE_DSN = os.environ.get('DEFAULT_DATABASE_DSN', 'sqlite://:memory:')
 DATABASES = {'default': dj_database_url.parse(DEFAULT_DATABASE_DSN)}
 
 
@@ -286,20 +295,16 @@ MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join('/data/media/')
 
 # Thumbnails
-# http://sorl-thumbnail.readthedocs.org/en/latest/reference/settings.html
-THUMBNAIL_KVSTORE = 'sorl.thumbnail.kvstores.cached_db_kvstore.KVStore'
-THUMBNAIL_DBM_FILE = os.path.join(PARENT_DIR, 'usr/redis/thumbnails_spacescoop')
-# THUMBNAIL_ENGINE = 'sorl.thumbnail.engines.convert_engine.Engine'  #TODO: revisit this choice
-THUMBNAIL_ENGINE = 'sorl.thumbnail.engines.pil_engine.Engine'  #TODO: revisit this choice
-THUMBNAIL_KEY_PREFIX = 'sorl-thumbnail-spacescoop'
-THUMBNAIL_PRESERVE_FORMAT = 'True'
-# THUMBNAIL_ALTERNATIVE_RESOLUTIONS = [1.5, 2]
+
 THUMBNAIL_ALIASES = {
-    'original_news_source': 'x60',
-    'article_feature': '880x410',
-    'article_cover': '680x400',
-    'article_thumb': '320',
-    'article_thumb_inline': '198x200',
+    '': {
+        'avatar': {'size': (50, 50), 'crop': True},
+        'original_news_source': {'size': (60, 60), 'crop': True},
+        'article_feature': {'size': (880,410), 'crop': True},
+        'article_cover': {'size': (680, 400), 'crop': True},
+        'article_thumb': {'size': (320, 320), 'crop': True},
+        'article_thumb_inline': {'size': (198, 200), 'crop': True},
+    },
 }
 
 # CK editor

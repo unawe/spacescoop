@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load i18n parler_tags static thumbnail %}
+{% load i18n parler_tags static easy_thumbnails_tags %}
 
 
 {% block extra_head %}
@@ -21,9 +21,7 @@
 
       <div class="row">
 {% if object.main_visual %} {#% for img in object.images.all %#}
-    {% thumbnail object.main_visual THUMBNAIL_ALIASES.article_cover crop="center" as im %}
-        <img src="{{ im.url }}"/>
-    {% endthumbnail %}
+        <img src="{{ object.main_visual|thumbnail_url:'article_cover' }}"/>
 {% endif %}
       </div>
 
@@ -57,9 +55,7 @@
         </div>
         <div class="right">
   {% for n in object.originalnews_set.all %}
-    {% thumbnail n.institution.logo THUMBNAIL_ALIASES.original_news_source crop="center" as im %}
-          <a target="_blank" href="{{ n.institution.url }}"><img src="{{ im.url }}" alt="{{ n.institution.name }}"/></a>
-    {% endthumbnail %}
+          <a target="_blank" href="{{ n.institution.url }}"><img src="{{ n.institution.logo|thumbnail_url:'original_news_source' }}" alt="{{ n.institution.name }}"/></a>
   {% endfor %}
         </div>
 {% endif %}

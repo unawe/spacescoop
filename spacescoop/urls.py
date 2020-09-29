@@ -20,8 +20,8 @@ from django.conf.urls.static import static
 from django.conf.urls.i18n import i18n_patterns
 
 from smartpages.views import SmartPageView
-from spacescoops.views import home, search
-# from search.views import search
+from spacescoops.views import home
+from search.views import simplesearch
 
 
 urlpatterns = [
@@ -32,12 +32,11 @@ urlpatterns = [
 
 urlpatterns += i18n_patterns(
     path('', home, name='home'),
-    # path('search/', search, name='search'),
     path('scoops/', include('spacescoops.urls', namespace='scoops')),
     path('topics/', include('spacescoops.urls_categories', namespace='categories')),
     path('friends/', include('spacescoops.urls_partners', namespace='partners')),
     path('words/', include('glossary.urls', namespace='glossary')),
-    path('search/', search, name='search'),
+    path('search/', simplesearch, name='search'),
     path('<url>/', SmartPageView.as_view(), name='smartpage'),
 )
 

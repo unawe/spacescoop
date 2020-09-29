@@ -1,7 +1,6 @@
 from django.db import models
 from django.urls import reverse
 from ckeditor.fields import RichTextField
-from sorl.thumbnail import ImageField
 from parler.models import TranslatableModel, TranslatedFieldsModel
 
 
@@ -24,7 +23,7 @@ class Institution(TranslatableModel):
     fullname = models.CharField(max_length=255, blank=True, help_text='If set, the full name will be used in some places instead of the name', )
     location = models.ForeignKey(Location, blank=True, null=True, on_delete=models.CASCADE)
     url = models.URLField(blank=True, null=True, max_length=255, )
-    logo = ImageField(null=True, blank=True, upload_to='institutions')
+    logo = models.FileField(null=True, blank=True, upload_to='institutions')
     spacescoop_count = models.IntegerField(default=0, editable=False, )
 
     @property
