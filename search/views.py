@@ -14,9 +14,10 @@ def simplesearch(request):
         query = SearchQuery(form.cleaned_data['q'])
         vector = SearchVector('title','story', 'cool_fact')
         search_result = ArticleTranslation.objects.annotate(rank=SearchRank(vector, query)).order_by('-rank')
+        search_result = search_result.filter(language_code=request.LANGUAGE_CODE)
         context = {
             'query': query,
-            'page': {'object_list': search_result[:10]},
+            'page': {'object_list': search_result[:20]},
             'request': request,
             'form': form,
         }
