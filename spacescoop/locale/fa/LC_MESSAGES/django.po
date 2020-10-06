@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "صفحه اصلی"
+
+msgid "Stories"
+msgstr "تصاویر"
+
+msgid "Pictures"
+msgstr "تصاویر"
+
+msgid "Space Words"
+msgstr "واژه‌های فضایی"
+
+msgid "Search"
+msgstr "جستجو"
+
+msgid "News from Across the Universe"
+msgstr "اخبار سراسر کیهان"
+
+msgid "Discover more awesome topics!"
+msgstr "درباره موضوعات جالب بیشتری بخوانید!"
+
+msgid "Still curious? Learn more..."
+msgstr "هنوز کنجکاوید؟ بیشتر بدانید..."
+
+msgid "What is Space Scoop?"
+msgstr "ملاقه‌ فضایی چیست؟"
+
+msgid "Discover more Astronomy"
+msgstr "نجوم را بیشتر کشف کنید"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "الهام بخشیدن به نسل جدیدی از سیاحان فضا"
+
+msgid "Space Scoop Friends"
+msgstr "دوستان ملاقه فضایی"
+
+msgid "Contact Us"
+msgstr "تماس با ما"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "رساندن اخبار سراسر کیهان به کودکان سراسر دنیا"
+
+msgid "Space Scoop Page"
+msgstr "صفحه ملاقه فضایی"
+
+msgid "Cool Fact"
+msgstr "نکته‌های جالب"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "این ملاقه فضایی بر اساس نشر مطبوعات INSTITUTION_NAME است"
+
+msgid "Image"
+msgstr "تصویر"
+
+msgid "Print Friendly Version"
+msgstr "نسخه مناسب پرینت"
+
+msgid "Share"
+msgstr "اشتراک‌گذاری"
+
+msgid "Related Space Scoops"
+msgstr "ملاقه‌های فضایی مرتبط"
+
+msgid "More Space Scoops"
+msgstr "ملاقه‌های فضایی بیشتر"
+
+msgid "Partners Page"
+msgstr "صفحه شرکا"
+
+msgid "Partner"
+msgstr "شریک"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "بر اساس خبر منتشرشده INSTITUTION_NAME (ملاقه‌های فضایی بیشتری بخوانید)"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "درباره INSTITUTION_NAME (بیشتر بخوانید)"
+
+msgid "Newsletter"
+msgstr "خبرنامه"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "مشترک خبرنامه شوید و آخرین اخبار را هر ماه دریافت کنید!!"
+
+msgid "Write your name here..."
+msgstr "نام خود را اینجا بنویسید..."
+
+msgid "Write your e-mail here..."
+msgstr "ایمیل خود را اینجا بنویسید..."
+
+msgid "Subscribe"
+msgstr "مشترک شوید"
+
+msgid "Misc"
+msgstr "متفرقه"
+
+msgid "No articles are available."
+msgstr "مقاله‌ای موجود نیست."
+
+msgid "Topics"
+msgstr "موضوعات"

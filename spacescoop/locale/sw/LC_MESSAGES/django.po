@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Ukurasa Mkuu"
+
+msgid "Stories"
+msgstr "Picha"
+
+msgid "Pictures"
+msgstr "Picha"
+
+msgid "Space Words"
+msgstr "Maneno ya angani"
+
+msgid "Search"
+msgstr "Tafuta"
+
+msgid "News from Across the Universe"
+msgstr "Habari za Ulimwengu"
+
+msgid "Discover more awesome topics!"
+msgstr "Tambua mada mpya!"
+
+msgid "Still curious? Learn more..."
+msgstr "Bado una shauku? Jifunze zaidi..."
+
+msgid "What is Space Scoop?"
+msgstr "Space Scoop ni nini?"
+
+msgid "Discover more Astronomy"
+msgstr "Vumbua astronomia zaidi"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Hamasisha kikazi kipya cha wavumbua anga"
+
+msgid "Space Scoop Friends"
+msgstr "Marafiki wa Space Scoop"
+
+msgid "Contact Us"
+msgstr "Wasiliana nasi"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Tunaleta habari za kutoka Ulimwenguni kwa Watoto Duniani kote"
+
+msgid "Space Scoop Page"
+msgstr "Ukurasa wa Space Scoop"
+
+msgid "Cool Fact"
+msgstr "Dokezo"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Taarifa hii ya Space Scoop inatokana na taarifa kwa vyombo vya habari ya"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Taarifa hii ya Space Scoop inatokana na taarifa kwa vyombo vya habari ya"
+
+msgid "Image"
+msgstr "Picha"
+
+msgid "Print Friendly Version"
+msgstr "Chapisha"
+
+msgid "Share"
+msgstr "Sambaza"
+
+msgid "Related Space Scoops"
+msgstr "Space Scoop sawa na hii"
+
+msgid "More Space Scoops"
+msgstr "Space Scoop Nyingine"
+
+msgid "Partners Page"
+msgstr "Ukurasa wa Wadau"
+
+msgid "Partner"
+msgstr "Madau"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "Soma Space Scoops nyingine za taarifa kwa vyombo vya habari za"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "Jifunze zaidi kuhusu"
+
+msgid "Newsletter"
+msgstr "Gazeti"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Jisajili na gazeti ili upate taarifa mpya kila mwezi!!"
+
+msgid "Write your name here..."
+msgstr "Andika jina lako hapa..."
+
+msgid "Write your e-mail here..."
+msgstr "Andika barua pepe yako hapa..."
+
+msgid "Subscribe"
+msgstr "Jisajili"
+
+msgid "No articles are available."
+msgstr "Hakuna taarifa"
+
+msgid "Sorry, no results found that match your query."
+msgstr "Samahani, hakuna taarifa inayohusiana na utafutaji wako"
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Ukurasa huu haupatikani katika lugha yako kwa sasa, kama ungependa kuwa mtafsiri, tafadhali wasiliana nasi"
+
+msgid "Topics"
+msgstr "Mada"
+
+msgid "Atoms and Molecules"
+msgstr "Atom na Molekuli"
+
+msgid "Cosmology"
+msgstr "Cosmology"
+
+msgid "Black Holes"
+msgstr "Black Hole"
+
+msgid "Dark Matter"
+msgstr "Dark Matter"
+
+msgid "Missions"
+msgstr "Mission"
+
+msgid "Technology"
+msgstr "Teknolojia"
+
+msgid "Gravity"
+msgstr "Graviti"
+
+msgid "Solar System"
+msgstr "Mfumo wa Jua"
+
+msgid "Planets"
+msgstr "Sayari"
+
+msgid "Comets"
+msgstr "Vimondo"
+
+msgid "Asteroids"
+msgstr "Asteroid"
+
+msgid "Supernova Remnants"
+msgstr "Mabaki ya Milipuko ya Nyota"
+
+msgid "Planetary Nebulae"
+msgstr "Planetary Nebulae"
+
+msgid "Star Forming Nebulae"
+msgstr "Star Forming Nebulae"
+
+msgid "Irregular Galaxies"
+msgstr "Irregular Galaxy"
+
+msgid "Elliptical Galaxies"
+msgstr "Elliptical Galaxy"
+
+msgid "Spiral Galaxies"
+msgstr "Spiral Galaxy"
+
+msgid "Stars"
+msgstr "Nyota"
+
+msgid "Open clusters"
+msgstr "Open clusters"
+
+msgid "Globular clusters"
+msgstr "Globular clusters"

@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Κεντρική Σελίδα"
+
+msgid "Stories"
+msgstr "Εικόνες"
+
+msgid "Pictures"
+msgstr "Εικόνες"
+
+msgid "Space Words"
+msgstr "Διαστημική ορολογία"
+
+msgid "Search"
+msgstr "Αναζήτηση"
+
+msgid "News from Across the Universe"
+msgstr "Τα νέα του Σύμπαντος"
+
+msgid "Discover more awesome topics!"
+msgstr "Ανκάλυψε κι άλλα καταπλητικά θέματα!"
+
+msgid "Still curious? Learn more..."
+msgstr "Θά ' θελες να μάθεις παραπάνω?"
+
+msgid "What is Space Scoop?"
+msgstr "Τι είναι οι Διαστημικές Ειδήσεις;"
+
+msgid "Discover more Astronomy"
+msgstr "Ανακάλυψε περισσότερη Αστρονομία"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Έμπνευση για τη Νέα Γενιά Εξερευνητών του Διαστήματος"
+
+msgid "Space Scoop Friends"
+msgstr "Οι φίλοι των Διαστημικών Ειδήσεων"
+
+msgid "Contact Us"
+msgstr "Επικοινωνήστε μαζί μας"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Φέρνουμε τις Ειδήσεις του Σύμπαντος στα παιδιά όλου του κόσμου"
+
+msgid "Space Scoop Page"
+msgstr "Σελίδα Διαμστημικών Ειδήσεων"
+
+msgid "Cool Fact"
+msgstr "Κάτι αξιοπερίεργο"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Αυτή η διαστημική είδηση βασίστηκε σε Δελτίο Τύπου του INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Αυτή η διαστημική είδηση βασίστηκε σε Δελτία Τύπου των INSTITUTIONS_NAME"
+
+msgid "Image"
+msgstr "Εικόνα"
+
+msgid "Print Friendly Version"
+msgstr "Έκδοση για εκτύπωση"
+
+msgid "Share"
+msgstr "Μοιράσου το!"
+
+msgid "Related Space Scoops"
+msgstr "Σχετιζόμενες Διαστημικές Ειδήσεις"
+
+msgid "More Space Scoops"
+msgstr "Κι άλλες Διαστημικές Ειδήσεις"
+
+msgid "Partners Page"
+msgstr "Σελίδες Εταίρων"
+
+msgid "Partner"
+msgstr "Εταίροι"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Διάβασε κι άλλες Διαστιμικές Ειδήσεις] βασισμένες σε Δελτία Τύπου του INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Μάθε περισσότερα] για το INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Εφημερίδα"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Γράψου συνδρομητής στην εφημερίδα μας που σου φέρνει τα τελευταία νέα κάθε μήνα!"
+
+msgid "Write your name here..."
+msgstr "Γράψε το όνομα σου εδώ"
+
+msgid "Write your e-mail here..."
+msgstr "Γράψε την ηλεκτρονική σου διεύθυνση (e-mail) σου εδώ"
+
+msgid "Subscribe"
+msgstr "Εγγραφή"
+
+msgid "Misc"
+msgstr "Διάφορα"
+
+msgid "No articles are available."
+msgstr "Δεν υπάρχουν άρθρα"
+
+msgid "Sorry, no results found that match your query."
+msgstr "Συγνώμη, δεν υπάρχουν κατάλληλα αποτελέσματα για την αναζήτηση σου."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Αυτή η σελίδα δεν παρέχεται στην γλώσσα σου ακόμη. Αν θα ήθελες να συνεισφέρεις μια μετάφραση, επικοινώνησε μαζί μας στον CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "Θέματα"
+
+msgid "Atoms and Molecules"
+msgstr "Άτομα και Μόρια"
+
+msgid "Cosmology"
+msgstr "Κοσμολογία"
+
+msgid "Black Holes"
+msgstr "Μαύρη Τρύπα"
+
+msgid "Dark Matter"
+msgstr "Σκοτεινή Ύλη"
+
+msgid "Missions"
+msgstr "Αποστολές"
+
+msgid "Technology"
+msgstr "Τεχνολογία"
+
+msgid "Gravity"
+msgstr "Βαρύτητα"
+
+msgid "Solar System"
+msgstr "Ηλιακό Σύστημα"
+
+msgid "Planets"
+msgstr "Πλανήτες"
+
+msgid "Comets"
+msgstr "Κομήτες"
+
+msgid "Asteroids"
+msgstr "Αστεροειδείς"
+
+msgid "Supernova Remnants"
+msgstr "Υπόλειμα Υπερκενοφανούς"
+
+msgid "Planetary Nebulae"
+msgstr "Πλανητικά Νέφη"
+
+msgid "Star Forming Nebulae"
+msgstr "Νέφη Δημιουργίας Αστεριών"
+
+msgid "Irregular Galaxies"
+msgstr "Ανώμαλος Γαλαξίας"
+
+msgid "Elliptical Galaxies"
+msgstr "Ελλειπτικός Γαλαξίας"
+
+msgid "Spiral Galaxies"
+msgstr "Σπειροειδής Γαλαξίας"
+
+msgid "Stars"
+msgstr "Αστέρι"
+
+msgid "Open clusters"
+msgstr "Ανοιχτά Σμήνη"
+
+msgid "Globular clusters"
+msgstr "Σφαιρωτά Σμήνη"
+
+msgid "Glossary"
+msgstr "Λεξικό"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "Αυτή η σελίδα παράχθηκε με χρηματοδότηση του προγράμματος Ορίζοντας 2020 της Ευρωπαικής Ένωσης (αριθμός σύμβασης 638653)"

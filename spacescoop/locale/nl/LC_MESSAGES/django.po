@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Startpagina"
+
+msgid "Stories"
+msgstr "Plaatjes"
+
+msgid "Pictures"
+msgstr "Plaatjes"
+
+msgid "Space Words"
+msgstr "Ruimtewoorden"
+
+msgid "Search"
+msgstr "Zoek"
+
+msgid "News from Across the Universe"
+msgstr "Nieuws uit het heelal"
+
+msgid "Discover more awesome topics!"
+msgstr "Ontdek meer gave onderwerpen!"
+
+msgid "Still curious? Learn more..."
+msgstr "Nieuwsgierig? Leer meer..."
+
+msgid "What is Space Scoop?"
+msgstr "Wat is Space Scoop?"
+
+msgid "Discover more Astronomy"
+msgstr "Ontdek meer sterrenkunde"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "We inspireren een nieuwe generatie van ruimte-onderzoekers"
+
+msgid "Space Scoop Friends"
+msgstr "Vrienden van Space Scoop"
+
+msgid "Contact Us"
+msgstr "Contact"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "We brengen nieuws vanuit het hele heelal naar kinderen over de hele wereld"
+
+msgid "Space Scoop Page"
+msgstr "Space Scoop pagina"
+
+msgid "Cool Fact"
+msgstr "Gaaf weetje"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Deze Space Scoop is gebaseerd op een persbericht van INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Deze Space Scoop is gebaseerd op een persbericht van INSTITUTION_NAME"
+
+msgid "Image"
+msgstr "Plaatje"
+
+msgid "Print Friendly Version"
+msgstr "Printvriendelijke versie"
+
+msgid "Share"
+msgstr "Deel"
+
+msgid "Related Space Scoops"
+msgstr "Gerelateerde Space Scoops"
+
+msgid "More Space Scoops"
+msgstr "Meer Space Scoops"
+
+msgid "Partners Page"
+msgstr "Partnerpagina"
+
+msgid "Partner"
+msgstr "Partner"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Lees meer Space Scoops] gebaseerd op persberichten van INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Leer meer] over INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Nieuwsbrief"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Schrijf je nu in voor de nieuwsbrief en ontvang elke maand het laatste nieuws!"
+
+msgid "Write your name here..."
+msgstr "Schrijf je naam hier.."
+
+msgid "Write your e-mail here..."
+msgstr "Schrijf je e-mailadres hier..."
+
+msgid "Subscribe"
+msgstr "Aanmelden"
+
+msgid "Misc"
+msgstr "Diversen"
+
+msgid "No articles are available."
+msgstr "Er zijn geen artikelen beschikbaar"
+
+msgid "Sorry, no results found that match your query."
+msgstr "Sorry, er zijn geen resultaten gevonden die overeenkomen met jouw zoekopdracht."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Deze pagina is nog niet in jouw taal beschikbaar. Als je een vertaling zou willen toevoegen, neem dan contact op met CONTACT_ADDRESS."
+
+msgid "Topics"
+msgstr "Onderwerpen"
+
+msgid "Atoms and Molecules"
+msgstr "Atomen en Moleculen"
+
+msgid "Cosmology"
+msgstr "Kosmologie"
+
+msgid "Black Holes"
+msgstr "Zwarte gaten"
+
+msgid "Dark Matter"
+msgstr "Donkere materie"
+
+msgid "Missions"
+msgstr "Missies"
+
+msgid "Technology"
+msgstr "Technologie"
+
+msgid "Gravity"
+msgstr "Zwaartekracht"
+
+msgid "Solar System"
+msgstr "Zonnestelsel"
+
+msgid "Planets"
+msgstr "Planeten"
+
+msgid "Comets"
+msgstr "Kometen"
+
+msgid "Asteroids"
+msgstr "Asteroiden"
+
+msgid "Supernova Remnants"
+msgstr "Supernovarest"
+
+msgid "Planetary Nebulae"
+msgstr "Planetaire Nevel"
+
+msgid "Star Forming Nebulae"
+msgstr "Stervormingswolk"
+
+msgid "Irregular Galaxies"
+msgstr "Onregelmatig Sterrenstelsel"
+
+msgid "Elliptical Galaxies"
+msgstr "Elliptisch Sterrenstelsel"
+
+msgid "Spiral Galaxies"
+msgstr "Spiraalstelsel"
+
+msgid "Stars"
+msgstr "Ster"
+
+msgid "Open clusters"
+msgstr "Open Cluster"
+
+msgid "Globular clusters"
+msgstr "Bolvormige Sterrenhoop"
+
+msgid "Glossary"
+msgstr "Woordenlijst"

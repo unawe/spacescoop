@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Hovedside"
+
+msgid "Stories"
+msgstr "Bilder"
+
+msgid "Pictures"
+msgstr "Bilder"
+
+msgid "Space Words"
+msgstr "Ordliste"
+
+msgid "Search"
+msgstr "Søk"
+
+msgid "News from Across the Universe"
+msgstr "Nyheter fra verdensrommet"
+
+msgid "Discover more awesome topics!"
+msgstr "Opptag flere spennende temaer!"
+
+msgid "Still curious? Learn more..."
+msgstr "Fortsatt nysgjerrig? Lær mer ..."
+
+msgid "What is Space Scoop?"
+msgstr "Hva er Space Scoop?"
+
+msgid "Discover more Astronomy"
+msgstr "Opptag mer astronomi"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Inspirerer en ny generasjon av oppdagere"
+
+msgid "Space Scoop Friends"
+msgstr "Venner av Space Scoop"
+
+msgid "Contact Us"
+msgstr "Kontakt oss"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Nyheter fra hele universet til barn fra alle steder på jordkloden"
+
+msgid "Cool Fact"
+msgstr "Kule fakta"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Denne romnyheten er basert på en pressemelding fra INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Denne romnyheten er basert på en pressemeldinger fra INSTITUTIONS_NAME"
+
+msgid "Image"
+msgstr "Bilde"
+
+msgid "Print Friendly Version"
+msgstr "Utskriftsvennlig versjon"
+
+msgid "Share"
+msgstr "Del"
+
+msgid "Related Space Scoops"
+msgstr "Relaterte Space Scoops"
+
+msgid "More Space Scoops"
+msgstr "Flere Space Scoops"
+
+msgid "Partners Page"
+msgstr "Samarbeidspartnere"
+
+msgid "Partner"
+msgstr "Samarbeidspartner"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Les flere Space Scoops] basert på pressemeldinger fra INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Lær mer] om INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Nyhetsbrev"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Abonner på nyhetsbrevet nå og motta alle de siste nyhetene hver måned!!"
+
+msgid "Write your name here..."
+msgstr "Skriv navnet ditt her …"
+
+msgid "Write your e-mail here..."
+msgstr "Skriv e-postadressen din her …"
+
+msgid "Subscribe"
+msgstr "Abonner"
+
+msgid "Misc"
+msgstr "Diverse"
+
+msgid "No articles are available."
+msgstr "Ingen artikler er tilgjengelige."
+
+msgid "Sorry, no results found that match your query."
+msgstr "Beklager, vi fant ingen resultater som passet med forespørselen din."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Denne siden er ikke tilgjengelig på ditt språk ennå. Hvis du ønsker å hjelpe oss med en oversettelse av siden, kontakt oss på CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "Temaer"
+
+msgid "Atoms and Molecules"
+msgstr "Atomer og molekyler"
+
+msgid "Cosmology"
+msgstr "Kosmologi"
+
+msgid "Black Holes"
+msgstr "Sorte hull"
+
+msgid "Dark Matter"
+msgstr "Mørk materie"
+
+msgid "Missions"
+msgstr "Romferder"
+
+msgid "Technology"
+msgstr "Teknologi"
+
+msgid "Gravity"
+msgstr "Gravitasjonskraft"
+
+msgid "Solar System"
+msgstr "Solsystemet"
+
+msgid "Planets"
+msgstr "Planeter"
+
+msgid "Comets"
+msgstr "Kometer"
+
+msgid "Asteroids"
+msgstr "Asteroider"
+
+msgid "Supernova Remnants"
+msgstr "Supernovarester"
+
+msgid "Planetary Nebulae"
+msgstr "Planetariske tåker"
+
+msgid "Star Forming Nebulae"
+msgstr "Stjernedannende tåker"
+
+msgid "Irregular Galaxies"
+msgstr "Irregulære galakser"
+
+msgid "Elliptical Galaxies"
+msgstr "Elliptiske galakser"
+
+msgid "Spiral Galaxies"
+msgstr "Spiralgalakser"
+
+msgid "Stars"
+msgstr "Stjerner"
+
+msgid "Open clusters"
+msgstr "Åpne stjernehoper"
+
+msgid "Globular clusters"
+msgstr "Kulehoper"
+
+msgid "Glossary"
+msgstr "Ordliste"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "Denne websiden er produsert med støtte fra European Community's Horizon 2020 Programme under tilskuddsavtale nr. 638653"

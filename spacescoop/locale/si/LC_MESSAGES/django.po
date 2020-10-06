@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "මුල් පිටුව"
+
+msgid "Stories"
+msgstr "රූප"
+
+msgid "Pictures"
+msgstr "රූප"
+
+msgid "Space Words"
+msgstr "අභ්‍යවකාශ වදන්"
+
+msgid "Search"
+msgstr "සෙවීම්"
+
+msgid "News from Across the Universe"
+msgstr "විශ්වයෙන් පුවත්"
+
+msgid "Discover more awesome topics!"
+msgstr "තවත් වැදගත් මාතෘකා"
+
+msgid "Still curious? Learn more..."
+msgstr "වැඩිදුර තොරතුරු"
+
+msgid "What is Space Scoop?"
+msgstr "Space Scoop යනු කුමක්ද?"
+
+msgid "Discover more Astronomy"
+msgstr "තාරකා විද්‍යාව ගැන තවදුරටත්"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "අභ්‍යවකාශ ගවේෂණයේ මීළග පරපුරේ ප්‍රගමනයට"
+
+msgid "Space Scoop Friends"
+msgstr "Space Scoop මිතුරෝ"
+
+msgid "Contact Us"
+msgstr "අපව අමතන්න"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "විශ්වය සිසාරා එන පුවත් ළමා පරපුර වෙත"
+
+msgid "Space Scoop Page"
+msgstr "Space Scoop පිටුව"
+
+msgid "Cool Fact"
+msgstr "ඔබේ දැනුමට"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "INSTITUTION_NAME මාධ්ය නිවේදනයක් පදනම් කරගෙන මෙම Space scoop ලිපිය රචනා කර ඇත"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "INSTITUTION_NAME මාධ්ය නිවේදනයක් පදනම් කරගෙන මෙම Space scoop ලිපිය රචනා කර ඇත"
+
+msgid "Image"
+msgstr "රූපය"
+
+msgid "Print Friendly Version"
+msgstr "මුද්‍රණ පිටපත"
+
+msgid "Share"
+msgstr "බෙදා ගනිමු"
+
+msgid "Related Space Scoops"
+msgstr "ආශ්‍රීත වෙනත් Space scoop ලිපි"
+
+msgid "More Space Scoops"
+msgstr "තවත් Space Scoop ලිපි"
+
+msgid "Partners Page"
+msgstr "සම්පත් දායක පිටු"
+
+msgid "Partner"
+msgstr "සම්පත්දායක"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "INSTITUTION_NAME මාධ්ය නිවේදනයක් පදනම් කරගත් තවත් Space scoop ලිපි"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "INSTITUTION_NAME ගැන වැඩිදුර තොරතුරු"
+
+msgid "Newsletter"
+msgstr "පුවත්ලිපිය"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "පුවත්ලිපියේ දායකත්වය ලබාගෙන නවතම තොරතුරු සැම මසකම ලබා ගන්න"
+
+msgid "Write your name here..."
+msgstr "ඔබේ නම ලියන්න"
+
+msgid "Write your e-mail here..."
+msgstr "ඔබේ විද්‍යුත් තැපැල් ලිපිනය ලියන්න"
+
+msgid "Subscribe"
+msgstr "දායකත්වය ලබාගන්න"
+
+msgid "Misc"
+msgstr "විවිධ"
+
+msgid "No articles are available."
+msgstr "ලිපි නැත"
+
+msgid "Sorry, no results found that match your query."
+msgstr "සමාවන්න. ඔබේ විමසුමට ගැලපෙන තොරතුරු නැත"
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "මෙම පිටුව ඔබේ භාෂාවෙන් පරිවර්තනය කර නැත. ඔබ එය පරිවර්තනය කිරීමට කැමති නම් අපව සම්බන්ද කර ගන්න CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "මාතෘකා"
+
+msgid "Atoms and Molecules"
+msgstr "පරමාණු හා අණු"
+
+msgid "Cosmology"
+msgstr "විශ්ව න්‍යය විද්‍යාව"
+
+msgid "Black Holes"
+msgstr "කාල කුහර"
+
+msgid "Dark Matter"
+msgstr "අඳුරු පදාර්ථ"
+
+msgid "Missions"
+msgstr "මෙහෙයුම්"
+
+msgid "Technology"
+msgstr "තාක්ෂනය"
+
+msgid "Gravity"
+msgstr "ගුරුත්වාකර්ෂණය"
+
+msgid "Solar System"
+msgstr "සෞර ග්‍රහ මණ්ඩලය"
+
+msgid "Planets"
+msgstr "ග්‍රහලෝක"
+
+msgid "Comets"
+msgstr "ධුමකේතු"
+
+msgid "Asteroids"
+msgstr "ග්‍රහක"
+
+msgid "Supernova Remnants"
+msgstr "සුපර්නෝවා ඉතිරි"
+
+msgid "Planetary Nebulae"
+msgstr "ග්‍රහ නිහාරිකා"
+
+msgid "Star Forming Nebulae"
+msgstr "තාරකා බිහිවන නිහාරිකා"
+
+msgid "Irregular Galaxies"
+msgstr "අක්‍රමවත් මන්දාකිනි"
+
+msgid "Elliptical Galaxies"
+msgstr "ඉලිප්සාකාර  මන්දාකිනි"
+
+msgid "Spiral Galaxies"
+msgstr "සර්පිලාකාර මන්දාකිනි"
+
+msgid "Stars"
+msgstr "තාරකා"
+
+msgid "Open clusters"
+msgstr "විවෘත තරුපොකුරු"
+
+msgid "Globular clusters"
+msgstr "ගෝලාකාර  තරුපොකුරු"
+
+msgid "Glossary"
+msgstr "වචන මාලාව"

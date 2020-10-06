@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Hauptseite"
+
+msgid "Stories"
+msgstr "Bilder"
+
+msgid "Pictures"
+msgstr "Bilder"
+
+msgid "Space Words"
+msgstr "Weltall-Wörter"
+
+msgid "Search"
+msgstr "Suchen"
+
+msgid "News from Across the Universe"
+msgstr "Neuigkeiten aus dem Universum"
+
+msgid "Discover more awesome topics!"
+msgstr "Entdecke weitere tolle Themen!"
+
+msgid "Still curious? Learn more..."
+msgstr "Noch neugierig? Lerne mehr..."
+
+msgid "What is Space Scoop?"
+msgstr "Was ist Space Scoop?"
+
+msgid "Discover more Astronomy"
+msgstr "Entdecke mehr Astronomie"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Wir inspirieren eine neue Generation von Entdeckern des Weltraums"
+
+msgid "Space Scoop Friends"
+msgstr "Freunde von Space Scoop"
+
+msgid "Contact Us"
+msgstr "Kontakt"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Wir bringen Neuigkeiten aus dem Universum zu den Kindern der Welt"
+
+msgid "Space Scoop Page"
+msgstr "Space Scoop-Seite"
+
+msgid "Cool Fact"
+msgstr "Tolle Fakten"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Dieser Space Scoop basiert auf einer Pressemitteilung von INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Dieser Space Scoop basiert auf Pressemitteilungen von INSTITUTIONS_NAME"
+
+msgid "Image"
+msgstr "Bild"
+
+msgid "Print Friendly Version"
+msgstr "Druckerfreundliche Version"
+
+msgid "Share"
+msgstr "Teilen"
+
+msgid "Related Space Scoops"
+msgstr "Ähnliche Space Scoops"
+
+msgid "More Space Scoops"
+msgstr "Weitere Space Scoops"
+
+msgid "Partners Page"
+msgstr "Partnerseite"
+
+msgid "Partner"
+msgstr "Partner"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Lies weitere Space Scoops] basierend auf Pressemitteilungen von INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Erfahre mehr] über INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Newsletter"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Melde dich jetzt für den Newsletter an und erhalte jeden Monat die neuesten Nachrichten!"
+
+msgid "Write your name here..."
+msgstr "Gib hier deinen Namen ein..."
+
+msgid "Write your e-mail here..."
+msgstr "Gib hier deine E-Mail ein..."
+
+msgid "Subscribe"
+msgstr "Anmelden"
+
+msgid "Misc"
+msgstr "Verschiedenes"
+
+msgid "No articles are available."
+msgstr "Keine Artikel vorhanden."
+
+msgid "Sorry, no results found that match your query."
+msgstr "Tut uns leid, es wurden keine passenden Ergebnisse gefunden."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Diese Seite ist in deiner Sprache noch nicht verfügbar. Wenn du uns eine Übersetzung zukommen lassen möchtest, kontaktiere uns bitte unter CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "Themen"
+
+msgid "Atoms and Molecules"
+msgstr "Atome und Moleküle"
+
+msgid "Cosmology"
+msgstr "Kosmologie"
+
+msgid "Black Holes"
+msgstr "Schwarzes Loch"
+
+msgid "Dark Matter"
+msgstr "Dunkle Materie"
+
+msgid "Missions"
+msgstr "Missionen"
+
+msgid "Technology"
+msgstr "Technologie"
+
+msgid "Gravity"
+msgstr "Gravitation"
+
+msgid "Solar System"
+msgstr "Sonnensystem"
+
+msgid "Planets"
+msgstr "Planeten"
+
+msgid "Comets"
+msgstr "Kometen"
+
+msgid "Asteroids"
+msgstr "Asteroiden"
+
+msgid "Supernova Remnants"
+msgstr "Supernovaüberrest"
+
+msgid "Planetary Nebulae"
+msgstr "Planetare Nebel"
+
+msgid "Star Forming Nebulae"
+msgstr "Sternentstehungsgebiete"
+
+msgid "Irregular Galaxies"
+msgstr "Irreguläre Galaxie"
+
+msgid "Elliptical Galaxies"
+msgstr "Elliptische Galaxie"
+
+msgid "Spiral Galaxies"
+msgstr "Spiralgalaxie"
+
+msgid "Stars"
+msgstr "Stern"
+
+msgid "Open clusters"
+msgstr "Offene Sternhaufen"
+
+msgid "Globular clusters"
+msgstr "Kugelsternhaufen"
+
+msgid "Glossary"
+msgstr "Glossar"

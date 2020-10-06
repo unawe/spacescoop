@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Stories"
+msgstr "Myndir"
+
+msgid "Pictures"
+msgstr "Myndir"
+
+msgid "Space Words"
+msgstr "Hugtök"
+
+msgid "Search"
+msgstr "Leit"
+
+msgid "News from Across the Universe"
+msgstr "Fréttir af himingeimnum"
+
+msgid "Discover more awesome topics!"
+msgstr "Skoðaðu fleiri spennandi viðfangsefni!"
+
+msgid "Still curious? Learn more..."
+msgstr "Enn forvitin(n)? Lærðu meira..."
+
+msgid "What is Space Scoop?"
+msgstr "Hvað er Space Scoop?"
+
+msgid "Discover more Astronomy"
+msgstr "Lærðu meira um stjörnufræði"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Veitir næstu kynslóð geimkönnuða innblástur"
+
+msgid "Space Scoop Friends"
+msgstr "Vinir Space Scoop"
+
+msgid "Contact Us"
+msgstr "Hafðu samband"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Færir börnum um allan heim fréttir af himingeimnum"
+
+msgid "Cool Fact"
+msgstr "Fróðleg staðreynd"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Þetta Space Scoop er byggt á fréttatilkynningu frá INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Þetta Space Scoop er byggt á fréttatilkynningu frá INSTITUTIONS_NAME"
+
+msgid "Image"
+msgstr "Mynd"
+
+msgid "Print Friendly Version"
+msgstr "Prentvæn útgáfa"
+
+msgid "Share"
+msgstr "Deila"
+
+msgid "Related Space Scoops"
+msgstr "Tengd Space Scoops"
+
+msgid "More Space Scoops"
+msgstr "Fleiri Space Scoops"
+
+msgid "Partner"
+msgstr "Samstarfsaðilar"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Lestu fleiri Space Scoops] frá INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Lærðu meira] um INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Fréttabréf"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Vertu áskrifandi að fréttabréfinu og fáðu nýjustu fréttir sendar mánaðarlega!"
+
+msgid "Write your name here..."
+msgstr "Skrifaðu nafnið þitt hér..."
+
+msgid "Write your e-mail here..."
+msgstr "Skrifaðu tölvupóstfangið þitt hér..."
+
+msgid "Subscribe"
+msgstr "Áskrift"
+
+msgid "No articles are available."
+msgstr "Engar greinar til"
+
+msgid "Sorry, no results found that match your query."
+msgstr "Afsakaðu, engar niðurstöður passa við leitina þína"
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Þessi vefsíða er því miður ekki enn til á tungumálinu þínu, hafðu samband ef þú vilt þýða hana CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "Viðfangsefni"
+
+msgid "Atoms and Molecules"
+msgstr "Atóm og sameindir"
+
+msgid "Cosmology"
+msgstr "Heimsfræði"
+
+msgid "Black Holes"
+msgstr "Svarthol"
+
+msgid "Dark Matter"
+msgstr "Hulduefni"
+
+msgid "Missions"
+msgstr "Geimleiðangrar"
+
+msgid "Technology"
+msgstr "Tækni"
+
+msgid "Gravity"
+msgstr "Þyngdarkraftur"
+
+msgid "Solar System"
+msgstr "Sólkerfið"
+
+msgid "Planets"
+msgstr "Reikistjörnur"
+
+msgid "Comets"
+msgstr "Halastjörnur"
+
+msgid "Asteroids"
+msgstr "Smástirni"
+
+msgid "Supernova Remnants"
+msgstr "Sprengistjörnuleifar"
+
+msgid "Planetary Nebulae"
+msgstr "Hringþokur"
+
+msgid "Star Forming Nebulae"
+msgstr "Stjörnumyndunarsvæði"
+
+msgid "Irregular Galaxies"
+msgstr "Óregluleg vetrarbraut"
+
+msgid "Elliptical Galaxies"
+msgstr "Sporvöluvetrarbraut"
+
+msgid "Spiral Galaxies"
+msgstr "Þyrilvetrarbraut"
+
+msgid "Stars"
+msgstr "Stjarna"
+
+msgid "Open clusters"
+msgstr "Lausþyrpingar"
+
+msgid "Globular clusters"
+msgstr "Kúluþyrpingar"

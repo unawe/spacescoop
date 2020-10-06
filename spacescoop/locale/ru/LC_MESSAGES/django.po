@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Главная страница"
+
+msgid "Stories"
+msgstr "История"
+
+msgid "Pictures"
+msgstr "Изображения"
+
+msgid "Space Words"
+msgstr "Космические миры"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "News from Across the Universe"
+msgstr "Новости со всей Вселенной"
+
+msgid "Discover more awesome topics!"
+msgstr "Откройте больше удивительных тем"
+
+msgid "Still curious? Learn more..."
+msgstr "Еще любопытно? Узнать больше..."
+
+msgid "What is Space Scoop?"
+msgstr "Что такое Космический Совок?"
+
+msgid "Discover more Astronomy"
+msgstr "Узнайте больше Астрономии"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Вдохновляет новое поколение исследователей Космоса"
+
+msgid "Space Scoop Friends"
+msgstr "Друзья Космического Совка"
+
+msgid "Contact Us"
+msgstr "Контакт с нами"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Несем новости со всей Вселенной для детей по всему миру"
+
+msgid "Space Scoop Page"
+msgstr "Страница Космического Совка"
+
+msgid "Cool Fact"
+msgstr "Интересные факты"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Эти новости основаны на сообщениях Института"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Эти новости основаны на сообщениях Института"
+
+msgid "Image"
+msgstr "Изображения"
+
+msgid "Print Friendly Version"
+msgstr "Версия для печати"
+
+msgid "Share"
+msgstr "Поделиться"
+
+msgid "Related Space Scoops"
+msgstr "Связь с Космическим Совком"
+
+msgid "More Space Scoops"
+msgstr "Больше о Космическом Совке"
+
+msgid "Partners Page"
+msgstr "Партнёры страницы"
+
+msgid "Partner"
+msgstr "Партнёр"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Читать больше Космического Совка] использованы материалы Института"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Узнать больше] об Институте"
+
+msgid "Newsletter"
+msgstr "Рассылка"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Подпишись на рассылку прямо сейчас и получай все самые свежие новости каждый месяц!"
+
+msgid "Write your name here..."
+msgstr "Напишите Ваше имя здесь..."
+
+msgid "Write your e-mail here..."
+msgstr "Напишите Ваш e-mail здесь..."
+
+msgid "Subscribe"
+msgstr "Подписаться"
+
+msgid "Misc"
+msgstr "Смесь"
+
+msgid "No articles are available."
+msgstr "Недоступные статьи"
+
+msgid "Sorry, no results found that match your query."
+msgstr "Извините, не найдено результатов, соответствующих Вашему запросу"
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Эта страница не доступна на вашем языке, но, если вы хотите предоставить перевод, пожалуйста, свяжитесь с нами по контактному адресу"
+
+msgid "Topics"
+msgstr "Темы"
+
+msgid "Atoms and Molecules"
+msgstr "Атомы и молекулы"
+
+msgid "Cosmology"
+msgstr "Космология"
+
+msgid "Black Holes"
+msgstr "Черные дыры"
+
+msgid "Dark Matter"
+msgstr "Темная материя"
+
+msgid "Missions"
+msgstr "Полеты"
+
+msgid "Technology"
+msgstr "Технологии"
+
+msgid "Gravity"
+msgstr "Гравитация"
+
+msgid "Solar System"
+msgstr "Солнечная система"
+
+msgid "Planets"
+msgstr "Планеты"
+
+msgid "Comets"
+msgstr "Кометы"
+
+msgid "Asteroids"
+msgstr "Астероиды"
+
+msgid "Supernova Remnants"
+msgstr "Остатки сверхновых"
+
+msgid "Planetary Nebulae"
+msgstr "Планетарные туманности"
+
+msgid "Star Forming Nebulae"
+msgstr "Области формирования звезд"
+
+msgid "Irregular Galaxies"
+msgstr "Неправильные галактики"
+
+msgid "Elliptical Galaxies"
+msgstr "Эллиптические галактики"
+
+msgid "Spiral Galaxies"
+msgstr "Спиральные галактики"
+
+msgid "Stars"
+msgstr "Звезды"
+
+msgid "Open clusters"
+msgstr "Рассеянные скопления"
+
+msgid "Globular clusters"
+msgstr "Шаровые звездные скопления"
+
+msgid "Galaxies"
+msgstr "Галактики"
+
+msgid "Earth"
+msgstr "Земля"
+
+msgid "Glossary"
+msgstr "Словарь"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "Этот портал был создан при финансовой поддержке Европейского сообщества программы \"Горизонт 2020\" в рамках грантового соглашения № 638653"

@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Beranda"
+
+msgid "Stories"
+msgstr "Foto"
+
+msgid "Pictures"
+msgstr "Foto"
+
+msgid "Space Words"
+msgstr "Istilah Antariksa"
+
+msgid "Search"
+msgstr "Cari"
+
+msgid "News from Across the Universe"
+msgstr "Berita Antariksa"
+
+msgid "Discover more awesome topics!"
+msgstr "Temukan topik keren lainnya"
+
+msgid "Still curious? Learn more..."
+msgstr "Penasaran? Yuk cari tahu..."
+
+msgid "What is Space Scoop?"
+msgstr "Apa itu Space Scoop"
+
+msgid "Discover more Astronomy"
+msgstr "Topik Astronomi lainnya"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Mengilhami Generasi Baru Penjelajah Antariksa"
+
+msgid "Space Scoop Friends"
+msgstr "Kawan Space Scoop"
+
+msgid "Contact Us"
+msgstr "Kontak Kami"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Menyajikan berita Antariksa untuk anak di seluruh dunia"
+
+msgid "Space Scoop Page"
+msgstr "Laman Space Scoop"
+
+msgid "Cool Fact"
+msgstr "Fakta Keren"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Space Scoop disadur dari Rilis Berita INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Space Scoop disadur dari Press Rilis INSTITUTIONS_NAME"
+
+msgid "Image"
+msgstr "Foto"
+
+msgid "Print Friendly Version"
+msgstr "Versi cetak"
+
+msgid "Share"
+msgstr "Bagikan"
+
+msgid "Related Space Scoops"
+msgstr "Space Scoop terkait"
+
+msgid "More Space Scoops"
+msgstr "Space Scoop lainnya"
+
+msgid "Partners Page"
+msgstr "Laman Mitra"
+
+msgid "Partner"
+msgstr "Mitra"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Baca Space Scoop lainnya] yang disadur dari rilis berita INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Lebih lanjut] tentang INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Buletin elektronik"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Daftar dan dapatkan berita terbaru setiap bulan!"
+
+msgid "Write your name here..."
+msgstr "Tulis nama disini..."
+
+msgid "Write your e-mail here..."
+msgstr "Tulis alamat surel  disini..."
+
+msgid "Subscribe"
+msgstr "Daftar"
+
+msgid "No articles are available."
+msgstr "Tidak ada artikel yang tersedia"
+
+msgid "Sorry, no results found that match your query."
+msgstr "Maaf, kata yang dicari tidak tersedia"
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Laman ini tidak tersedia dalam Bahasa yang dicari! Jika kamu tertarik untuk menerjemahkan, sila kontak ke CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "Topik"
+
+msgid "Atoms and Molecules"
+msgstr "Atom dan Molekul"
+
+msgid "Cosmology"
+msgstr "Kosmologi"
+
+msgid "Black Holes"
+msgstr "Lubang Hitam"
+
+msgid "Dark Matter"
+msgstr "Materi Gelap"
+
+msgid "Missions"
+msgstr "Misi Antariksa"
+
+msgid "Technology"
+msgstr "Teknologi"
+
+msgid "Gravity"
+msgstr "Gravitasi"
+
+msgid "Solar System"
+msgstr "Tata Surya"
+
+msgid "Planets"
+msgstr "Planet"
+
+msgid "Comets"
+msgstr "Komet"
+
+msgid "Asteroids"
+msgstr "Asteroid"
+
+msgid "Supernova Remnants"
+msgstr "Sisa-Sisa Supernova"
+
+msgid "Planetary Nebulae"
+msgstr "Planetari Nebula"
+
+msgid "Star Forming Nebulae"
+msgstr "Nebula Pembentuk Bintang"
+
+msgid "Irregular Galaxies"
+msgstr "Galaksi Takteratur"
+
+msgid "Elliptical Galaxies"
+msgstr "Galaksi Elips"
+
+msgid "Spiral Galaxies"
+msgstr "Galaksi Spiral"
+
+msgid "Stars"
+msgstr "Bintang"
+
+msgid "Open clusters"
+msgstr "Gugus Terbuka"
+
+msgid "Globular clusters"
+msgstr "Gugus Bola"
+
+msgid "Galaxies"
+msgstr "Galaksi"
+
+msgid "Earth"
+msgstr "Bumi"
+
+msgid "Glossary"
+msgstr "Glosarium"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "Situs ini didanai oleh Program European Community's Horizon 2020 berdasarkan perjanjian n° 638653"

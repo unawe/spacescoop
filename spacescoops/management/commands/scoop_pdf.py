@@ -1,7 +1,9 @@
+import os
+
 from django.core.management.base import BaseCommand
 from django.conf import settings
 
-from spacescoops.compile import make_pdf
+from spacescoops.pdfrender import Renderer
 
 
 class Command(BaseCommand):
@@ -21,6 +23,6 @@ class Command(BaseCommand):
             help='Connect to a website other than %s' % settings.SITE_URL)
 
     def handle(self, *args, **options):
-        code = options['code']
-        lang = options['lang']
-        make_pdf(code, lang, site_url=options['site_url'])
+        DESTFOLDER = os.path.join(settings.MEDIA_ROOT, 'pdf')
+        renderer = Renderer()
+        renderer.run(DESTFOLDER)

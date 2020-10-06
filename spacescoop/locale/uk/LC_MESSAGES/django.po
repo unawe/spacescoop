@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Головна сторінка"
+
+msgid "Stories"
+msgstr "Зображення"
+
+msgid "Pictures"
+msgstr "Зображення"
+
+msgid "Space Words"
+msgstr "Космічні слова"
+
+msgid "Search"
+msgstr "Пошук"
+
+msgid "News from Across the Universe"
+msgstr "Новини з усього Всесвіту"
+
+msgid "Discover more awesome topics!"
+msgstr "Відкрийте більше дивовижних тем!"
+
+msgid "Still curious? Learn more..."
+msgstr "Все ще зацікавлені? Дізнайтесь більше..."
+
+msgid "What is Space Scoop?"
+msgstr "Що таке Space Scoop?"
+
+msgid "Discover more Astronomy"
+msgstr "Дізнайтесь більше про Астрономію"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Надихаючи нове покоління дослідників космосу"
+
+msgid "Space Scoop Friends"
+msgstr "Друзі Space Scoop"
+
+msgid "Contact Us"
+msgstr "Контакти"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Доставляємо новини зі всього Всесвіту для дітей в усьому світі"
+
+msgid "Space Scoop Page"
+msgstr "Сторінка Space Scoop"
+
+msgid "Cool Fact"
+msgstr "Крутий факт"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Цей Space Scoop оснований на прес-релізі INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Цей Space Scoop оснований на прес-релізах INSTITUTION_NAME"
+
+msgid "Image"
+msgstr "Зображення"
+
+msgid "Print Friendly Version"
+msgstr "Версія для друку"
+
+msgid "Share"
+msgstr "Поширити"
+
+msgid "Related Space Scoops"
+msgstr "Пов'язані Space Scoops"
+
+msgid "More Space Scoops"
+msgstr "Більше Space Scoops"
+
+msgid "Partners Page"
+msgstr "Сторінка партнерів"
+
+msgid "Partner"
+msgstr "Партнер"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Читай більше Space Scoops] основано на Прес Релізах  INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Дізнайся більше] про INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Розсилка"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Підпишись на розсилку зараз і отримуй найсвіжіші новини щомісяця!"
+
+msgid "Write your name here..."
+msgstr "Вкажи своє ім'я тут ..."
+
+msgid "Write your e-mail here..."
+msgstr "Вкажи свою поштову скриньку тут ..."
+
+msgid "Subscribe"
+msgstr "Підписатись"
+
+msgid "Misc"
+msgstr "Різне"
+
+msgid "No articles are available."
+msgstr "Немає доступних статей"
+
+msgid "Sorry, no results found that match your query."
+msgstr "Вибачте, пошук не дав результатів"
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Ця сторінка поки що недоступна вашою мовою, якщо Ви би хотіли допомогти нам з перекладом, напишіть нам на адресу CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "Теми"
+
+msgid "Atoms and Molecules"
+msgstr "Атоми та молекули"
+
+msgid "Cosmology"
+msgstr "Космологія"
+
+msgid "Black Holes"
+msgstr "Чорні діри"
+
+msgid "Dark Matter"
+msgstr "Темна матерія"
+
+msgid "Missions"
+msgstr "Місії"
+
+msgid "Technology"
+msgstr "Технології"
+
+msgid "Gravity"
+msgstr "Гравітація"
+
+msgid "Solar System"
+msgstr "Сонячна Система"
+
+msgid "Planets"
+msgstr "Планети"
+
+msgid "Comets"
+msgstr "Комети"
+
+msgid "Asteroids"
+msgstr "Астероїди"
+
+msgid "Supernova Remnants"
+msgstr "Залишки наднових"
+
+msgid "Planetary Nebulae"
+msgstr "Планетарні туманності"
+
+msgid "Star Forming Nebulae"
+msgstr "Зореутворюючі туманності"
+
+msgid "Irregular Galaxies"
+msgstr "Неправильні галактики"
+
+msgid "Elliptical Galaxies"
+msgstr "Еліптичні галактики"
+
+msgid "Spiral Galaxies"
+msgstr "Спіральні галактики"
+
+msgid "Stars"
+msgstr "Зорі"
+
+msgid "Open clusters"
+msgstr "Розсіяні скупчення"
+
+msgid "Globular clusters"
+msgstr "Кулясті скупчення"
+
+msgid "Glossary"
+msgstr "Словник"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "Ця інтернет сторінка була створена за фінансової підтримки програми \"Horizon 2020\" від Європейської спільноти в рамках угоди про надання гранту №638653"

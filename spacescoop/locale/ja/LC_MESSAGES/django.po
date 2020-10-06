@@ -1,0 +1,470 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "メインページ"
+
+msgid "Stories"
+msgstr "画像"
+
+msgid "Pictures"
+msgstr "画像"
+
+msgid "Space Words"
+msgstr "天体用語"
+
+msgid "Search"
+msgstr "検索"
+
+msgid "News from Across the Universe"
+msgstr "宇宙ニュース"
+
+msgid "Discover more awesome topics!"
+msgstr "すごいトピックス見つけよう"
+
+msgid "Still curious? Learn more..."
+msgstr "もっと知りたい方へ"
+
+msgid "What is Space Scoop?"
+msgstr "スペース・スクープとは何？"
+
+msgid "Discover more Astronomy"
+msgstr "天文学の発見"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "つぎの宇宙探検家を励ますこと"
+
+msgid "Space Scoop Friends"
+msgstr "スペース・スクープのなかまたち"
+
+msgid "Contact Us"
+msgstr "お問い合わせ"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "世界の子どもたちに宇宙からニュースを届けます"
+
+msgid "Space Scoop Page"
+msgstr "スペース・スクープのページ"
+
+msgid "Cool Fact"
+msgstr "知っ得ダネ"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "この記事は INSTITUTION_NAME の報道発表に基づいています"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "この記事は INSTITUTIONS_NAME の報道発表に基づいています"
+
+msgid "Image"
+msgstr "写真"
+
+msgid "Print Friendly Version"
+msgstr "印刷用ページ"
+
+msgid "Share"
+msgstr "シェアする"
+
+msgid "Related Space Scoops"
+msgstr "スペース・スクープ関連"
+
+msgid "More Space Scoops"
+msgstr "もっとスペース・スクープについて"
+
+msgid "Partners Page"
+msgstr "協力者のページ"
+
+msgid "Partner"
+msgstr "協力者"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[スペース・スクープについてもっと読む]  INSTITUTION_NAME の報道記事にもとづきます"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[もっと知る]  INSTITUTION_NAME について"
+
+msgid "Newsletter"
+msgstr "ニュースレター"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "最新のニュースレター（月刊）読者登録"
+
+msgid "Write your name here..."
+msgstr "ここにあなたの名前を書いて下さい"
+
+msgid "Write your e-mail here..."
+msgstr "ここにあなたのメールアドレスを書いて下さい"
+
+msgid "Subscribe"
+msgstr "無料購読"
+
+msgid "No articles are available."
+msgstr "該当する項目がありません"
+
+msgid "Sorry, no results found that match your query."
+msgstr "ごめんなさい、答えが見つかりません"
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "まだ日本語に翻訳されていません。翻訳のご希望は CONTACT_ADDRESS へ連絡して下さい"
+
+msgid "Topics"
+msgstr "トピックス"
+
+msgid "Atoms and Molecules"
+msgstr "原子と分子"
+
+msgid "Cosmology"
+msgstr "宇宙論"
+
+msgid "Black Holes"
+msgstr "ブラックホール"
+
+msgid "Dark Matter"
+msgstr "暗黒物質"
+
+msgid "Missions"
+msgstr "ミッション"
+
+msgid "Technology"
+msgstr "技術"
+
+msgid "Gravity"
+msgstr "重力"
+
+msgid "Solar System"
+msgstr "太陽系"
+
+msgid "Planets"
+msgstr "惑星"
+
+msgid "Comets"
+msgstr "彗星（すいせい）"
+
+msgid "Asteroids"
+msgstr "小惑星"
+
+msgid "Supernova Remnants"
+msgstr "超新星残がい"
+
+msgid "Planetary Nebulae"
+msgstr "惑星状星雲"
+
+msgid "Star Forming Nebulae"
+msgstr "星形成星雲"
+
+msgid "Irregular Galaxies"
+msgstr "不規則銀河"
+
+msgid "Elliptical Galaxies"
+msgstr "だ円銀河"
+
+msgid "Spiral Galaxies"
+msgstr "らせん銀河"
+
+msgid "Stars"
+msgstr "恒（こう）星"
+
+msgid "Open clusters"
+msgstr "散開（さんかい）星団"
+
+msgid "Globular clusters"
+msgstr "球状（きゅうじょう）星団"
+
+msgid "Galaxies"
+msgstr "銀河"
+
+msgid "Earth"
+msgstr "地球"
+
+msgid "Glossary"
+msgstr "用語集"
+
+msgid "Asteroid: Asteroids are chunks of rock and metal left over from when our Solar System formed. Most can be found between Mars and Jupiter, a region of space we call the Asteroid Belt."
+msgstr "小惑星:小惑星は太陽系ができた頃から取り残された岩と金属のかたまりです。ほとんどは、火星と木星の間にある小惑星帯というところで見つかります。"
+
+msgid "Asteroid Belt: The asteroid belt is a region of our Solar System between Mars and Jupiter. It is heavily populated by asteroids and dwarf planets."
+msgstr "小惑星帯：火星と木星の間にあって、太陽系の一部です。小惑星と準惑星がそのほとんどです。"
+
+msgid "Astronomical Unit: An astronomical unit is the average distance between the centre of the Earth and the centre of the Sun (about 150 million kilometres)."
+msgstr "天文単位：１天文単位は、地球の中心と太陽の中心間の平均距離です。（およそ1億5000万キロメートル）AUと略することもあります。"
+
+msgid "Atmosphere: An atmosphere is a layer of gases surrounding a planet or a moon. Earth’s atmosphere contains the oxygen we breathe."
+msgstr "大気：惑星または衛星を囲んでいるガスの層です。地球の大気は、私たちが呼吸する酸素をふくんでいます。"
+
+msgid "Atoms: Atoms are the building blocks of the Universe. All matter is made of these tiny particles. Your body contains billions and billions of atoms!"
+msgstr "原子：宇宙の基礎単位です。すべての物質は、これらのとても小さな粒子でできています。あなたのからだは、とほうもない数の原子を含んでいます。"
+
+msgid "Big Bang: Around 14 billion years ago the entire Universe was inside a bubble thousands of times smaller than a pinhead. Then it exploded and the Universe was born."
+msgstr "ビッグバン：およそ140億年前、すべての宇宙は、ピンの頭より数千分の一の小さな泡の内部にありました。それから、おおきく爆発して、現在の宇宙が生まれたといわれています。"
+
+msgid "Billion: A billion is a thousand million (1000, 000, 000)."
+msgstr "10億：1000,000,000 です。"
+
+msgid "Binary System: Four out of every five points of light we see in the night sky are not one star, but two or more orbiting around each other. We call a system of two stars a binary system."
+msgstr "連星系：私たちが夜空で見る星の5分の4は、1つの星でなく、２つ以上の星がおたがい回りあっている星です。２つ以上の星のまとまりを連星系といいます。"
+
+msgid "Black Dwarf: A black dwarf is the very last phase in the lifecycle of a star like our Sun. When the star has cooled down so much that it no longer shines at all it becomes a black dwarf."
+msgstr "黒色矮星（わいせい）：太陽に似た星の一生の最後の段階です。星はまったくもはや輝かず、冷えてしまったとき、黒色矮星になります。"
+
+msgid "Black Hole: Black holes form when a massive star dies and is squashed down into an incredibly tiny space. Black holes' very strong gravity can even swallow-up light if it gets too close."
+msgstr "ブラックホール：巨大な星が死んで、信じられないほど小さい大きさに縮んで押しつぶされる時、ブラックホールができます。あまりに間近に寄ると、ブラックホールの非常に強い引力が光をも飲みこむことができます。"
+
+msgid "Brown Dwarf Brown dwarfs are called “failed stars” by some astronomers. Unlike stars, they never become hot enough to start giving off energy in a process called ‘nuclear fusion’."
+msgstr "褐色（かっしょく）矮星：星のなかでも、決して核融合という段階に内部のエネルギーを放ちはじめるほどに熱くならない星です。"
+
+msgid "Comet: Comets are made of ice, dust and rock, so they are sometimes called “dirty snowballs”. They come from the outer regions of the Solar System and travel around the Sun, like planets."
+msgstr "彗星（すいせい）：氷、ちりと岩でできているので、時々“よごれた雪だるま”と呼ばれています。太陽系のはしっこから来て、太陽のまわりを惑星のように移動します。"
+
+msgid "Corona: The corona is an envelope of blisteringly hot gas surrounding the Sun."
+msgstr "コロナ：太陽を囲んでいるたいへん熱いガスの囲みです。"
+
+msgid "Cosmic Dust: Cosmic dust is made up of tiny solid particles in space, sometimes called stardust. You could fit dozens of these particles onto a pinhead."
+msgstr "宇宙塵（じん）：宇宙にある小さい固体のつぶつぶです。星くずとということもあります。何十個もの宇宙塵を集めると虫ピンの頭くらいになります。"
+
+msgid "Dark Nebulae: Dark nebulae look like holes in the night sky, they are completely black. However, they aren’t empty; dark nebulae are thick clouds of cosmic gas and dust that block out light."
+msgstr "暗黒星雲：夜空にあいた穴のように見え、完全に真っ黒です。しかし、そこは何もないわけではありません。暗黒星雲は、光をさえぎる宇宙ガスとちりが集まった濃い雲です。"
+
+msgid "Density: Density is a measurement of how much material an object has. For example, a balloon and a bowling ball could be the same size, but the bowling ball has a higher density."
+msgstr "密度：天体がどれくらいの材料を持つかという測定値です。たとえば、風船とボウリングの球は同じ大きさですが、ボウリングの球はより高い密度を持ちます。"
+
+msgid "Diameter: Diameter is a measurement of the distance across the widest part of a circle or sphere. For example, the diameter of Earth is 12,700 kilometers."
+msgstr "直径：円または球で最も広い部分の中心距離の測定値です。たとえば、地球の直径は、12,700キロメートルです。"
+
+msgid "Dwarf Galaxy: Dwarf galaxies are much smaller than normal galaxies. They are made up of just a few billion stars rather than hundreds of billions."
+msgstr "矮小（わいしょう）銀河：ふつうの銀河よりも非常に小さい銀河です。数十億個から数千億個の星のあつまりです。"
+
+msgid "Dwarf Planet: A dwarf planet is an object in the Solar System that is bigger than a comet or asteroid but smaller than a planet. Our Solar System has five dwarf planets, including Pluto."
+msgstr "準惑星：彗星または小惑星より大きいが、惑星より小さい太陽系の天体です。私たちの太陽系には、冥王星を含む5つの準惑星があります。"
+
+msgid "Earth: Earth is our beautiful home planet; the only place in the Universe where life exists (that we know of)!"
+msgstr "地球：私たちの美しいふるさとの惑星です。私たちが知っている生命が存在する宇宙でたったひとつの場所です。"
+
+msgid "Elements: There are over a hundred different types of atom, called elements. The atoms of a particular element are identical to each other. Examples of elements are Oxygen, Iron and Gold."
+msgstr "元素：100種類以上の異なる原子からなり、元素といいます。特定の元素の原子は、同じ配列です。例えば、酸素や鉄、金などです。"
+
+msgid "Elliptical Galaxy: There are three types of galaxy which all have different shapes. Elliptical galaxies are shaped like rugby balls. These are old galaxies with no new stars forming."
+msgstr "楕円（だえん）銀河：3種類ある銀河のひとつです。楕円銀河は、ラグビー・ボールに似た形です。これらは、生まれたてではなく古い銀河です。"
+
+msgid "Emission Nebulae: Emission nebulae are clouds of cosmic gas and dust that have been heated by nearby stars. As the clouds cool down they begin to shine (the same way a neon light works)."
+msgstr "発光星雲：近くの星によって熱された宇宙ガスとちりの雲です。雲が冷えはじめると、ネオンが光るのと同じ方法で光りはじめます。"
+
+msgid "Exo-planet: An extrasolar planet (exo-planet for short) is a planet that orbits a star beyond our Solar System."
+msgstr "系外（けいがい）惑星：太陽系の外にある惑星（略して系外惑星）は、太陽系から遠くはなれた星のまわりを回る惑星です。"
+
+msgid "Force: A force is a push or pull on an object. Examples of forces are friction and gravity."
+msgstr "力：天体がもつ押したり引いたりするものです。たとえば、摩擦力とか引力です。"
+
+msgid "Galactic Bulge: In a spiral galaxy the bulge is a spherical-shaped area at the centre of the galaxy. The bulge is made up of old stars as well as cosmic gas and dust."
+msgstr "銀河のふくらみ：渦巻（うずまき）銀河の中央付近にある、丸くふくらんだ部分です。宇宙ガスとちりと同じ古い星からできています。"
+
+msgid "Galactic Disc: Spiral galaxies are disc shaped, like a CD with the bulge at the centre. We call the flat region the galactic disc, it is made up of gas, dust and young stars."
+msgstr "銀河円盤：渦巻（うずまき）銀河は、中心がふくらんだCDに似た形の円盤です。このうち平らな地域を銀河円盤といい、ガス、ちりと若い星のあつまりです。"
+
+msgid "Galactic Halo: Each galaxy is surrounded by a halo of material, including very old stars clusters, cosmic gas and dust, and even dark matter."
+msgstr "銀河ハロ：それぞれの銀河は、非常に古い星の集まりで、宇宙ガスとちりとダークマターさえ含む材料のハロに囲まれています。"
+
+msgid "Galaxy: A Galaxy is a gigantic collection of stars, along with cosmic gas, dust and other stuff. The galaxy we live in is called the Milky Way."
+msgstr "銀河：宇宙ガスやちりと他のものに加えて、銀河は星の巨大な集まりです。私たちの銀河は、天の川銀河といいます。"
+
+msgid "Gamma Rays: Gamma rays are a type of invisible light. Gamma rays are the most energetic type of light, they are produced by the most violent events in the Universe, like supernova explosions."
+msgstr "ガンマ線：目に見えない光線の一種です。ガンマ線は明るいもので最も活動的なものです、超新星爆発のような最も激しい現象の時に作られます。"
+
+msgid "Gas Giant: Jupiter, Saturn, Uranus and Neptune are called the gas giants because they are much larger than the four planets in the inner Solar System and are made of gas."
+msgstr "巨大ガス惑星：太陽系の内側にある4つの惑星より非常に大きくて、ガスでできているもので、木星、土星、天王星と海王星をさします。"
+
+msgid "Globular Clusters: Globular clusters are huge groups of stars bound together by gravity. These groups are sometimes made up of hundreds of thousands, or even millions, of stars."
+msgstr "球状星団：引力によって結びついた星の巨大な集団です。時には何十万から何百万の恒星が集まっています。"
+
+msgid "Gravitational Lensing: Massive structures like galaxies and clusters of galaxies can bend the light from objects behind them with their strong gravity. This phenomenon is called 'gravitational lensing'."
+msgstr "重力レンズ：銀河や銀河どうしが集まった巨大構造は、強い引力でそれらの後にある天体からでた光を曲げることができます。この現象を重力レンズといいます。"
+
+msgid "Gravitational Waves: Gravitational waves are created by violent cosmic events, like an exploding star or two black holes colliding. Like ripples on water, these are ripples through space-time."
+msgstr "重力波：衝突したり爆発したりといった非常に激しい現象が起きた時、星やブラックホールから出てくる波のようなもの。水の上の波紋ににていて、時空を通して宇宙空間を伝わってくる波紋です。"
+
+msgid "Gravity: Gravity is a force that attracts all objects that have mass. It keeps your feet on the ground and keeps the Earth and all the other planets in orbits around the Sun."
+msgstr "引力：質量を持つすべての天体を引きつける力です。人が地上でしっかり立っていたり、地球とその他の惑星が太陽のまわりを回り続ける力です。"
+
+msgid "Infrared: Infrared is a type of invisible light. The human body has a temperature that gives off infrared light, so infrared detectors can be used as night-vision cameras."
+msgstr "赤外線：目に見えない光線の一種。人体は明るい赤外線を放つ温度を持つので、赤外線検出器が暗視カメラとして使われます。"
+
+msgid "International Space Station: The International Space Station is the biggest man-made object orbiting Earth. It is basically a space laboratory where astronauts live and running lots of science experiments"
+msgstr "国際宇宙ステーション：地球のまわりを回っている最大の人工天体です。基本的に、宇宙飛行士がそこで生活し、宇宙でたくさんの科学に関する実験をしています"
+
+msgid "Interstellar Medium: The interstellar medium (or ISM) is the material that exists in the space between the stars. This mostly includes cosmic gas and dust."
+msgstr "星間物質：恒星間の宇宙に存在する材料一般です。主に、宇宙ガスとちりを含んでいます。"
+
+msgid "Irregular Galaxy: There are three types of galaxy which all have different shapes. Irregular galaxies come in many different shapes and sizes."
+msgstr "不規則銀河：3種類の銀河のうちのひとつ。不規則銀河は、多くの異なる形と大きさがあります。"
+
+msgid "Jupiter: Jupiter is the biggest planet in our Solar System, over 100 times bigger than Earth! Jupiter is made up of gas that form cloudy belts that can even be seen with a small telescope."
+msgstr "木星：太陽系で最も大きい惑星で、地球の100倍以上の大きさです。木星は、小さな望遠鏡で見ることができる雲でできたガスの帯を持っています。"
+
+msgid "Kuiper Belt: The Kuiper Belt (\"KAI-per\") is a cold, dark region of our Solar System beyond Neptune. Astronomers believe it contains thousands of comets, asteroids and other small, icy objects."
+msgstr "カイパーベルト：海王星のはるか外側の、太陽系の冷たくて暗い地域です。何千もの彗星や小惑星などの小さな、冷たい天体があると考えられています。"
+
+msgid "Light Year: A light year is a unit for measuring distance (like a mile or a kilometre). A light year is the distance that light can travel in a year – which is about 9.4 trillion kilometres!"
+msgstr "光年：1光年は、1マイルまたは1キロメートルのように距離を計るときの単位です。1光年とは、１年間で光を移動させることができるおよそ9兆4000億キロメートルの距離です。"
+
+msgid "Lunar Eclipse: When the Earth passes between the Moon and the Sun, the Moon becomes completely cloaked in shadow. This is called a ‘lunar eclipse’"
+msgstr "月食：地球が月と太陽の間を通るとき、月は地球の影に完全におおいかくされます。これを月食といいます。"
+
+msgid "Magnetic Field: A magnetic field is the area around a magnet where the attractive or repulsive force of a magnet can be felt."
+msgstr "磁場：磁場は、磁石のまわりにできる場所で、磁気力に引きつけ合ったり反発したりする所です。"
+
+msgid "Man-made Satellites: A number of man-made satellites that have been launched into orbit. They carry out a range of jobs, including collecting information, helping us communicate or for navigation."
+msgstr "人工衛星：地球のまわりの軌道に打ち上げられ、私たちの情報交換や情報収集、自動車のナビなどたくさんの情報を集めたり、発信したりする装置です。"
+
+msgid "Mars: Mars is also known as The Red Planet. Mars is one of our closest cosmic neighbours and the only planet in the Universe entirely inhabited by robots!"
+msgstr "火星：火星は、赤い惑星としても知られています。火星は、私たちの最も親しい隣人のうちの1つで、ロボットで住めるようになる宇宙のたったひとつの惑星です。"
+
+msgid "Mass: Mass is a constant measurement that shows how much material an object has. Unlike mass, weight is the pull of gravity on an object and it changes depending on gravity."
+msgstr "質量：「質量」とは、天体がどれくらいの材料でできているかという一定の測定値です。質量とはべつに、「重さ」とは天体上の引力の力で、それは引力によって変わります。"
+
+msgid "Mercury: Mercury is the closest planet to our Sun and the smallest planet in the Solar System. It’s not much bigger than our Moon and looks very similar — rocky and covered in craters."
+msgstr "水星：水星は、太陽系で最も小さな惑星で、最も太陽に近い惑星です。月とほとんどかわらない大きさで、月そっくりで、岩だらけで、クレーターだらけです。"
+
+msgid "Messier Objects: The Messier Catalogue is a list of 110 cosmic objects created by a French astronomer named Charles Messier in the 1700s."
+msgstr "メシエ天体：メシエ・カタログは、1700年代にＣ・メシエというフランスの天文学者によってつくられた110個の宇宙天体のリストです。"
+
+msgid "Meteor: When a meteoroid enters Earth’s atmosphere it creates a streak of light, this is known as a meteor or sometimes a ‘shooting star’."
+msgstr "流星(またはいん石)：流星体が地球の大気に入るとき、それは線状に光ります、これを流星または流れ星といいます。"
+
+msgid "Meteorite: If a meteoroid, comet or asteroid lands on Earth it’s called a meteorite. Around 50,000 tonnes of meteoroids and other kinds of space dust enter our atmosphere every year!"
+msgstr "隕（いん）石：流星体、彗星または小惑星が地球上に落ちた時、隕石と呼ばれます。およそ5万トンの流星体と他の種類の宇宙塵が、毎年、地球の大気に突入しています。"
+
+msgid "Meteoroid: A meteoroid is a small rock travelling through space. Meteoroids are much smaller than asteroids; they range from the size of a rice grain up to a metre wide."
+msgstr "流星体：流星体は、宇宙全体に飛んでいる小さな岩です。流星体は、小惑星にくらべ非常に小さいです。幅もたかだか1メートルから米粒サイズまでいろいろです。"
+
+msgid "Microwave: Microwaves are a type of invisible light. Microwaves are good for sending messages from one place to another because microwaves can travel through rain, snow and clouds."
+msgstr "マイクロ波：マイクロ波は、ある種の目に見えない電波です。マイクロ波は雨や雪、雲を通して伝達することができるので、遠くまで情報を送るのが得意です。"
+
+msgid "Milky Way: The Milky Way is the galaxy we live within. The Sun is one of 100 billion stars in the Milky Way."
+msgstr "天の川銀河：天の川銀河は、私たちがいる銀河です。太陽は、天の川銀河の1000億ある星のうちの1つです。"
+
+msgid "Million: A million is a thousand, thousand (1,000,000)."
+msgstr "100万：100万は、千かける千です。（1,000,000）"
+
+msgid "Molecules: A molecule is a particle containing two or more atoms. For example water is a molecule made up of two atoms of hydrogen and one atom of oxygen."
+msgstr "分子：分子は、2つ以上の原子を含んでいる粒子です。たとえば、水は水素2つの原子と酸素1つの原子でできた分子です。"
+
+msgid "Moons: A moon is a natural satellite that orbits a planet. Most of the planets in our Solar System have at least one moon, like Earth, some planets have dozens."
+msgstr "衛星：衛星は、惑星のまわりを回る天体です。太陽系の大部分の惑星は地球のように少なくとも1つの月があり、多数ある惑星もあります。"
+
+msgid "Natural Satellites: There are two types of satellite: natural and man-made. Natural satellites are cosmic objects that orbit around other objects in space, e.g. the Moon which orbits around Earth."
+msgstr "天然の衛星：衛星には天然と人工の２種類があり、天然の衛星は、例えば地球をまわる月のように宇宙でおよそ他の天体のまわりを回る宇宙天体です。"
+
+msgid "Near Earth Objects: A near-Earth object (shortened to NEO) is any small object in the Solar System, such as asteroids or comets, that travels close to Earth."
+msgstr "地球近傍（きんぼう）天体：地球近傍天体（NEO）は、地球近くまで接近してくる太陽系の小惑星または彗星などの小さな天体をさします。"
+
+msgid "Nebula: A Nebula is a cloud of gas and dust in space. Some are the remains of dead stars and others are where stars are born."
+msgstr "星雲：星雲は、宇宙のガスとちりの雲です。死んだ星の残がいもあり、星が生まれるところでもあります。"
+
+msgid "Neptune: Neptune is the farthest planet from the Sun, it takes over 60,000 days to complete one orbit! Like Jupiter, Saturn and Uranus it is a gas planet."
+msgstr "海王星：海王星は太陽から最も遠くはなれた惑星です、太陽の周りを一周するために60,000日以上かかります。木星や土星、天王星と同じガス惑星です。"
+
+msgid "Neutron Star: When a huge star reaches the end of its life, it explodes. The core of the star survives the explosion, but is squashed down into a tiny compact ball called a neutron star."
+msgstr "中性子星：巨大な星がその一生の終わりに達っしたとき、爆発します。星の芯は、爆発で生き残りますが、中性子星という小さくてコンパクトな球体に押しつぶされます。"
+
+msgid "Oort Cloud: Most astronomers believe the Oort Cloud (pronounced \"O-rt\") is a giant icy shell made of comets that surrounds our Solar System."
+msgstr "オールト雲：大部分の天文学者は、太陽系から遠く離れている宇宙に、彗星の多いのところが丸く雲のような状態であると思っていて、ここをオールト雲といいます。"
+
+msgid "Open clusters: Open clusters are groups of stars that formed from the same giant cloud of gas and dust. These groups contain up to a few thousand stars that are loosely bound together by gravity."
+msgstr "散開星団：散開星団は、ガスと塵（ちり）の巨大な雲からできた星の集団です。これらは、引力によってゆるく結びついた数千個の星をふくんでいます。"
+
+msgid "Orbit: An orbit is the path along which cosmic objects, satellites and even spacecraft travels. For example, the Earth’s orbit around the Sun takes 365 days to complete (or one year)."
+msgstr "軌道：軌道は、宇宙にある天体や衛星、宇宙船による飛行ですらたどる経路です。たとえば、太陽のまわりをまわる地球の軌道は、一周するのに（または1年）365日がかかります。"
+
+msgid "Planetary Nebula: Planetary nebulae have nothing to do with planets. They are clouds of cosmic gas and dust created when a Sun-like star blows off its outer layers of material."
+msgstr "惑星状星雲：惑星状星雲は、惑星とは無関係で、ガスと塵（ちり）でできた雲です。塵は太陽のような星がその外層を吹き飛ばした時につくられました。"
+
+msgid "Planets: A Planet, such as Earth or Jupiter, is a large object that orbits a star such as the Sun. A planet doesn’t make its own light."
+msgstr "惑星：地球や木星のような惑星は、太陽のような星のまわりを回る大きな球状の天体です。惑星は、それ自身では光りません。"
+
+msgid "Protoplanetary Disc: A protoplanetary disc is a ring of cosmic gas and dust surrounding a very young star. The disc might one day form into a system of planets and moons like our Solar System."
+msgstr "原始惑星系円盤：原始惑星系円盤は、まさしく若い星を囲んでいるガスとちりでできた幅のある円盤です。この円盤は、やがて、私たちの太陽系のような惑星や衛星系をつくるかもしれません。"
+
+msgid "Pulsar: Pulsars are extremely compact stars that spin around hundreds of times a second. Pulsars shoot out radio waves that shine towards us on Earth in pulses, like a lighthouse."
+msgstr "パルサー：パルサーは、1秒につきおよそ数百回も回転しているとてもコンパクトな星です。パルサーは、灯台のように一定の間隔で地球の方へ輝く電波を放ちます。"
+
+msgid "Radio: Radio waves are a type of invisible light. Radio waves are mostly used in communications to send signals from one place to another. Mobile phones and TVs use radio waves."
+msgstr "電波：電波は、目にお見えない光線の一種です。電波は、あちこちへ転転と信号を送るために、主に通信に使われます。携帯電話やテレビは、電波を使っています。"
+
+msgid "Red Dwarf: A red dwarf is a star that is very small and cool compared to other stars. These stars appear red because of their temperature (the coolest stars are red)."
+msgstr "赤色矮星（わいせい）：赤色矮星は、他の恒星と比較して非常に小さくて冷たい星です。望遠鏡で見ると、最も冷たい星は赤いので赤く見えます。"
+
+msgid "Red Giant: When a star like the Sun runs out of hydrogen fuel to burn it begins to grow bigger and redder, turning into a red giant star."
+msgstr "赤色巨星：太陽のような恒星の水素燃料が尽きたとき、より大きくてより赤くなり始めます。そして、赤色巨星に変わります。"
+
+msgid "Reflection Nebulae: Reflection nebulae are clouds of cosmic dust that reflect the light of a nearby stars. These clouds are usually blue."
+msgstr "反射星雲：反射星雲は、近くの恒星の光を明るく反映する宇宙塵の雲です。これらの雲は、通常青くみえます。"
+
+msgid "Robot: A Robot is a machine controlled by a computer. Robots can be taught to do many different things, like clean a carpet, control a telescope or even build a car!"
+msgstr "ロボット：ロボットは、コンピュータで制御（せいぎょ）される機械です。ロボットは多くのちがった動きを教えられるので、カーペットをきれいにできるように、望遠鏡を制御することができたり、車を造ることさえありえます。"
+
+msgid "Saturn: Saturn is the sixth planet from the Sun and probably the most beautiful. Saturn is famous for its bright rings made out of ice, rock and other things."
+msgstr "土星：土星は、太陽系で最も美しい第6番目の惑星です。土星は、氷や岩と他の物質からつくられた明るいリングで有名です。"
+
+msgid "Solar Eclipse: When the Moon passes between the Sun and Earth and blocks out the Sun's light, we call it a ‘solar eclipse’"
+msgstr "日食：月が太陽と地球の間で、太陽の光をさえぎるときを日食といいます。"
+
+msgid "Solar Rain: Just like Earth, it sometimes rains on the Sun. But this rain is not made of water, it is made of electrically charged, superheated gas, called plasma."
+msgstr "太陽雨：地球のように、時々太陽にも雨が降りますが、この雨は水でできていません。プラズマという帯電してた、過熱したガスでできています。"
+
+msgid "Solar System: The Solar System is made up of the Sun and everything that moves around it. There are eight planets, five dwarf planets and lots of moons, comets, asteroids and meteoroids."
+msgstr "太陽系：太陽系は、太陽とそれを回るすべての天体からなり、8つの惑星、5つの準惑星と彗星、小惑星と流星体などのたくさんの衛星からなります。"
+
+msgid "Spectrograph: An instrument that collects light and spreads it, like a prism. Believe it or not, the light reveals signatures of different elements in the atmospheres around stars."
+msgstr "分光写真：光を集めて、それを広げるプリズムのように、恒星から出た光は大気で異なる元素の特徴あるもようを持っています。"
+
+msgid "Spiral Galaxy: There are three types of galaxy which all have different shapes. Spiral galaxies are the most beautiful, with long star-filled arms twisting around a bright central bulge."
+msgstr "渦巻（うずまき）銀河：異なった3種類の銀河があり、なかでもたくさんの恒星を持つ長い腕が明るい中心のふくらみにからみついている渦巻銀河は最も美しいです。"
+
+msgid "Star: A star is a massive ball of luminous hot gas held together by gravity. Our nearest star is called the Sun."
+msgstr "恒星（こうせい）：恒星は、引力によってひとかたまりになった発光している熱いガスの巨大な球体です。最も近い恒星は、太陽といいます。"
+
+msgid "Starburst Galaxy: Starburst galaxies are galaxies where stars are being made at a very fast rate, normally about 10,000 times faster than in a normal galaxy!"
+msgstr "スターバースト銀河：スターバースト銀河は、ふつうの銀河よりおよそ10,000倍も速く、星が作られている銀河です。"
+
+msgid "Star Cluster: A Star Cluster is a huge group of stars bound together by gravity. A star cluster can contain a few hundred stars or many millions."
+msgstr "星団：星団は、引力によって結びついた恒星の巨大な集団です。星団には、数百から数百万の恒星があります。"
+
+msgid "Sun: The Sun is a star. It is the centre of our Solar System and everything else in the Solar System moves around it. Without the Sun’s light and heat life could not survive on Earth."
+msgstr "太陽：太陽は、恒星の一つです。太陽系の中心で、太陽系の他のすべての天体がそのまわりを回ります。太陽の光なしでは、生命が地球上で生き残ることはできません。"
+
+msgid "Supernova: The explosive death of a massive star is called a supernova. They are amongst the most energetic events in the Universe and are so bright they can outshine an entire galaxy!"
+msgstr "超新星：巨大な星の爆発的な死を、超新星といいます。宇宙で最も精力的なできごとで、すべての銀河よりも明るくかがやきます。"
+
+msgid "Supernova Remnant: A supernova remnant is a cloud of cosmic gas and dust created by the violent explosion of a massive star. The supernova remnant is what remains of the unfortunate star."
+msgstr "超新星残がい：超新星残がいは、巨大な星の激しい爆発によってつくられる宇宙ガスとちりの雲です。超新星残がいは、不運な星の残りかすです。"
+
+msgid "Telescope: A Telescope is an instrument used to see objects that are very far away. Telescopes are often used to look at distant planets, stars and galaxies."
+msgstr "望遠鏡：望遠鏡は、非常に遠く離れている天体を見るのに用いられる器具です。望遠鏡を使って、遠い惑星や星や銀河を見ます。"
+
+msgid "Terrestrial Planets: Mercury, Venus, Earth and Mars are called the terrestrial planets (pronounced \"Ter-EST-ree-al\"). All four of these planets are similar to Earth in size and are made of rock."
+msgstr "地球型惑星：水星、金星、地球と火星を地球型惑星といい、大きさにおいて地球と同程度で、岩でできています。"
+
+msgid "Ultraviolet: Ultraviolet (often shortened to UV) is an invisible type of light. UV waves have high energy. UV rays from the Sun are capable of damaging cells in our skin and causing sunburn."
+msgstr "紫外線：見えない光の一種で、紫外線（略してUV）があります。UV波は、高エネルギーを持ち、太陽からのUV光線は、私たちの皮膚の細胞に損傷を与えて、日焼けを引き起こします。"
+
+msgid "Universe: The Universe is everything that exists, all planets, stars, galaxies and every other object on Earth and in space."
+msgstr "宇宙：宇宙は存在するすべてです。すべての天体、惑星、恒星、銀河や地球の上に存在するものすべてです。"
+
+msgid "Uranus: Uranus is a cold blue, gas planet that lies far from the Sun. Unlike all the other planets, Uranus lies on its side, with its South Pole facing the Sun."
+msgstr "天王星：天王星は、太陽から遠くはなれた冷たく青いガス惑星です。他の惑星とちがって、太陽にたいして横向けに倒れていて南極を向けています。"
+
+msgid "Venus: Venus is the second planet from the Sun and the hottest planet in the Solar System. Venus is Earth’s twin in size, but unlike Earth it’s covered in ancient volcanoes!"
+msgstr "金星：金星は、太陽から2番目の惑星で太陽系で最も熱い惑星です。金星は大きさから地球の双子星だといわれていますが、地球とは異なり、古代の火山でおおわれています。"
+
+msgid "Visible: Light Visible light is the only type of light that our eyes can detect. Visible light contains all the colours of the rainbow."
+msgstr "可視：可視光は、わたしたちの目が見ることができる光の種類です。可視光は、虹のすべての色を含みます。"
+
+msgid "White Dwarf: When a Sun-like star has burned up all its fuel, it begins to collapse inwards. The material in the star's core ends up squashed tightly down into a tiny ball called a white dwarf."
+msgstr "白色矮星（わいせい）：太陽似た恒星がすべてのその燃料を使い切ったとき、内部からくずれはじめます。恒星の芯の物質は、白色矮星と呼ばれている小さい球体に押しつぶされて終わりをむかえます。"
+
+msgid "X-ray: X-rays are a type of invisible light. X-rays can travel through soft tissue like skin and muscle, so they can be used to take pictures of broken bones."
+msgstr "Ｘ線：Ｘ線は、目に見えない光です。Ｘ線は皮膚と筋肉のように柔らかい組織を通り抜けることができるので、骨折の画像に使うことができます。発見者の名前からレントゲン写真ということもあります。"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "このウェブページはn° 638653の助成によるECH2020プログラム基金によって作られました。"

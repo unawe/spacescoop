@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Hlavní stránka"
+
+msgid "Stories"
+msgstr "Obrázky"
+
+msgid "Pictures"
+msgstr "Obrázky"
+
+msgid "Space Words"
+msgstr "Vesmírný slovník"
+
+msgid "Search"
+msgstr "Hledej"
+
+msgid "News from Across the Universe"
+msgstr "Novinky z vesmíru"
+
+msgid "Discover more awesome topics!"
+msgstr "Objev více pozoruhodných novinek"
+
+msgid "Still curious? Learn more..."
+msgstr "Chceš ještě víc informací? Tak tudy..."
+
+msgid "What is Space Scoop?"
+msgstr "Co je to Space Scoop?"
+
+msgid "Discover more Astronomy"
+msgstr "Více o astronomii"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Inspirujeme novou generaci vesmírných badatelů"
+
+msgid "Space Scoop Friends"
+msgstr "Přátelé Space Scoop"
+
+msgid "Contact Us"
+msgstr "Kontaktujte nás"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Přínášíme novinky z vesmíru dětem na celém světě"
+
+msgid "Space Scoop Page"
+msgstr "Strana Space Scoop"
+
+msgid "Cool Fact"
+msgstr "\"Cool\" zajímavost"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Tento „Space Scoop“ byl vytvořen na základě tiskové zprávy z INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Tento „Space Scoop“ byl vytvořen na základě tiskové zprávy z INSTITUTIONS_NAME"
+
+msgid "Image"
+msgstr "Obrázek"
+
+msgid "Print Friendly Version"
+msgstr "Verze pro tisk"
+
+msgid "Share"
+msgstr "Sdílej"
+
+msgid "Related Space Scoops"
+msgstr "Související Space Scoop"
+
+msgid "More Space Scoops"
+msgstr "Více Space Scoop"
+
+msgid "Partners Page"
+msgstr "Stránky partnerů"
+
+msgid "Partner"
+msgstr "Partner"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Přečti si více Space Scoops] na základě tiskové zprávy od INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Zjisti více] o INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Newsletter"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Přihlaš se k odběru newsletteru a budeš dostávat všechny novinky každý měsíc!!"
+
+msgid "Write your name here..."
+msgstr "Zde napiš své jméno..."
+
+msgid "Write your e-mail here..."
+msgstr "Zde napiš svůj e-mail..."
+
+msgid "Subscribe"
+msgstr "Odebírat"
+
+msgid "Misc"
+msgstr "Různé"
+
+msgid "No articles are available."
+msgstr "Nejsou k dispozici žádné články."
+
+msgid "Sorry, no results found that match your query."
+msgstr "Je nám líto, ale žádné výsledkyodpovídající tvému dotazu nebyly nalezeny."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Tato stránka ještě není k dispozici ve tvém jazyce, pokud nám chceš překlad poskytnout, tak nás kontaktuj na CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "Témata"
+
+msgid "Atoms and Molecules"
+msgstr "Atomy a molekuly"
+
+msgid "Cosmology"
+msgstr "Kosmologie"
+
+msgid "Black Holes"
+msgstr "Černá díra"
+
+msgid "Dark Matter"
+msgstr "Temná hmota"
+
+msgid "Missions"
+msgstr "Mise"
+
+msgid "Technology"
+msgstr "Technologie"
+
+msgid "Gravity"
+msgstr "Gravitace"
+
+msgid "Solar System"
+msgstr "Sluneční soustava"
+
+msgid "Planets"
+msgstr "Planety"
+
+msgid "Comets"
+msgstr "Komety"
+
+msgid "Asteroids"
+msgstr "Planetky"
+
+msgid "Supernova Remnants"
+msgstr "Pozůstatek supernovy"
+
+msgid "Planetary Nebulae"
+msgstr "Planetární mlhoviny"
+
+msgid "Star Forming Nebulae"
+msgstr "Hvězdotvorné mlhoviny"
+
+msgid "Irregular Galaxies"
+msgstr "Nepravidelné galaxie"
+
+msgid "Elliptical Galaxies"
+msgstr "Eliptické galaxie"
+
+msgid "Spiral Galaxies"
+msgstr "Spirální galaxie"
+
+msgid "Stars"
+msgstr "Hvězda"
+
+msgid "Open clusters"
+msgstr "Otevřené hvězdokupy"
+
+msgid "Globular clusters"
+msgstr "Kulové hvězdokupy"
+
+msgid "Galaxies"
+msgstr "Galaxie"
+
+msgid "Earth"
+msgstr "Země"
+
+msgid "Glossary"
+msgstr "Slovníček"

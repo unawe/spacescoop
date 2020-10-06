@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Ana Sayfa"
+
+msgid "Stories"
+msgstr "Görüntüler"
+
+msgid "Pictures"
+msgstr "Görüntüler"
+
+msgid "Space Words"
+msgstr "Uzay Kelimeleri"
+
+msgid "Search"
+msgstr "Ara"
+
+msgid "News from Across the Universe"
+msgstr "Evrenin Her Köşesinden Haberler"
+
+msgid "Discover more awesome topics!"
+msgstr "Birkaç harika konu daha keşfet!"
+
+msgid "Still curious? Learn more..."
+msgstr "Hala merak ediyor musun? Daha fazlasını öğren..."
+
+msgid "What is Space Scoop?"
+msgstr "Uzay Gazetesi Nedir?"
+
+msgid "Discover more Astronomy"
+msgstr "Gökbilimi biraz daha keşfet"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Yeni Nesil Uzay Kaşiflerine İlham Veriyor"
+
+msgid "Space Scoop Friends"
+msgstr "Uzay Gazetesi Dostları"
+
+msgid "Contact Us"
+msgstr "İletişime Geçin"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Evrenin her köşesinden yeni haberleri dünyanın her yanından çocuklara iletiyoruz"
+
+msgid "Space Scoop Page"
+msgstr "Uzay Gazetesi Sayfası"
+
+msgid "Cool Fact"
+msgstr "İlginç Gerçekler"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Bu Uzay Gazetesi'ne kaynak oluşturan Basın Bülteni şu kuruma aittir INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Bu Uzay Gazetesi'ne kaynak oluşturan Basın Bültenleri şu kuruma aittir INSTITUTION_NAME"
+
+msgid "Image"
+msgstr "Görüntü"
+
+msgid "Print Friendly Version"
+msgstr "Yazıcı Dostu Versiyon"
+
+msgid "Share"
+msgstr "Paylaş"
+
+msgid "Related Space Scoops"
+msgstr "İlgili Uzay Gazeteleri"
+
+msgid "More Space Scoops"
+msgstr "Daha Fazla Uzay Gazetesi"
+
+msgid "Partners Page"
+msgstr "Ortaklar Sayfası"
+
+msgid "Partner"
+msgstr "Ortak"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "INSTITUTION_NAME Basın Bültenine göre hazırlanan [Daha fazla Uzay Geazetesine göz atın]"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "INSTITUTION NAME hakkında [Daha dazla bilgi] edinin."
+
+msgid "Newsletter"
+msgstr "Bülten"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Şimdi bültene üye olun ve her ay tüm yeni gelişmeleri takip edin."
+
+msgid "Write your name here..."
+msgstr "Adınızı buraya yazın..."
+
+msgid "Write your e-mail here..."
+msgstr "E-posta adresinizi yazın..."
+
+msgid "Subscribe"
+msgstr "Üye olun"
+
+msgid "Misc"
+msgstr "Çeşitlí"
+
+msgid "No articles are available."
+msgstr "Herhangi bir haber bulunamadı."
+
+msgid "Sorry, no results found that match your query."
+msgstr "Üzgünüz, isteğinize uygun arama sonucu bulunamadı."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Bu sayfa henüz bu dilde kullanıma açılmamıştır. Eger çeviri eklemek isterseniz bizimle CONTACT_ADDRESS kullanarak iletişime geçiniz."
+
+msgid "Topics"
+msgstr "Konular"
+
+msgid "Atoms and Molecules"
+msgstr "Atomlar ve Moleküller"
+
+msgid "Cosmology"
+msgstr "Evrenbilim"
+
+msgid "Black Holes"
+msgstr "Kara Delikler"
+
+msgid "Dark Matter"
+msgstr "Karanlık Madde"
+
+msgid "Missions"
+msgstr "Görevler"
+
+msgid "Technology"
+msgstr "Teknoloji"
+
+msgid "Gravity"
+msgstr "Kütleçekim"
+
+msgid "Solar System"
+msgstr "Güneş Sistemi"
+
+msgid "Planets"
+msgstr "Gezegenler"
+
+msgid "Comets"
+msgstr "Kuyrukluyıldızlar"
+
+msgid "Asteroids"
+msgstr "Asteroidler"
+
+msgid "Supernova Remnants"
+msgstr "Süpernova Kalıntıları"
+
+msgid "Planetary Nebulae"
+msgstr "Gezegenimsi Bulutsular"
+
+msgid "Star Forming Nebulae"
+msgstr "Yıldız Oluşum Bulutsuları"
+
+msgid "Irregular Galaxies"
+msgstr "Düzensiz Gökadalar"
+
+msgid "Elliptical Galaxies"
+msgstr "Eliptik Gökadalar"
+
+msgid "Spiral Galaxies"
+msgstr "Sarmal Gökadalar"
+
+msgid "Stars"
+msgstr "Yıldızlar"
+
+msgid "Open clusters"
+msgstr "Açık Kümeler"
+
+msgid "Globular clusters"
+msgstr "Küresel Kümeler"
+
+msgid "Galaxies"
+msgstr "Gökadalar"
+
+msgid "Earth"
+msgstr "Yeryüzü"
+
+msgid "Glossary"
+msgstr "Sözlük"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "Bu web sayfası Avrupa Komisyonu'nun Ufuk2020 Programına bağlı n° 638653 nolu anlaşmasınca desteklenmektedir"

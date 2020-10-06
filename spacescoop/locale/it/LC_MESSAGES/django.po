@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Pagina principale"
+
+msgid "Stories"
+msgstr "Immagini"
+
+msgid "Pictures"
+msgstr "Immagini"
+
+msgid "Space Words"
+msgstr "Parole spaziali"
+
+msgid "Search"
+msgstr "Cerca"
+
+msgid "News from Across the Universe"
+msgstr "Notizie dall'Universo"
+
+msgid "Discover more awesome topics!"
+msgstr "Scopri altri eccitanti argomenti"
+
+msgid "Still curious? Learn more..."
+msgstr "Vuoi saperne di più?"
+
+msgid "What is Space Scoop?"
+msgstr "Cos'è Space Scoop?"
+
+msgid "Discover more Astronomy"
+msgstr "Un sacco di astronomia"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Ispirare una nuova generazione di esploratori spaziali"
+
+msgid "Space Scoop Friends"
+msgstr "Amici di Space Scoop"
+
+msgid "Contact Us"
+msgstr "Contattaci"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "News dall'Universo ai bambini di tutto il Mondo"
+
+msgid "Space Scoop Page"
+msgstr "Pagina di Space Scoop"
+
+msgid "Cool Fact"
+msgstr "Curiosità"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Questo Space Scoop è basato su un Comunicato Stampa di NOME ISTITUTO"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Questo Space Scoop è basato su Comunicati Stampa di NOME ISTITUTO"
+
+msgid "Image"
+msgstr "Immagini"
+
+msgid "Print Friendly Version"
+msgstr "Versione Print Friendly"
+
+msgid "Share"
+msgstr "Condividi"
+
+msgid "Related Space Scoops"
+msgstr "Space Scoop sullo stesso argomento"
+
+msgid "More Space Scoops"
+msgstr "Più Space Scoop"
+
+msgid "Partners Page"
+msgstr "Partner"
+
+msgid "Partner"
+msgstr "Partner"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Leggi altre Space Scoop] basate sulle Press Release di NOME_ISTITUTO"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "approfondisci NOME ISTITUTO"
+
+msgid "Newsletter"
+msgstr "Newletter"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Iscriviti ora alla newsletter e riceverai, ogni mese, tutte le ultime news!"
+
+msgid "Write your name here..."
+msgstr "Scivi il tuo nome"
+
+msgid "Write your e-mail here..."
+msgstr "Scrivi qui la tua e-mail"
+
+msgid "Subscribe"
+msgstr "Iscriviti"
+
+msgid "Misc"
+msgstr "Varie"
+
+msgid "No articles are available."
+msgstr "Non è disponibile alcun articolo"
+
+msgid "Sorry, no results found that match your query."
+msgstr "Siamo spiacenti, non abbiamo trovato quello che cerchi"
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Questa pagina non è disponibile nella tua lingua, tuttavia se vuoi fornirci una traduzione ti chiediamo di contattarci al INDIRIZZO"
+
+msgid "Topics"
+msgstr "Argomenti"
+
+msgid "Atoms and Molecules"
+msgstr "Atomi e molecole"
+
+msgid "Cosmology"
+msgstr "Cosmologia"
+
+msgid "Black Holes"
+msgstr "Buchi neri"
+
+msgid "Dark Matter"
+msgstr "Materia oscura"
+
+msgid "Missions"
+msgstr "Missioni"
+
+msgid "Technology"
+msgstr "Tecnologia"
+
+msgid "Gravity"
+msgstr "Gravità"
+
+msgid "Solar System"
+msgstr "Sistema Solare"
+
+msgid "Planets"
+msgstr "Pianeti"
+
+msgid "Comets"
+msgstr "Comete"
+
+msgid "Asteroids"
+msgstr "Asteroidi"
+
+msgid "Supernova Remnants"
+msgstr "Resti di supernova"
+
+msgid "Planetary Nebulae"
+msgstr "Nebulose planetarie"
+
+msgid "Star Forming Nebulae"
+msgstr "Nubi di formazione stellare"
+
+msgid "Irregular Galaxies"
+msgstr "Galassie Irregolari"
+
+msgid "Elliptical Galaxies"
+msgstr "Galassie Ellittiche"
+
+msgid "Spiral Galaxies"
+msgstr "Galassie a spirale"
+
+msgid "Stars"
+msgstr "Stelle"
+
+msgid "Open clusters"
+msgstr "Ammassi stellari aperti"
+
+msgid "Globular clusters"
+msgstr "Ammassi globulari"
+
+msgid "Glossary"
+msgstr "Glossario"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "Questo sito web è realizzato grazie al finanziamento della Comunità Europea, con l'accordo n°  638653 del Programma Horizon 20202"

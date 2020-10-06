@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "דף הבית"
+
+msgid "Stories"
+msgstr "סיפורים"
+
+msgid "Pictures"
+msgstr "תמונות"
+
+msgid "Space Words"
+msgstr "מונחי חלל"
+
+msgid "Search"
+msgstr "חיפוש"
+
+msgid "News from Across the Universe"
+msgstr "חדשות מרחבי החלל"
+
+msgid "Discover more awesome topics!"
+msgstr "גלו נושאים מרתקים נוספים!"
+
+msgid "Still curious? Learn more..."
+msgstr "עדיין סקרנים? קיראו עוד..."
+
+msgid "What is Space Scoop?"
+msgstr "מהו סקופ חלל?"
+
+msgid "Discover more Astronomy"
+msgstr "גלו עוד אסטרונומיה"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "לעורר השראה בדור חדש של מגלי חלל"
+
+msgid "Space Scoop Friends"
+msgstr "חברים של סקופ חלל"
+
+msgid "Contact Us"
+msgstr "צרו קשר"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "מביאים חדשות מקצה היקום לילדים ברחבי העולם"
+
+msgid "Space Scoop Page"
+msgstr "עמוד סקופ חלל"
+
+msgid "Cool Fact"
+msgstr "עובדה מעניינת"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "סקופ החלל הזה מבוסס על הודעה לעיתונות של- INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "סקופ החלל הזה מבוסס על הודעה לעיתונות של- INSTITUTION_NAME"
+
+msgid "Image"
+msgstr "תמונה"
+
+msgid "Print Friendly Version"
+msgstr "גרסה להדפסה"
+
+msgid "Share"
+msgstr "שתפו"
+
+msgid "Related Space Scoops"
+msgstr "סקופים קשורים"
+
+msgid "More Space Scoops"
+msgstr "עוד סקופים  של חלל"
+
+msgid "Partners Page"
+msgstr "עמוד שותפים"
+
+msgid "Partner"
+msgstr "שותף"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[קיראו עוד סקופים של חלל] מבוסס על הודעה לעיתונות של- INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[למידע נוסף על INSTITUTION_NAME]"
+
+msgid "Newsletter"
+msgstr "ניוזלטר"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "הרשמו לניוזלטר כעת ותקבלו חדשות עדכניות בכל חודש!"
+
+msgid "Write your name here..."
+msgstr "כתבו את שמכם כאן..."
+
+msgid "Write your e-mail here..."
+msgstr "כתבו את הדוא\"ל שלכם כאן..."
+
+msgid "Subscribe"
+msgstr "הרשמה"
+
+msgid "No articles are available."
+msgstr "אין מאמרים תואמים"
+
+msgid "Sorry, no results found that match your query."
+msgstr "מצטערים, לא נמצאו תוצאות תואמות לחיפוש זה"
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "עמוד זה עדיין אינו זמין בעברית. אם ברצונך לתרגמו, אנא צור קשר דרך  CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "נושאים"
+
+msgid "Atoms and Molecules"
+msgstr "אטומים ומולקולות"
+
+msgid "Cosmology"
+msgstr "קוסמולוגיה"
+
+msgid "Black Holes"
+msgstr "חורים שחורים"
+
+msgid "Dark Matter"
+msgstr "חומר אפל"
+
+msgid "Missions"
+msgstr "משימות"
+
+msgid "Technology"
+msgstr "טכנולוגיה"
+
+msgid "Gravity"
+msgstr "כבידה"
+
+msgid "Solar System"
+msgstr "מערכת השמש"
+
+msgid "Planets"
+msgstr "כוכבי לכת"
+
+msgid "Comets"
+msgstr "כוכבי שביט"
+
+msgid "Asteroids"
+msgstr "אסטרואידים"
+
+msgid "Supernova Remnants"
+msgstr "שארית סופרנובה"
+
+msgid "Planetary Nebulae"
+msgstr "ערפילית פלנטרית"
+
+msgid "Star Forming Nebulae"
+msgstr "ערפילית יצירת כוכבים"
+
+msgid "Irregular Galaxies"
+msgstr "גלקסיות לא סדירות"
+
+msgid "Elliptical Galaxies"
+msgstr "גלקסיות אליפטיות"
+
+msgid "Spiral Galaxies"
+msgstr "גלקסיות ספירליות"
+
+msgid "Stars"
+msgstr "כוכבים"
+
+msgid "Open clusters"
+msgstr "צבירי כוכבים פתוחים"
+
+msgid "Globular clusters"
+msgstr "צבירי כוכבים כדוריים"
+
+msgid "Galaxies"
+msgstr "גלקסיות"
+
+msgid "Earth"
+msgstr "כדור הארץ"
+
+msgid "Glossary"
+msgstr "מונחון"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "האתר הופק בעזרת מימון של תוכנית Horizon 2020 של האיחוד האירופי, במסגרת מענק מס' 638653"

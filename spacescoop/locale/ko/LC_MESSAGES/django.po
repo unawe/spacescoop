@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "메인"
+
+msgid "Stories"
+msgstr "사진"
+
+msgid "Pictures"
+msgstr "사진"
+
+msgid "Space Words"
+msgstr "우주 단어"
+
+msgid "Search"
+msgstr "찾기"
+
+msgid "News from Across the Universe"
+msgstr "우주로부터의 소식"
+
+msgid "Discover more awesome topics!"
+msgstr "주제별로 찾아보기"
+
+msgid "Still curious? Learn more..."
+msgstr "좀 더 알고 싶으세요?"
+
+msgid "What is Space Scoop?"
+msgstr "Space Scoop 이란?"
+
+msgid "Discover more Astronomy"
+msgstr "천문학 알아보기"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "다음 세대의 우주 탐험가를 위하여"
+
+msgid "Space Scoop Friends"
+msgstr "Space Scoop 친구들"
+
+msgid "Contact Us"
+msgstr "연락처"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "우주로부터 전세계 친구들에게 전하는 소식"
+
+msgid "Space Scoop Page"
+msgstr "Space Scoop"
+
+msgid "Cool Fact"
+msgstr "멋진 사실"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "이 Space Scoop 은 ____ 에서 출처하였습니다."
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "이 Space Scoop 은 ____ 에서 출처하였습니다."
+
+msgid "Image"
+msgstr "그림"
+
+msgid "Print Friendly Version"
+msgstr "프린트용"
+
+msgid "Share"
+msgstr "나누기"
+
+msgid "Related Space Scoops"
+msgstr "관련된 Space Scoops"
+
+msgid "More Space Scoops"
+msgstr "더 많은 Space Scoops"
+
+msgid "Partners Page"
+msgstr "협력처"
+
+msgid "Partner"
+msgstr "협력처"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[좀 더 자세한 사항은] ____ 출처를 참고하세요."
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "____ 좀 더 알아보기"
+
+msgid "Newsletter"
+msgstr "소식지"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "소식지를 구독하시면 매월 최근 소식을 받아보실 수 있습니다."
+
+msgid "Write your name here..."
+msgstr "이름"
+
+msgid "Write your e-mail here..."
+msgstr "이메일"
+
+msgid "Subscribe"
+msgstr "구독하기"
+
+msgid "Misc"
+msgstr "기타"
+
+msgid "No articles are available."
+msgstr "내용이 없습니다."
+
+msgid "Sorry, no results found that match your query."
+msgstr "죄송합니다. 해당하는 내용이 없습니다."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "이 페이지는 한국어 번역이 아직 준비되지 않았습니다. 번역을 희망하시면 ___로 연락주시기 바랍니다."
+
+msgid "Topics"
+msgstr "주제"
+
+msgid "Atoms and Molecules"
+msgstr "원자와 분자"
+
+msgid "Cosmology"
+msgstr "우주론"
+
+msgid "Black Holes"
+msgstr "블랙홀"
+
+msgid "Dark Matter"
+msgstr "암흑 물질"
+
+msgid "Missions"
+msgstr "미션"
+
+msgid "Technology"
+msgstr "기술"
+
+msgid "Gravity"
+msgstr "중력"
+
+msgid "Solar System"
+msgstr "태양계"
+
+msgid "Planets"
+msgstr "행성"
+
+msgid "Comets"
+msgstr "혜성"
+
+msgid "Asteroids"
+msgstr "소행성"
+
+msgid "Supernova Remnants"
+msgstr "초신성 잔해"
+
+msgid "Planetary Nebulae"
+msgstr "행성상 성운"
+
+msgid "Star Forming Nebulae"
+msgstr "별생성 성운"
+
+msgid "Irregular Galaxies"
+msgstr "불규칙 은하"
+
+msgid "Elliptical Galaxies"
+msgstr "타원 은하"
+
+msgid "Spiral Galaxies"
+msgstr "나선 은하"
+
+msgid "Stars"
+msgstr "별"
+
+msgid "Open clusters"
+msgstr "산개 성단"
+
+msgid "Globular clusters"
+msgstr "구상 성단"
+
+msgid "Glossary"
+msgstr "용어집"

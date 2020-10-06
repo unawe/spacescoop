@@ -1,0 +1,269 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Prima pagină"
+
+msgid "Stories"
+msgstr "Povestiri"
+
+msgid "Pictures"
+msgstr "Imagini"
+
+msgid "Space Words"
+msgstr "Cuvinte din astronomie"
+
+msgid "Search"
+msgstr "Caută"
+
+msgid "News from Across the Universe"
+msgstr "Știri din întregul Univers!"
+
+msgid "Discover more awesome topics!"
+msgstr "Descoperă mai multe subiecte interesante!"
+
+msgid "Still curious? Learn more..."
+msgstr "Ești încă curios? Află mai multe..."
+
+msgid "What is Space Scoop?"
+msgstr "Ce este Space Scoop?"
+
+msgid "Discover more Astronomy"
+msgstr "Descoperă mai multe despre astronomie"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Inspiră o nouă generație de exploratori spațiali"
+
+msgid "Space Scoop Friends"
+msgstr "Prietenii Space Scoop"
+
+msgid "Contact Us"
+msgstr "Contactează-ne!"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Aduce știrile din Univers copiilor din lumea întreagă"
+
+msgid "Space Scoop Page"
+msgstr "Pagina Space Scoop"
+
+msgid "Cool Fact"
+msgstr "Interesant"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Acest Space Scoop este realizat pe baza unui comunicat de presă de la INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Acest Space Scoop este realizat pe baza unui comunicat de presă de la INSTITUTIONS_NAME"
+
+msgid "Image"
+msgstr "Imagine"
+
+msgid "Print Friendly Version"
+msgstr "Versiune printabilă"
+
+msgid "Share"
+msgstr "Distribuie"
+
+msgid "Related Space Scoops"
+msgstr "Articole Space Scoop  asemănatoare"
+
+msgid "More Space Scoops"
+msgstr "Mai multe articole Space Scoop"
+
+msgid "Partners Page"
+msgstr "Pagina partenerilor"
+
+msgid "Partner"
+msgstr "Partener"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Citește mai multe articole Space Scoop] realizate pe baza comunicatelor de presă de la  INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Află mai multe] despre INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Buletin informativ"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Inreginstrează-te  pentru a primi lunar cele mai recente știri!"
+
+msgid "Write your name here..."
+msgstr "Scrie numele tău aici..."
+
+msgid "Write your e-mail here..."
+msgstr "Scrie adresa ta de e-mail aici..."
+
+msgid "Subscribe"
+msgstr "Inreginstrează-te"
+
+msgid "Misc"
+msgstr "Diverse"
+
+msgid "No articles are available."
+msgstr "Nu sunt articole disponibile."
+
+msgid "Sorry, no results found that match your query."
+msgstr "Ne pare rau, nu a fost găsit nici un rezultat in urma căutării tale."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Acestă pagină nu este tradusă în acestă limbă; dacă doresti să realizezi traducerea te rugăm să ne contactezi la adresa CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "Subiecte"
+
+msgid "Atoms and Molecules"
+msgstr "Atomi și molecule"
+
+msgid "Cosmology"
+msgstr "Cosmologie"
+
+msgid "Black Holes"
+msgstr "Gaură neagră"
+
+msgid "Dark Matter"
+msgstr "Materie întunecată"
+
+msgid "Missions"
+msgstr "Misiuni spațiale"
+
+msgid "Technology"
+msgstr "Tehnologie"
+
+msgid "Gravity"
+msgstr "Gravitație"
+
+msgid "Solar System"
+msgstr "Sistem Solar"
+
+msgid "Planets"
+msgstr "Planete"
+
+msgid "Comets"
+msgstr "Comete"
+
+msgid "Asteroids"
+msgstr "Asteroizi"
+
+msgid "Supernova Remnants"
+msgstr "Rest de supernovă"
+
+msgid "Planetary Nebulae"
+msgstr "Nebuloasă planetară"
+
+msgid "Star Forming Nebulae"
+msgstr "Nebuloasă în care se nasc stele"
+
+msgid "Irregular Galaxies"
+msgstr "Galaxie neregulată"
+
+msgid "Elliptical Galaxies"
+msgstr "Galaxie eliptică"
+
+msgid "Spiral Galaxies"
+msgstr "Galaxie de tip spirală"
+
+msgid "Stars"
+msgstr "Stea"
+
+msgid "Open clusters"
+msgstr "Roi deschis"
+
+msgid "Globular clusters"
+msgstr "Roi globular"
+
+msgid "Galaxies"
+msgstr "Galaxii"
+
+msgid "Earth"
+msgstr "Pământ"
+
+msgid "Glossary"
+msgstr "Glosar"
+
+msgid "Asteroid: Asteroids are chunks of rock and metal left over from when our Solar System formed. Most can be found between Mars and Jupiter, a region of space we call the Asteroid Belt."
+msgstr "Asteroid: Asteroizii sunt bucăți de rocă și metal care au rămas în urma formării Sistemului Solar. Marea lor majoritate pot fi găsiți între planetele Marte și Jupiter, în regiunea din spațiu ce poartă numele de Centrura de Asteroizi."
+
+msgid "Asteroid Belt: The asteroid belt is a region of our Solar System between Mars and Jupiter. It is heavily populated by asteroids and dwarf planets."
+msgstr "Centura de Asteroizi: Centrura de asteroizi reprezintă o regiune din sistemul nostru solar situată între planetele Marte și Jupiter. Acesta este puternic populată de asteroizi și planete pitice."
+
+msgid "Astronomical Unit: An astronomical unit is the average distance between the centre of the Earth and the centre of the Sun (about 150 million kilometres)."
+msgstr "Unitate astronomică: o unitate astronomiă reprezintă distanța medie dintre centrul Pământului și centrul Soarelui (aproximativ 150 milioane de kilometri)."
+
+msgid "Atmosphere: An atmosphere is a layer of gases surrounding a planet or a moon. Earth’s atmosphere contains the oxygen we breathe."
+msgstr "Atmosferă: Atmosfera reprezintă stratul de gaze care înconjoară o planetă sau o lună. Atmosfera Pământului conține oxigenul de care avem nevoie pentru a respira."
+
+msgid "Atoms: Atoms are the building blocks of the Universe. All matter is made of these tiny particles. Your body contains billions and billions of atoms!"
+msgstr "Atomi: Atomii sunt blocurile constructive ale Universului. Toată materia este formată din aceste particule minuscule. Corpul tău conține miliarde și miliarde de atomi!"
+
+msgid "Big Bang: Around 14 billion years ago the entire Universe was inside a bubble thousands of times smaller than a pinhead. Then it exploded and the Universe was born."
+msgstr "Big Bang: În urmă cu 14 miliarde de ani în urmă Universul se afla în interiorul unei bule de sute de ori mai mică decât gamălia unui ac. Apoi a urmat o explozie si astfel s-a format Universul."
+
+msgid "Billion: A billion is a thousand million (1000, 000, 000)."
+msgstr "Miliard: Un miliard este egal cu o mie de milioane (1000, 000, 000)."
+
+msgid "Binary System: Four out of every five points of light we see in the night sky are not one star, but two or more orbiting around each other. We call a system of two stars a binary system."
+msgstr "Sistem Binar: Patru din cinci stele pe care le vedem pe cer nu sunt o singura stea, ci două sau mai multe care orbitează una pe cealaltă. Un sistem binar este format din două stele."
+
+msgid "Black Dwarf: A black dwarf is the very last phase in the lifecycle of a star like our Sun. When the star has cooled down so much that it no longer shines at all it becomes a black dwarf."
+msgstr "Pitică neagră: O pitică neagră reprezintă ultima fază din ciclul vieții unei stele asemănătoare Soarelui nostru. Atunci când steaua se răcește suficient de mult și nu mai are forță să strălucească ea devine o pitică neagră."
+
+msgid "Black Hole: Black holes form when a massive star dies and is squashed down into an incredibly tiny space. Black holes' very strong gravity can even swallow-up light if it gets too close."
+msgstr "Gaură neagră: O gaură neagră se formează atunci când o stea masivă moare și este sfărâmată până ajunge la dimensiuni incredibil de mici. Forța de gravitație foarte puternică a găurilor negre poate înghiți chiar și lumina dacă se apropie prea mult."
+
+msgid "Brown Dwarf Brown dwarfs are called “failed stars” by some astronomers. Unlike stars, they never become hot enough to start giving off energy in a process called ‘nuclear fusion’."
+msgstr "Pitica maro: Stelele de acest tip mai sunt numite de astronomi și stele eșuate. Spre deosebire de celelalte stele, ele nu ajung niciodată la o temperatură suficient de mare pentru a ajunge la fuziune nucleară."
+
+msgid "Comet: Comets are made of ice, dust and rock, so they are sometimes called “dirty snowballs”. They come from the outer regions of the Solar System and travel around the Sun, like planets."
+msgstr "Cometă: Cometele sunt formate din gheață, praf și rocă, motiv pentru care mai poartă numele și de \"bulgări de zăpadă murdari\". Ele provin din regiunea exterioară a Sistemului Solar și călătoresc în jurul Soarelui, asemănător planetelor."
+
+msgid "Corona: The corona is an envelope of blisteringly hot gas surrounding the Sun."
+msgstr "Coroana: Coroana este învelișul de gaz fierbinte incandescent care înconjoară Soarele."
+
+msgid "Cosmic Dust: Cosmic dust is made up of tiny solid particles in space, sometimes called stardust. You could fit dozens of these particles onto a pinhead."
+msgstr "Praf cosmic: Praful cosmic este format din particule mici, solide în spațiu. Poți băga sute de astfel de particule în gămălia unui ac."
+
+msgid "Earth: Earth is our beautiful home planet; the only place in the Universe where life exists (that we know of)!"
+msgstr "Pământul: Pământul este planeta noastră, singura planetă din univers unde există viață (de care să știm)!"
+
+msgid "Exo-planet: An extrasolar planet (exo-planet for short) is a planet that orbits a star beyond our Solar System."
+msgstr "Exo-planetă: O planetă extrasolară (pe scurt exo-planetă) este o planetă ce orbitează o stea din afara Sistemului Solar."
+
+msgid "Force: A force is a push or pull on an object. Examples of forces are friction and gravity."
+msgstr "Forță: O forță reprezintă efectul de tragere sau împingere asupra unui obiect. Exemple sunt forța de frecare și gravitația."
+
+msgid "Supernova Remnant: A supernova remnant is a cloud of cosmic gas and dust created by the violent explosion of a massive star. The supernova remnant is what remains of the unfortunate star."
+msgstr "Rămășită de supernova: O rămășiță de supernovă este un nor cosmic format din gaz și praf rezultat în urma exploziei violente a unei stele masive. Rămășița de supernovă este ceea ce rămâne din steua nefericită."
+
+msgid "Telescope: A Telescope is an instrument used to see objects that are very far away. Telescopes are often used to look at distant planets, stars and galaxies."
+msgstr "Telescop: Un telescop este un instrument folosit pentru a vedea obictele situate la distanțe foarte mari. Cel mai adesea telescoapele sunt folosite pentru a ne uita la planetele îndepărtate, stele și galaxii."
+
+msgid "Terrestrial Planets: Mercury, Venus, Earth and Mars are called the terrestrial planets (pronounced \"Ter-EST-ree-al\"). All four of these planets are similar to Earth in size and are made of rock."
+msgstr "Planete telurice: Mercur, Venus, Pământul și Marte mai poartă numele și de planete telurile. Toate aceste planete sunt asemănătoare Pământului în ceea ce privește mărimea și compoziția."
+
+msgid "Ultraviolet: Ultraviolet (often shortened to UV) is an invisible type of light. UV waves have high energy. UV rays from the Sun are capable of damaging cells in our skin and causing sunburn."
+msgstr "Ultraviolet: Razele ultraviolet (adesea prescurtate UV) reprezintă un tip de lumină invizibilă. Undele UV au energie mare. Razele UV provenite de la Soare pot distruge celulele din pielea noastră provocând arsuri."
+
+msgid "Universe: The Universe is everything that exists, all planets, stars, galaxies and every other object on Earth and in space."
+msgstr "Univers: Universul reprezintă tot ceea ce există, toate planetele, stelele, galaxiile și toate celelalte obiecte de pe Pământ și din spațiu."
+
+msgid "Uranus: Uranus is a cold blue, gas planet that lies far from the Sun. Unlike all the other planets, Uranus lies on its side, with its South Pole facing the Sun."
+msgstr "Uranus: Uranus este o planetă gazoasă, albastră care se află situată la mare distanță de Soare. Spre deosebire de restul planetelor, Uranus se rotește în alt plan având polul sud spre Soare."
+
+msgid "Venus: Venus is the second planet from the Sun and the hottest planet in the Solar System. Venus is Earth’s twin in size, but unlike Earth it’s covered in ancient volcanoes!"
+msgstr "Venus: Venus este a treia planetă de la Soare și una dintre cele mai fierbinți din Sistemul Solar. Venus este sora geamănă ca mărime a Pământului, dar spre deosebire de Pământ este acoperită de vulcani preistorici."
+
+msgid "Visible: Light Visible light is the only type of light that our eyes can detect. Visible light contains all the colours of the rainbow."
+msgstr "Vizibilă: Lumina vizibilă reprezintă singura sursă de lumină care poate fi detectată de ochii noștri. Lumina vizibilă conține toate culorile curcubeului."
+
+msgid "White Dwarf: When a Sun-like star has burned up all its fuel, it begins to collapse inwards. The material in the star's core ends up squashed tightly down into a tiny ball called a white dwarf."
+msgstr "Pitica albă: Atunci când o stea asemănătoare soarelui nostru rămâne fără combustibil începe să se prăbușească în ea însăși. În cele din urmă materia din interiorul stelei ajunge să fie comprimată într-o sferă foarte mică și densă care poartă numele de pitică albă."
+
+msgid "X-ray: X-rays are a type of invisible light. X-rays can travel through soft tissue like skin and muscle, so they can be used to take pictures of broken bones."
+msgstr "Razele X: Razele X reprezintă un tip de lumină. Razele X pot călători prin țesuturile moi cum ar fi pielea sau mușchii, prin urmare ele pot fi folosite pentru a fotografia oasele rupte."
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "Acest website a fost realizat pe faza unei finanțări în cadrul programului Comunității Europene -  Horizon 2020, grant  n° 638653."

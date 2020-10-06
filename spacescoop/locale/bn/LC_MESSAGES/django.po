@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "প্রধান পাতা"
+
+msgid "Stories"
+msgstr "চিত্র"
+
+msgid "Pictures"
+msgstr "চিত্র"
+
+msgid "Space Words"
+msgstr "স্পেস শব্দ"
+
+msgid "Search"
+msgstr "অনুসন্ধান"
+
+msgid "News from Across the Universe"
+msgstr "মহাবিশ্ব জুড়ে থাকা  খবর"
+
+msgid "Discover more awesome topics!"
+msgstr "আবিষ্কার করো আরো বিস্ময়জনক বিষয়"
+
+msgid "Still curious? Learn more..."
+msgstr "এখনো কৌতুহলী? আরো পড়ো .."
+
+msgid "What is Space Scoop?"
+msgstr "স্পেস স্কুপ  কি?"
+
+msgid "Discover more Astronomy"
+msgstr "আরো জ্যোতির্বিদ্যা আবিষ্কার করো"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "নতুন প্রজন্মের মহাকাশ অনুসন্ধানকারীদের  অনুপ্রাণিত করা"
+
+msgid "Space Scoop Friends"
+msgstr "স্পেস স্কুপ বন্ধু"
+
+msgid "Contact Us"
+msgstr "আমাদের সাথে যোগাযোগ করুন"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "মহাবিশ্ব জুড়ে থাকা খবর সংগ্রহ করে আনছি  সারা বিশ্বর শিশুদের জন্য"
+
+msgid "Space Scoop Page"
+msgstr "স্পেস স্কুপ পৃষ্ঠা"
+
+msgid "Cool Fact"
+msgstr "কৌতূহলী তথ্য"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "এই স্পেস  স্কুপটি  একটি  INSTITUTION NAME 'র  প্রেস রিলিজ ভিত্তি করে"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "এই স্পেস স্কুপটি একটি  INSTITUTION NAME 'র প্রেস রিলিজ ভিত্তি করে"
+
+msgid "Image"
+msgstr "ছবি"
+
+msgid "Print Friendly Version"
+msgstr "বন্ধুত্বপূর্ণ সংস্করণ প্রিন্ট"
+
+msgid "Share"
+msgstr "প্রদান করা"
+
+msgid "Related Space Scoops"
+msgstr "স্পেস স্কুপ সম্পর্কিত"
+
+msgid "More Space Scoops"
+msgstr "আরও স্পেস স্কুপ সম্পর্কে"
+
+msgid "Partners Page"
+msgstr "অংশীদারদের পৃষ্ঠা"
+
+msgid "Partner"
+msgstr "অংশীদার"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "(স্পেস স্কুপ সম্পর্কিত)একটি  INSTITUTION NAME 'র প্রেস রিলিজ ভিত্তিতে"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "INSTITUTION NAME সম্পর্কে আরো পড়ো .."
+
+msgid "Newsletter"
+msgstr "সংবাদবাহী পত্র"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "নিউজলেটার জন্য এখন সদস্যতা নিন  এবং প্রতি মাসে সব সর্বশেষ খবর পাবেন !!"
+
+msgid "Write your name here..."
+msgstr "আপনার নাম লিখুন"
+
+msgid "Write your e-mail here..."
+msgstr "আপনার e-mail লিখুন"
+
+msgid "Subscribe"
+msgstr "সদস্যতা নিন"
+
+msgid "Misc"
+msgstr "বিবিধ"
+
+msgid "No articles are available."
+msgstr "কোন বিষয়বস্তু পাওয়া যায়নি"
+
+msgid "Sorry, no results found that match your query."
+msgstr "দুঃখিত , যে আপনার সন্ধানের বিষয়ের সাথে মিল পাওয়া যায়নি."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "এ পৃষ্ঠাটি  , এখনো আপনার ভাষায় পাওয়া যায়নি যদি আপনি একটি অনুবাদ প্রদান করতে চাই CONTACT_ADDRESS এ আমাদের সাথে যোগাযোগ করুন"
+
+msgid "Topics"
+msgstr "বিষয়"
+
+msgid "Atoms and Molecules"
+msgstr "পরমাণু ও অণুর"
+
+msgid "Cosmology"
+msgstr "সৃষ্টিতত্ব / মহাবিশ্বতত্ত্ব"
+
+msgid "Black Holes"
+msgstr "কালো গহ্বর"
+
+msgid "Dark Matter"
+msgstr "অন্ধকার বিষয়গুলো"
+
+msgid "Missions"
+msgstr "মিশন / উদ্দেশ্য"
+
+msgid "Technology"
+msgstr "প্রযুক্তি"
+
+msgid "Gravity"
+msgstr "মাধ্যাকর্ষণ"
+
+msgid "Solar System"
+msgstr "সৌর জগৎ/ সৌরমণ্ডল"
+
+msgid "Planets"
+msgstr "গ্রহ"
+
+msgid "Comets"
+msgstr "ধূমকেতুর"
+
+msgid "Asteroids"
+msgstr "গ্রহাণু"
+
+msgid "Supernova Remnants"
+msgstr "সুপারনোভা অবশিষ্টাংশ"
+
+msgid "Planetary Nebulae"
+msgstr "প্ল্যানেটারি নীহারিকা/ গ্রহগত"
+
+msgid "Star Forming Nebulae"
+msgstr "নক্ষত্র দ্বারা নির্মিত নীহারিকা"
+
+msgid "Irregular Galaxies"
+msgstr "অনিয়মিত ছায়াপথ"
+
+msgid "Elliptical Galaxies"
+msgstr "উপবৃত্তাকার ছায়াপথ"
+
+msgid "Spiral Galaxies"
+msgstr "সর্পিল ছায়াপথ"
+
+msgid "Stars"
+msgstr "নক্ষত্র"
+
+msgid "Open clusters"
+msgstr "খোলা  ক্লাস্টার"
+
+msgid "Globular clusters"
+msgstr "বিশ্বব্যাপী ক্লাস্টার"
+
+msgid "Glossary"
+msgstr "শব্দকোষ"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "এই ওয়েবসাইট অনুদান চুক্তির অধীনে ইউরোপিয়ান কমিউনিটি এর হরাইজন 2020 কর্মসূচি থেকে অর্থায়ন দ্বারা উত্পাদিত হয় N ° 638653"

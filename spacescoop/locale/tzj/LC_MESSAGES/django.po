@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Ruk'ux ja ruxaaq"
+
+msgid "Stories"
+msgstr "Achib'al"
+
+msgid "Pictures"
+msgstr "Achib'al"
+
+msgid "Space Words"
+msgstr "Tzijoneem rixiin ja kaaj"
+
+msgid "Search"
+msgstr "Konob'al"
+
+msgid "News from Across the Universe"
+msgstr "Rub'i'xiik ja kaaj"
+
+msgid "Discover more awesome topics!"
+msgstr "Nawojtaqiij jule naqun chik"
+
+msgid "Still curious? Learn more..."
+msgstr "Nawajb'eej nawojtaqiij jule naqun chik"
+
+msgid "What is Space Scoop?"
+msgstr "Naq k'ari' ja Space Coop"
+
+msgid "Discover more Astronomy"
+msgstr "Tawajtaqiij k'iy chirij ja ch'umiil"
+
+msgid "Space Scoop Friends"
+msgstr "Ruch'alaal Space Coppe"
+
+msgid "Contact Us"
+msgstr "Qo a kanooj"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Konob'al ki samaaj kixiin ak'alaa' rixiin roch'uleew"
+
+msgid "Space Scoop Page"
+msgstr "Ruxaaq ja Apace Scoope"
+
+msgid "Cool Fact"
+msgstr "Awataltziij"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Jawa' ja Space Scoope too'on rumal jun mokaaj"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Jawa' ja Space Scoope too'on rumal jun mokaaj"
+
+msgid "Image"
+msgstr "Achib'al"
+
+msgid "Print Friendly Version"
+msgstr "Wasab'al achib'al"
+
+msgid "Share"
+msgstr "Yab'al rub'i'xiik"
+
+msgid "Related Space Scoops"
+msgstr "Ru kemeb'a'l rii' ja Space Scoop"
+
+msgid "More Space Scoops"
+msgstr "Nik'aj chik Space Scope"
+
+msgid "Partners Page"
+msgstr "Ruxaaq kixiin ja ne too'oni'"
+
+msgid "Partner"
+msgstr "Eto'onelaa'"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "(Julee rusik'ib'al chik ja Space Scoope) Jakitoqoonto' ja jule' mokaj chik"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "(Ta wojtaqij) k'iy chirij jawa' jun mokaaj ri'"
+
+msgid "Newsletter"
+msgstr "No'jwuuj"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Ta tzijb'aj ab'ii' chi apaan ja no'jwuuj cha utz' ni tajq chabe ja samaaj ik' ik'"
+
+msgid "Write your name here..."
+msgstr "Ta tzijb'aj ab'ii' wawe' ri'"
+
+msgid "Subscribe"
+msgstr "Ta tz'ijb'aj ab'ii'"
+
+msgid "Misc"
+msgstr "Jule' taq naquun chik"
+
+msgid "No articles are available."
+msgstr "Mak'ota samaaj wawe' ri'"
+
+msgid "Sorry, no results found that match your query."
+msgstr "Q'as ta kuyu' qamajk mak'ota' qiloon"
+
+msgid "Topics"
+msgstr "Taq ch'ob'ooj"

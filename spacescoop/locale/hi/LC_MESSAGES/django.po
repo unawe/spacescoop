@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "मुख्य पृष्ठ"
+
+msgid "Stories"
+msgstr "चित्र"
+
+msgid "Pictures"
+msgstr "चित्र"
+
+msgid "Space Words"
+msgstr "अंतरिक्ष शब्द"
+
+msgid "Search"
+msgstr "खोज"
+
+msgid "News from Across the Universe"
+msgstr "विश्व भर से समाचार"
+
+msgid "Discover more awesome topics!"
+msgstr "और अधिक दिलचस्प विषयों की खोज"
+
+msgid "Still curious? Learn more..."
+msgstr "अब भी उत्सुक ? और अधिक जानें..."
+
+msgid "What is Space Scoop?"
+msgstr "अंतरिक्ष स्कूप क्या है?"
+
+msgid "Discover more Astronomy"
+msgstr "अधिक खगोल विज्ञान की खोज"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "अंतरिक्ष खोजकर्ता की एक नई पीढ़ी को प्रेरित कर"
+
+msgid "Space Scoop Friends"
+msgstr "अंतरिक्ष स्कूप मित्र"
+
+msgid "Contact Us"
+msgstr "हमसे संपर्क करें"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "विश्व भर से दुनिया भर के बच्चों के लिये खबर लाना"
+
+msgid "Space Scoop Page"
+msgstr "अंतरिक्ष स्कूप मित्र"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "यह अंतरिक्ष स्कूप एक INSTITUTION NAME से  प्रेस विज्ञप्ति पर आधारित है"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "यह अंतरिक्ष स्कूप प्रेस पर आधारित है INSTITUTIONS_NAME से विज्ञप्ति"
+
+msgid "Image"
+msgstr "छवि"
+
+msgid "Print Friendly Version"
+msgstr "अनुकूल संस्करण प्रिंट"
+
+msgid "Share"
+msgstr "शेयर"
+
+msgid "Related Space Scoops"
+msgstr "अंतरिक्ष स्कूप संबंधित"
+
+msgid "More Space Scoops"
+msgstr "अंतरिक्ष स्कूप के बारे में अधिक"
+
+msgid "Partners Page"
+msgstr "भागीदारों के पृष्ठ"
+
+msgid "Partner"
+msgstr "भागीदारों"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[और पढ़ें अंतरिक्ष  स्कूप] INSTITUTION_NAME प्रेस विज्ञप्ति पर आधारित"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "INSTITUTION_NAME के बारे में [अधिक जानें ]"
+
+msgid "Newsletter"
+msgstr "न्यूजलेटर / संवादपत्र"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "समाचार पत्र के लिए अब सदस्यता लें और हर महीने सभी नवीनतम समाचार प्राप्त !!"
+
+msgid "Write your name here..."
+msgstr "आपका नाम यहाँ लिखें ..."
+
+msgid "Write your e-mail here..."
+msgstr "अपने ई-मेल यहां लिखें ..."
+
+msgid "Subscribe"
+msgstr "सदस्यता के"
+
+msgid "Misc"
+msgstr "विविध"
+
+msgid "No articles are available."
+msgstr "कोई लेख उपलब्ध हैं।"
+
+msgid "Sorry, no results found that match your query."
+msgstr "क्षमा करें, आपकी क्वेरी से मेल कोई परिणाम नहीं मिला ।"
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "यह पृष्ठ , फिर भी आपकी भाषा में उपलब्ध नहीं है , तो आप एक अनुवाद प्रदान करना चाहते हैं CONTACT_ADDRESS पर संपर्क करें"
+
+msgid "Topics"
+msgstr "विषय"
+
+msgid "Atoms and Molecules"
+msgstr "अणुओं और परमाणुओं"
+
+msgid "Cosmology"
+msgstr "ब्रह्माण्ड विज्ञान"
+
+msgid "Black Holes"
+msgstr "ब्लैक होल्स"
+
+msgid "Dark Matter"
+msgstr "अंधेरे मामलों"
+
+msgid "Missions"
+msgstr "मिशन"
+
+msgid "Technology"
+msgstr "प्रौद्योगिकी"
+
+msgid "Gravity"
+msgstr "गंभीरता / आकर्षण-शक्ति"
+
+msgid "Solar System"
+msgstr "सौर मंडल"
+
+msgid "Planets"
+msgstr "ग्रहों"
+
+msgid "Comets"
+msgstr "धूमकेतु"
+
+msgid "Asteroids"
+msgstr "क्षुद्रग्रहों"
+
+msgid "Supernova Remnants"
+msgstr "सुपरनोवा अवशेष"
+
+msgid "Planetary Nebulae"
+msgstr "ग्रहों की नीहारिकाओं"
+
+msgid "Star Forming Nebulae"
+msgstr "स्टार गठन नेबुला"
+
+msgid "Irregular Galaxies"
+msgstr "अनियमित आकाशगंगाओं"
+
+msgid "Elliptical Galaxies"
+msgstr "अण्डाकार आकाशगंगाओं"
+
+msgid "Spiral Galaxies"
+msgstr "सर्पिल आकाशगंगाओं"
+
+msgid "Stars"
+msgstr "सितारों"
+
+msgid "Open clusters"
+msgstr "खुला क्लस्टर"
+
+msgid "Globular clusters"
+msgstr "गोलाकार क्लस्टर"
+
+msgid "Glossary"
+msgstr "शब्दकोष"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "इस वेबसाइट अनुदान समझौते के तहत यूरोपीय समुदाय के क्षितिज 2020 कार्यक्रम से धन के द्वारा तैयार की गई थी n ° 638,653"

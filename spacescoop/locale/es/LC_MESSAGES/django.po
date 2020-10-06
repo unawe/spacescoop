@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Página principal"
+
+msgid "Stories"
+msgstr "Imágenes"
+
+msgid "Pictures"
+msgstr "Imágenes"
+
+msgid "Space Words"
+msgstr "Palabras del espacio"
+
+msgid "Search"
+msgstr "Búsqueda"
+
+msgid "News from Across the Universe"
+msgstr "Noticias del Universo"
+
+msgid "Discover more awesome topics!"
+msgstr "¡Descubre más temas asombrosos!"
+
+msgid "Still curious? Learn more..."
+msgstr "¿Todavía con curiosidad? Aprende más..."
+
+msgid "What is Space Scoop?"
+msgstr "¿Qué es Space Scoop?"
+
+msgid "Discover more Astronomy"
+msgstr "Descubre más Astronomía"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Inspirando a una nueva generación de Exploradores Espaciales"
+
+msgid "Space Scoop Friends"
+msgstr "Amigos de Space Scoop"
+
+msgid "Contact Us"
+msgstr "Contáctanos"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Contando noticias del Universo a niños de todo el mundo"
+
+msgid "Space Scoop Page"
+msgstr "Página de Space Scoop"
+
+msgid "Cool Fact"
+msgstr "Dato curioso"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Este Space Scoop está basado en un comunicado de prensa de INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Este Space Scoop está basado en comunicados de prensa de INSTITUTIONS_NAME"
+
+msgid "Image"
+msgstr "Imagen"
+
+msgid "Print Friendly Version"
+msgstr "Versión para imprimir"
+
+msgid "Share"
+msgstr "Comparte"
+
+msgid "Related Space Scoops"
+msgstr "Space Scoop relacionados"
+
+msgid "More Space Scoops"
+msgstr "Más Space Scoops"
+
+msgid "Partners Page"
+msgstr "Página de colaboradores"
+
+msgid "Partner"
+msgstr "Colaborador"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Lee más Space Scoops] basados en comunicados de prensa de INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Aprende más] acerca de INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Revista electrónica"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "¡¡Suscríbete ahora a la revista electrónica y recibe todas las noticias más recientes cada mes!!"
+
+msgid "Write your name here..."
+msgstr "Escribe tu nombre aquí..."
+
+msgid "Write your e-mail here..."
+msgstr "Escribe tu e-mail aquí..."
+
+msgid "Subscribe"
+msgstr "Suscribir"
+
+msgid "Misc"
+msgstr "Varios"
+
+msgid "No articles are available."
+msgstr "No existen artículos disponibles"
+
+msgid "Sorry, no results found that match your query."
+msgstr "Lo sentimos, no hemos encontrado ningún resultado de la búsqueda"
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Esta página aún no está disponible en tu idioma. Si deseas colaborar con nosotros en la traducción, por favor contáctanos en CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "Temas"
+
+msgid "Atoms and Molecules"
+msgstr "Átomos y moléculas"
+
+msgid "Cosmology"
+msgstr "Cosmología"
+
+msgid "Black Holes"
+msgstr "Agujero negro"
+
+msgid "Dark Matter"
+msgstr "Materia oscura"
+
+msgid "Missions"
+msgstr "Misiones"
+
+msgid "Technology"
+msgstr "Tecnología"
+
+msgid "Gravity"
+msgstr "Gravedad"
+
+msgid "Solar System"
+msgstr "Sistema Solar"
+
+msgid "Planets"
+msgstr "Planetas"
+
+msgid "Comets"
+msgstr "Cometas"
+
+msgid "Asteroids"
+msgstr "Asteroides"
+
+msgid "Supernova Remnants"
+msgstr "Resto de supernova"
+
+msgid "Planetary Nebulae"
+msgstr "Nebulosas planetarias"
+
+msgid "Star Forming Nebulae"
+msgstr "Nebulosas de formación estelar"
+
+msgid "Irregular Galaxies"
+msgstr "Galaxia irregular"
+
+msgid "Elliptical Galaxies"
+msgstr "Galaxia elíptica"
+
+msgid "Spiral Galaxies"
+msgstr "Galaxia espiral"
+
+msgid "Stars"
+msgstr "Estrella"
+
+msgid "Open clusters"
+msgstr "Cúmulos abiertos"
+
+msgid "Globular clusters"
+msgstr "Cúmulos globulares"
+
+msgid "Glossary"
+msgstr "Glosario"
+
+msgid "Dark Energy: Astronomers know how much dark energy there is (roughly 68% of the Universe) because they know how it affects the Universe. Other than that, it is a complete mystery."
+msgstr "Energía oscura: Los astrónomos saben cuánta energía oscura hay (aproximadamente el 68% del Universo) porque saben cómo afecta al Universo. Aparte de eso, es un completo misterio."
+
+msgid "Dark Matter: Dark matter is a mysterious material that got its name because it doesn’t give off any light. There is 5 times as much Dark Matter in the Universe as there is normal matter."
+msgstr "Materia oscura: La materia oscura es un misterioso material que recibió este nombre porque no emite luz. Hay 5 veces más materia oscura en el Universo que materia normal."

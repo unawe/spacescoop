@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Glavna stran"
+
+msgid "Stories"
+msgstr "Slike"
+
+msgid "Pictures"
+msgstr "Slike"
+
+msgid "Space Words"
+msgstr "Vesoljske besede"
+
+msgid "Search"
+msgstr "Iskanje"
+
+msgid "News from Across the Universe"
+msgstr "Novice iz širnega vesolja"
+
+msgid "Discover more awesome topics!"
+msgstr "Odkrij še več čudovitih tem!"
+
+msgid "Still curious? Learn more..."
+msgstr "Še radoveden/-a? Preberi več..."
+
+msgid "What is Space Scoop?"
+msgstr "Kaj so Space Scoop novice?"
+
+msgid "Discover more Astronomy"
+msgstr "Odkrij več astronomije"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Navdih za novo generacijo raziskovalcev vesolja"
+
+msgid "Space Scoop Friends"
+msgstr "Prijatelji Space Scoop"
+
+msgid "Contact Us"
+msgstr "Kontakt"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Prinašamo novice iz širnega vesolja otrokom širom sveta"
+
+msgid "Space Scoop Page"
+msgstr "Stran Space Scoop"
+
+msgid "Cool Fact"
+msgstr "Kul dejstvo"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "To je Space Scoop verzija novice INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "To je Space Scoop verzija novice INSTITUTIONS_NAME"
+
+msgid "Image"
+msgstr "Slika"
+
+msgid "Print Friendly Version"
+msgstr "Verzija za tiskanje"
+
+msgid "Share"
+msgstr "Deli z drugimi"
+
+msgid "Related Space Scoops"
+msgstr "Povezane Space Scoop novice"
+
+msgid "More Space Scoops"
+msgstr "Več Space Scoop novic"
+
+msgid "Partners Page"
+msgstr "Strani partnerjev"
+
+msgid "Partner"
+msgstr "Partner"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Preberi več Space Scoop novic], ki temeljijo na novicah INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Preberi več] o INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Bilten"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Naroči se na bilten in vsak mesec prejmi sveže novice!!"
+
+msgid "Write your name here..."
+msgstr "Vpiši svoje ime..."
+
+msgid "Write your e-mail here..."
+msgstr "Vpiši svoj e-naslov..."
+
+msgid "Subscribe"
+msgstr "Naroči se"
+
+msgid "Misc"
+msgstr "Razno"
+
+msgid "No articles are available."
+msgstr "Noben prispevek ni na razpolago."
+
+msgid "Sorry, no results found that match your query."
+msgstr "Oprostite, noben rezultat ne ustreza vašemu iskanju."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Ta stran še ni na razpolago v vašem jeziku. Če nam želite poslati prevod, nam pišite na CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "Teme"
+
+msgid "Atoms and Molecules"
+msgstr "Atomi in molekule"
+
+msgid "Cosmology"
+msgstr "Kozmologija"
+
+msgid "Black Holes"
+msgstr "Črna luknja"
+
+msgid "Dark Matter"
+msgstr "Temna snov"
+
+msgid "Missions"
+msgstr "Misije"
+
+msgid "Technology"
+msgstr "Tehnologija"
+
+msgid "Gravity"
+msgstr "Gravitacija"
+
+msgid "Solar System"
+msgstr "Osončje"
+
+msgid "Planets"
+msgstr "Planeti"
+
+msgid "Comets"
+msgstr "Kometi"
+
+msgid "Asteroids"
+msgstr "Asteroidi"
+
+msgid "Supernova Remnants"
+msgstr "Ostanek supernove"
+
+msgid "Planetary Nebulae"
+msgstr "Planetarne meglice"
+
+msgid "Star Forming Nebulae"
+msgstr "Meglice nastajajočih zvezd"
+
+msgid "Irregular Galaxies"
+msgstr "Nepravilna galaksija"
+
+msgid "Elliptical Galaxies"
+msgstr "Eliptična galaksija"
+
+msgid "Spiral Galaxies"
+msgstr "Spiralna galaksija"
+
+msgid "Stars"
+msgstr "Zvezda"
+
+msgid "Open clusters"
+msgstr "Razsute kopice"
+
+msgid "Globular clusters"
+msgstr "Kroglaste kopice"
+
+msgid "Glossary"
+msgstr "Slovar"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "To spletno stran financira program Obzorje 2020 Evropske komisije po pogodbi n° 638653"

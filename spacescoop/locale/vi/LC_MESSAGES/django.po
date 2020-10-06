@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Trang chủ"
+
+msgid "Stories"
+msgstr "Hình ảnh"
+
+msgid "Pictures"
+msgstr "Hình ảnh"
+
+msgid "Search"
+msgstr "Tìm kiếm"
+
+msgid "News from Across the Universe"
+msgstr "Tin tức toàn vũ trụ"
+
+msgid "Discover more awesome topics!"
+msgstr "Khám phá thêm những chủ đề ấn tượng"
+
+msgid "Still curious? Learn more..."
+msgstr "Bạn còn tò mò không? Hãy tìm hiểu..."
+
+msgid "What is Space Scoop?"
+msgstr "Space Scoop là gì?"
+
+msgid "Discover more Astronomy"
+msgstr "Khám phá thêm về thiên văn học"
+
+msgid "Space Scoop Friends"
+msgstr "Những người bạn Space Scoop"
+
+msgid "Contact Us"
+msgstr "Liên hệ"
+
+msgid "Topics"
+msgstr "Chủ đề"
+
+msgid "Glossary"
+msgstr "Từ vựng"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "Trang thông tin này được thực hiện với thỏa thuận tài trợ số 638653 của Chương trình Chân trời 2020 của Cộng đồng Châu Âu."

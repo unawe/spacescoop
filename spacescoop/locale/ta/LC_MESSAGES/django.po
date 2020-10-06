@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "முதற்பக்கம்"
+
+msgid "Stories"
+msgstr "படங்கள்"
+
+msgid "Pictures"
+msgstr "படங்கள்"
+
+msgid "Space Words"
+msgstr "விண்வெளிச் சொற்கள்"
+
+msgid "Search"
+msgstr "தேடல்"
+
+msgid "News from Across the Universe"
+msgstr "பிரபஞ்சச் செய்திகள்"
+
+msgid "Discover more awesome topics!"
+msgstr "புதிய தலைப்புக்களை அறிய!"
+
+msgid "Still curious? Learn more..."
+msgstr "ஆர்வம் இருக்கிறதா? மேலும் அறிய..."
+
+msgid "What is Space Scoop?"
+msgstr "Space Scoop என்றால் என்ன?"
+
+msgid "Discover more Astronomy"
+msgstr "விண்ணியல் பற்றி அறிய"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "புதிய தலைமுறை விண்வெளி ஆய்வாளர்களை ஊக்கப்படுத்தல்"
+
+msgid "Space Scoop Friends"
+msgstr "Space Scoop நண்பர்கள்"
+
+msgid "Contact Us"
+msgstr "எங்கள் தொடர்புகள்"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "உலகெங்கும் உள்ள சிறார்களுக்கு பிரபஞ்சம் முழுதும் இருந்து செய்திகளை கொண்டுவருகிறோம்"
+
+msgid "Space Scoop Page"
+msgstr "Space Scoop பக்கம்"
+
+msgid "Cool Fact"
+msgstr "ஆர்வக்குறிப்பு"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "இந்த Space Scoop, பின்வரும் பத்திரிகை வெளியீட்டை அடிப்படையாகக் கொண்டது: INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "இந்த Space Scoop, பின்வரும் பத்திரிகை வெளியீட்டை அடிப்படையாகக் கொண்டது: INSTITUTION_NAME"
+
+msgid "Image"
+msgstr "படங்கள்"
+
+msgid "Print Friendly Version"
+msgstr "அச்சிடக்கூடிய பதிப்பு"
+
+msgid "Share"
+msgstr "ஷேர்"
+
+msgid "Related Space Scoops"
+msgstr "தொடர்புள்ள Space Scoops"
+
+msgid "More Space Scoops"
+msgstr "மேலும் Space Scoop"
+
+msgid "Partners Page"
+msgstr "பங்காளர் பக்கம்"
+
+msgid "Partner"
+msgstr "பங்காளர்"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "INSTITUTION_NAME இன் பத்திரிகை வெளியீட்டை அடிப்படியாகக் கொண்ட [வேறு Space Scoop களை வாசிக்க]"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "INSTITUTION_NAME ஐப் பற்றி [மேலும் அறிய]"
+
+msgid "Newsletter"
+msgstr "செய்திமடல்"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "செய்திமடலுக்குப் பதிவு செய்வதன் மூலம், ஒவ்வொரு மாதமும் புதிய செய்திகளைப் பெற்றிடுங்கள்!"
+
+msgid "Write your name here..."
+msgstr "உங்கள் பெயரை எழுதவும்..."
+
+msgid "Write your e-mail here..."
+msgstr "உங்கள் ஈமெயில் முகவரியை எழுதவும்..."
+
+msgid "Subscribe"
+msgstr "பதிவு செய்யவும்"
+
+msgid "Misc"
+msgstr "மற்றவை"
+
+msgid "No articles are available."
+msgstr "கட்டுரைகள் இல்லை"
+
+msgid "Sorry, no results found that match your query."
+msgstr "மன்னிக்கவும், உங்கள் தேடலுக்குப் பொருத்தமான முடிவுகள் எதுவும் இல்லை."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "இந்தப் பக்கம் தற்போது உங்கள் மொழியில் இல்லை. உங்களால் மொழிமாற்றம் செய்ய முடியும் என்றால் பின்வரும் முகவரியில் தொடரவும்: CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "தலைப்புக்கள்"
+
+msgid "Atoms and Molecules"
+msgstr "அணுக்களும் மூலக்கூறுகளும்"
+
+msgid "Cosmology"
+msgstr "பிரபஞ்சவியல்"
+
+msgid "Black Holes"
+msgstr "கருந்துளை"
+
+msgid "Dark Matter"
+msgstr "கரும்பொருள்"
+
+msgid "Missions"
+msgstr "திட்டங்கள்"
+
+msgid "Technology"
+msgstr "தொழில்நுட்பம்"
+
+msgid "Gravity"
+msgstr "ஈர்ப்புவிசை"
+
+msgid "Solar System"
+msgstr "சூரியத் தொகுதி"
+
+msgid "Planets"
+msgstr "கோள்கள்"
+
+msgid "Comets"
+msgstr "வால்வெள்ளிகள்"
+
+msgid "Asteroids"
+msgstr "சிறுகோள்கள்"
+
+msgid "Supernova Remnants"
+msgstr "சூப்பர்நோவா எச்சம்"
+
+msgid "Planetary Nebulae"
+msgstr "கோள்விண்மீன் படலம்"
+
+msgid "Star Forming Nebulae"
+msgstr "விண்மீன் தோன்றல் படலம்"
+
+msgid "Irregular Galaxies"
+msgstr "சீரற்ற விண்மீன் பேரடை"
+
+msgid "Elliptical Galaxies"
+msgstr "நீள்வட்ட விண்மீன் பேரடை"
+
+msgid "Spiral Galaxies"
+msgstr "சுருள் விண்மீன் பேரடை"
+
+msgid "Stars"
+msgstr "விண்மீன்"
+
+msgid "Open clusters"
+msgstr "திறந்த விண்மீன் கூட்டங்கள்"
+
+msgid "Globular clusters"
+msgstr "கோளகக் கொத்து விண்மீன் கூட்டங்கள்"
+
+msgid "Galaxies"
+msgstr "விண்மீன் பேரடைகள்"
+
+msgid "Earth"
+msgstr "பூமி"
+
+msgid "Glossary"
+msgstr "சொற்களஞ்சியம்"

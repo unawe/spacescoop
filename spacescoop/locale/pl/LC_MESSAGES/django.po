@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Strona główna"
+
+msgid "Stories"
+msgstr "Ilustracje"
+
+msgid "Pictures"
+msgstr "Ilustracje"
+
+msgid "Space Words"
+msgstr "Kosmiczne słówka"
+
+msgid "Search"
+msgstr "Szukaj"
+
+msgid "News from Across the Universe"
+msgstr "Nowinki z krańców Wszechświata"
+
+msgid "Discover more awesome topics!"
+msgstr "Poznaj więcej kosmicznych ciekawostek!"
+
+msgid "Still curious? Learn more..."
+msgstr "Głodny wiedzy? Przeczytaj więcej..."
+
+msgid "What is Space Scoop?"
+msgstr "Czym jest Space Scoop?"
+
+msgid "Discover more Astronomy"
+msgstr "Poznaj tajniki astronomii"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Inspirujemy nowe pokolenie odkrywców kosmosu"
+
+msgid "Space Scoop Friends"
+msgstr "Przyjaciele Space Scoop"
+
+msgid "Contact Us"
+msgstr "Skontaktuj się z nami"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Kosmiczne nowinki dla dzieci z całego świata"
+
+msgid "Space Scoop Page"
+msgstr "Strona Space Scoop"
+
+msgid "Cool Fact"
+msgstr "Ciekawostka"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Ten Space Scoop oparty jest o komunikat prasowy z INSTITUTIONS_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Ten Space Scoop oparty jest o komunikaty prasowe z INSTITUTIONS_NAME"
+
+msgid "Image"
+msgstr "Ilustracja"
+
+msgid "Print Friendly Version"
+msgstr "Wersja do druku"
+
+msgid "Share"
+msgstr "Podziel się"
+
+msgid "Related Space Scoops"
+msgstr "Powiązane Space Scoops"
+
+msgid "More Space Scoops"
+msgstr "Więcej Space Scoops"
+
+msgid "Partners Page"
+msgstr "Strona partnerów"
+
+msgid "Partner"
+msgstr "Partner"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Przeczytaj więcej Space Scoop] powiązanych z komunikatami prasowymi INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Dowiedz się więcej] o INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Newsletter"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Subskrybuj newsletter i otrzymuj co miesiąc nowości pojawiające się na stronie!"
+
+msgid "Write your name here..."
+msgstr "Podaj swoje imię"
+
+msgid "Write your e-mail here..."
+msgstr "Podaj swój adres email"
+
+msgid "Subscribe"
+msgstr "Subskrybuj"
+
+msgid "Misc"
+msgstr "Różne"
+
+msgid "No articles are available."
+msgstr "Brak dostępnych artykułów."
+
+msgid "Sorry, no results found that match your query."
+msgstr "Przepraszamy, brak rezultatów wyszukiwania."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Ta strona nie jest dostępna w wybranej wersji językowej. Jeśli chciałbyś ją przetłumaczyć skontaktuj się z nami CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "Tematy"
+
+msgid "Atoms and Molecules"
+msgstr "Atomy i molekuły"
+
+msgid "Cosmology"
+msgstr "Kosmologia"
+
+msgid "Black Holes"
+msgstr "Czarna dziura"
+
+msgid "Dark Matter"
+msgstr "Ciemna materia"
+
+msgid "Missions"
+msgstr "Misje"
+
+msgid "Technology"
+msgstr "Technologia"
+
+msgid "Gravity"
+msgstr "Grawitacja"
+
+msgid "Solar System"
+msgstr "Układ Słoneczny"
+
+msgid "Planets"
+msgstr "Planety"
+
+msgid "Comets"
+msgstr "Komety"
+
+msgid "Asteroids"
+msgstr "Planetoidy"
+
+msgid "Supernova Remnants"
+msgstr "Pozostałości po supernowej"
+
+msgid "Planetary Nebulae"
+msgstr "Mgławice planetarne"
+
+msgid "Star Forming Nebulae"
+msgstr "Rejony formowania gwiazd"
+
+msgid "Irregular Galaxies"
+msgstr "Galaktyka nieregularna"
+
+msgid "Elliptical Galaxies"
+msgstr "Galaktyka eliptyczna"
+
+msgid "Spiral Galaxies"
+msgstr "Galaktyka spiralna"
+
+msgid "Stars"
+msgstr "Gwiazda"
+
+msgid "Open clusters"
+msgstr "Gromady otwarte"
+
+msgid "Globular clusters"
+msgstr "Gromady kuliste"
+
+msgid "Glossary"
+msgstr "Słownik terminów"

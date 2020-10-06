@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Page principale"
+
+msgid "Stories"
+msgstr "Images"
+
+msgid "Pictures"
+msgstr "Images"
+
+msgid "Space Words"
+msgstr "Mots sur l'espace"
+
+msgid "Search"
+msgstr "Recherche"
+
+msgid "News from Across the Universe"
+msgstr "Nouvelles de l'Univers"
+
+msgid "Discover more awesome topics!"
+msgstr "Découvre d'autres sujets passionnants !"
+
+msgid "Still curious? Learn more..."
+msgstr "Curieuse / Curieux d'en apprendre plus ?"
+
+msgid "What is Space Scoop?"
+msgstr "Qu'est-ce que \"Scoop de l'Espace\" ?"
+
+msgid "Discover more Astronomy"
+msgstr "Découvre plus d'astronomie"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Inspirer une nouvelle génération d'explorateur-trice-s de l'espace"
+
+msgid "Space Scoop Friends"
+msgstr "Ami-e-s de Scoop de l'Espace"
+
+msgid "Contact Us"
+msgstr "Contacte-nous"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Apporter des nouvelles de l'Univers aux enfants du monde entier"
+
+msgid "Space Scoop Page"
+msgstr "Page Scoop de l'Espace"
+
+msgid "Cool Fact"
+msgstr "Anecdote"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Ce scoop de l'espace est tiré d'un communiqué de presse de INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Ce scoop de l'espace est basé sur des communiqués de presse de INSTITUTIONS_NAME"
+
+msgid "Image"
+msgstr "Image"
+
+msgid "Print Friendly Version"
+msgstr "Imprimer une version agréable"
+
+msgid "Share"
+msgstr "Partager"
+
+msgid "Related Space Scoops"
+msgstr "Scoops de l'Espace liés à ce sujet"
+
+msgid "More Space Scoops"
+msgstr "Autres Scoops de l'Espace"
+
+msgid "Partners Page"
+msgstr "Page des partenaires"
+
+msgid "Partner"
+msgstr "Partenaire"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Lire d'autres Scoops de l'Espace] basés sur des communiqués de presse de INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[En savoir plus] sur INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Lettre d'information"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Inscris-toi maintenant à la Lettre d'information et reçois les dernières nouvelles chaque mois !!"
+
+msgid "Write your name here..."
+msgstr "Inscris ton nom ici..."
+
+msgid "Write your e-mail here..."
+msgstr "Insère ton adresse électronique ici..."
+
+msgid "Subscribe"
+msgstr "S'abonner"
+
+msgid "Misc"
+msgstr "Divers"
+
+msgid "No articles are available."
+msgstr "Pas d'article disponible."
+
+msgid "Sorry, no results found that match your query."
+msgstr "Pardon, aucun résultat ne répond à votre requête."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Cette page n'est pas encore disponbile dans ta langue ; si tu veux nous fournir une traduction, merci de nous contacter à CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "Thèmes"
+
+msgid "Atoms and Molecules"
+msgstr "Atomes et molécules"
+
+msgid "Cosmology"
+msgstr "Cosmologie"
+
+msgid "Black Holes"
+msgstr "Trous noirs"
+
+msgid "Dark Matter"
+msgstr "Matière noire"
+
+msgid "Missions"
+msgstr "Missions"
+
+msgid "Technology"
+msgstr "Technologie"
+
+msgid "Gravity"
+msgstr "Gravitation"
+
+msgid "Solar System"
+msgstr "Système solaire"
+
+msgid "Planets"
+msgstr "Planètes"
+
+msgid "Comets"
+msgstr "Comètes"
+
+msgid "Asteroids"
+msgstr "Astéroïdes"
+
+msgid "Supernova Remnants"
+msgstr "Restes de supernova"
+
+msgid "Planetary Nebulae"
+msgstr "Nébuleuses planétaires"
+
+msgid "Star Forming Nebulae"
+msgstr "Nébuleuses de formation d'étoiles"
+
+msgid "Irregular Galaxies"
+msgstr "Galaxies irrégulières"
+
+msgid "Elliptical Galaxies"
+msgstr "Galaxies elliptiques"
+
+msgid "Spiral Galaxies"
+msgstr "Galaxie spirale"
+
+msgid "Stars"
+msgstr "Étoiles"
+
+msgid "Open clusters"
+msgstr "Amas ouverts"
+
+msgid "Globular clusters"
+msgstr "Amas globulaires"
+
+msgid "Galaxies"
+msgstr "Galaxies"
+
+msgid "Earth"
+msgstr "La Terre"
+
+msgid "Glossary"
+msgstr "Glossaire"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "Ce site web a été réalisé grâce au financement du Programme Horizon 2020 de la Communauté Européenne sur la base de l'accord de subvention numéro 638653"

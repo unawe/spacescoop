@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Forside"
+
+msgid "Stories"
+msgstr "Billeder"
+
+msgid "Pictures"
+msgstr "Billeder"
+
+msgid "Space Words"
+msgstr "Rumord"
+
+msgid "Search"
+msgstr "Søg"
+
+msgid "News from Across the Universe"
+msgstr "Nyheder fra Hele Universet"
+
+msgid "Discover more awesome topics!"
+msgstr "Opdag flere fantastiske emner"
+
+msgid "Still curious? Learn more..."
+msgstr "Stadig nysgerrig? Lær mere her..."
+
+msgid "What is Space Scoop?"
+msgstr "Hvad er Space Scoop?"
+
+msgid "Discover more Astronomy"
+msgstr "Opdag Mere Astronomi"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Inspirerer en Ny Generation af Rumudforskere"
+
+msgid "Space Scoop Friends"
+msgstr "Space Scoop Venner"
+
+msgid "Contact Us"
+msgstr "Kontakt Os"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Leverer Nyheder fra Hele Universet til Børn Overalt på Jorden"
+
+msgid "Space Scoop Page"
+msgstr "Space Scoop Side"
+
+msgid "Cool Fact"
+msgstr "Cool Fakta"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Dette Space Scoop er baseret på en pressemeddelse fra INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Dette Space Scoop er baseret på en pressemeddelse fra INSTITUTIONS_NAME"
+
+msgid "Image"
+msgstr "Billede"
+
+msgid "Print Friendly Version"
+msgstr "Printervenlig udgave"
+
+msgid "Share"
+msgstr "Del"
+
+msgid "Related Space Scoops"
+msgstr "Relaterede Space Scoops"
+
+msgid "More Space Scoops"
+msgstr "Flere Space Scoops"
+
+msgid "Partner"
+msgstr "Partner"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Læs flere Space Scoops] baserede på INSTITUTION_NAME Pressemeddelelse"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Lær mere] om INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Nyhedsbrev"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Tilmeld til nyhedsbrevet nu, og modtag alle de seneste nyheder hver måned!"
+
+msgid "Write your name here..."
+msgstr "Skriv dit navn her..."
+
+msgid "Write your e-mail here..."
+msgstr "Skriv din email her..."
+
+msgid "Subscribe"
+msgstr "Tilmeld"
+
+msgid "Misc"
+msgstr "Diverse"
+
+msgid "No articles are available."
+msgstr "Der er ingen tilgængelige artikler."
+
+msgid "Sorry, no results found that match your query."
+msgstr "Desværre var der ingen resultater der matchede din søgning."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Denne side er endnu ikke tilgængelig på dit sprog. Hvis du gerne vil bidrage med en oversættelse, kontakt os da på CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "Emner"
+
+msgid "Atoms and Molecules"
+msgstr "Atomer og Molekyler"
+
+msgid "Cosmology"
+msgstr "Kosmologi"
+
+msgid "Black Holes"
+msgstr "Sorte Huller"
+
+msgid "Dark Matter"
+msgstr "Mørkt Stof"
+
+msgid "Missions"
+msgstr "Missioner"
+
+msgid "Technology"
+msgstr "Teknologi"
+
+msgid "Gravity"
+msgstr "Tyngdekraft"
+
+msgid "Solar System"
+msgstr "Solsystem"
+
+msgid "Planets"
+msgstr "Planeter"
+
+msgid "Comets"
+msgstr "Kometer"
+
+msgid "Asteroids"
+msgstr "Asteroider"
+
+msgid "Supernova Remnants"
+msgstr "Supernovarester"
+
+msgid "Planetary Nebulae"
+msgstr "Planetariske Tåger"
+
+msgid "Star Forming Nebulae"
+msgstr "Stjernedannende Tåger"
+
+msgid "Irregular Galaxies"
+msgstr "Irregulære Galakser"
+
+msgid "Elliptical Galaxies"
+msgstr "Elliptiske Galakser"
+
+msgid "Spiral Galaxies"
+msgstr "Spiralgalakser"
+
+msgid "Stars"
+msgstr "Stjerner"
+
+msgid "Open clusters"
+msgstr "Åbne Hobe"
+
+msgid "Globular clusters"
+msgstr "Kugle Hobe"
+
+msgid "Glossary"
+msgstr "Ordliste"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "Denne side er produceret med støtte fra European Community's Horizon 2020 Programme gennem bevillingsaftale n° 638653"

@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Prif Dudalen"
+
+msgid "Stories"
+msgstr "Erthyglau"
+
+msgid "Pictures"
+msgstr "Lluniau"
+
+msgid "Space Words"
+msgstr "Termau'r Gofod"
+
+msgid "Search"
+msgstr "Chwilio"
+
+msgid "News from Across the Universe"
+msgstr "Newyddion y Bydysawd"
+
+msgid "Discover more awesome topics!"
+msgstr "Darganfyddwch mwy o bynciau diddorol!"
+
+msgid "Still curious? Learn more..."
+msgstr "Eisiau gwybod mwy?"
+
+msgid "What is Space Scoop?"
+msgstr "Beth yw Space Scoop?"
+
+msgid "Discover more Astronomy"
+msgstr "Darganfyddwch mwy o Seryddiaeth"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Ysbrydoli Cenhedlaeth Newydd o Archwilwyr Gofod"
+
+msgid "Space Scoop Friends"
+msgstr "Ffrindiau Space Scoop"
+
+msgid "Contact Us"
+msgstr "Cysylltwch â ni"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Yn Darparu Plant y Byd gyda Newyddion y Bydysawd"
+
+msgid "Space Scoop Page"
+msgstr "Tudalen Space Scoop"
+
+msgid "Cool Fact"
+msgstr "Ffaith Ddiddorol"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Caiff y Space Scoop yma ei seilio ar Ddatganiad i'r Wasg o INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Caiff y Space Scoop yma ei seilio ar Ddatganiad i'r Wasg o INSTITUTION_NAME"
+
+msgid "Image"
+msgstr "Llun"
+
+msgid "Print Friendly Version"
+msgstr "Argarffwch y Fersiwn Cyfeillgar"
+
+msgid "Share"
+msgstr "Rhannu"
+
+msgid "Related Space Scoops"
+msgstr "Space Scoops Tebyg"
+
+msgid "More Space Scoops"
+msgstr "Mwy o Space Scoops"
+
+msgid "Partners Page"
+msgstr "Tudalen Partneriaid"
+
+msgid "Partner"
+msgstr "Partner"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "(Darllenwch mwy o Space Scoops) wedi'u seilio ar Ddatganiadau Gwasg INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "Dysgwch mwy am INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Cylchlythyr"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Tanysgrifiwch i'r cylchlythyr nawr a bydd gennych fynediad at y newyddion diweddaraf yn fisol!"
+
+msgid "Write your name here..."
+msgstr "Ysgrifennwch eich enw yma..."
+
+msgid "Write your e-mail here..."
+msgstr "Ysgrifennwch eich cyfeiriad e-bost yma..."
+
+msgid "Subscribe"
+msgstr "Tanysgrifiwch"
+
+msgid "Misc"
+msgstr "Amrywiol"
+
+msgid "No articles are available."
+msgstr "Does dim erthyglau ar gael yma."
+
+msgid "Sorry, no results found that match your query."
+msgstr "Yn anffodus, does dim canlyniad yn ateb eich ymholiad."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Nid yw'r dudalen hon ar gael yn eich iaith eto. Os hoffech ei gyfieithu, cysylltwch â ni ar CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "Pynciau"
+
+msgid "Atoms and Molecules"
+msgstr "Atomau a Moleciwlau"
+
+msgid "Cosmology"
+msgstr "Cosmoleg"
+
+msgid "Black Holes"
+msgstr "Tyllau Du"
+
+msgid "Dark Matter"
+msgstr "Matter Tywyll"
+
+msgid "Missions"
+msgstr "Teithiau"
+
+msgid "Technology"
+msgstr "Technoleg"
+
+msgid "Gravity"
+msgstr "Disgyrchiant"
+
+msgid "Solar System"
+msgstr "Cysawd yr Haul"
+
+msgid "Planets"
+msgstr "Planedau"
+
+msgid "Comets"
+msgstr "Comedau"
+
+msgid "Asteroids"
+msgstr "Asteroidau"
+
+msgid "Supernova Remnants"
+msgstr "Gweddillion Uwchnova"
+
+msgid "Planetary Nebulae"
+msgstr "Nifylau Planedol"
+
+msgid "Star Forming Nebulae"
+msgstr "Nifylau Ffurfiau Sêr"
+
+msgid "Irregular Galaxies"
+msgstr "Galaethau Afreolaidd"
+
+msgid "Elliptical Galaxies"
+msgstr "Galaethau Elipitgol"
+
+msgid "Spiral Galaxies"
+msgstr "Galaethau Troellog"
+
+msgid "Stars"
+msgstr "Sêr"
+
+msgid "Open clusters"
+msgstr "Clystyrau Agored"
+
+msgid "Globular clusters"
+msgstr "Clystyrau Crwn"
+
+msgid "Galaxies"
+msgstr "Galaethau"
+
+msgid "Earth"
+msgstr "Y Ddaear"
+
+msgid "Glossary"
+msgstr "Rhestr Termau"

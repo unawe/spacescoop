@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "Начало"
+
+msgid "Stories"
+msgstr "Изображения"
+
+msgid "Pictures"
+msgstr "Изображения"
+
+msgid "Space Words"
+msgstr "Космически думички"
+
+msgid "Search"
+msgstr "Потърси"
+
+msgid "News from Across the Universe"
+msgstr "Новини от Вселената"
+
+msgid "Discover more awesome topics!"
+msgstr "Открий още интересни теми!"
+
+msgid "Still curious? Learn more..."
+msgstr "Още си любопитен? Научи повече..."
+
+msgid "What is Space Scoop?"
+msgstr "Какво е Space Scoop?"
+
+msgid "Discover more Astronomy"
+msgstr "Открий още астрономически тайни"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Вдъхновяваме ново поколение космически изследователи"
+
+msgid "Space Scoop Friends"
+msgstr "Приятели на Space Scoop"
+
+msgid "Contact Us"
+msgstr "Свържи се с нас"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Новини от Вселената за деца от цялата Земя"
+
+msgid "Cool Fact"
+msgstr "Интересно"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Този Space Scoop се позовава на прес-съобщение от INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Този Space Scoop се позовава на прес-съобщение от INSTITUTIONS_NAME"
+
+msgid "Image"
+msgstr "Изображение"
+
+msgid "Print Friendly Version"
+msgstr "Версия за разпечатване"
+
+msgid "Share"
+msgstr "Сподели"
+
+msgid "Related Space Scoops"
+msgstr "Подобни новини"
+
+msgid "More Space Scoops"
+msgstr "Още новини"
+
+msgid "Partner"
+msgstr "Партньор"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Прочети още новини]"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Научи повече] за INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Бюлетин"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Запиши се за месечния ни бюлетин сега и получавай всичките ни новини всеки месец!"
+
+msgid "Write your name here..."
+msgstr "Тук напиши името си..."
+
+msgid "Write your e-mail here..."
+msgstr "Тук напиши имейл адреса си..."
+
+msgid "Subscribe"
+msgstr "Запиши се"
+
+msgid "Misc"
+msgstr "Разни"
+
+msgid "No articles are available."
+msgstr "Няма достъпни материали."
+
+msgid "Sorry, no results found that match your query."
+msgstr "Съжаляваме, няма резултати, които да отговарят на твоето търсене."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Тази страница все още не е достъпна на твоя език. Ако искаш да я преведеш, пиши ни на CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "Теми"
+
+msgid "Atoms and Molecules"
+msgstr "Атоми и молекули"
+
+msgid "Cosmology"
+msgstr "Космология"
+
+msgid "Black Holes"
+msgstr "Черна дупка"
+
+msgid "Dark Matter"
+msgstr "Тъмна материя"
+
+msgid "Missions"
+msgstr "Мисии"
+
+msgid "Technology"
+msgstr "Технология"
+
+msgid "Gravity"
+msgstr "Гравитация"
+
+msgid "Solar System"
+msgstr "Слънчева система"
+
+msgid "Planets"
+msgstr "Планети"
+
+msgid "Comets"
+msgstr "Комети"
+
+msgid "Asteroids"
+msgstr "Астероиди"
+
+msgid "Supernova Remnants"
+msgstr "Останки от свръхнова"
+
+msgid "Planetary Nebulae"
+msgstr "Планетарна мъглявина"
+
+msgid "Star Forming Nebulae"
+msgstr "Региони на звездообразуване"
+
+msgid "Irregular Galaxies"
+msgstr "Неправилна галактика"
+
+msgid "Elliptical Galaxies"
+msgstr "Елиптична галактика"
+
+msgid "Spiral Galaxies"
+msgstr "Спирална галактика"
+
+msgid "Stars"
+msgstr "Звезда"
+
+msgid "Open clusters"
+msgstr "Разсеяни звездни купове"
+
+msgid "Globular clusters"
+msgstr "Кълбовидни звездни купове"
+
+msgid "Glossary"
+msgstr "Речник"

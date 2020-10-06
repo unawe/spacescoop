@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Main Page"
+msgstr "الصفحة الرئيسية"
+
+msgid "Stories"
+msgstr "صور"
+
+msgid "Pictures"
+msgstr "صور"
+
+msgid "Space Words"
+msgstr "مصطلحات فضائية"
+
+msgid "Search"
+msgstr "بحث"
+
+msgid "News from Across the Universe"
+msgstr "أخبار من الكون"
+
+msgid "Discover more awesome topics!"
+msgstr "اكتشف مواضيع جديدة و رائعة"
+
+msgid "Still curious? Learn more..."
+msgstr "مازلت فضوليا؟ اعرف المزيد..."
+
+msgid "Discover more Astronomy"
+msgstr "اكتشف المزيد حول الفضاء والفلك"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "الهام جيل جديد من مستكشفي الفضاء"
+
+msgid "Space Scoop Friends"
+msgstr "أصدقاء (أخبار الفضاء)"
+
+msgid "Contact Us"
+msgstr "اتصل بنا"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "جلب الأخبار من مختلف أنحاء الكون إلى الأطفال في مختلف أنحاء العالم"
+
+msgid "Space Scoop Page"
+msgstr "صفحة أخبار الفضاء"
+
+msgid "Cool Fact"
+msgstr "حقيقة مثيرة"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "أخبار الفضاء هذه تستند على بيان صحفي صادر عن INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "أخبار الفضاء هذه تستند على بيان صحفي صادر عن INSTITUTION_NAME"
+
+msgid "Image"
+msgstr "صورة"
+
+msgid "Print Friendly Version"
+msgstr "نسخة للطباعة"
+
+msgid "Share"
+msgstr "مشاركة"
+
+msgid "Related Space Scoops"
+msgstr "ذات صلة بأخبار الفضاء"
+
+msgid "More Space Scoops"
+msgstr "المزيد من أخبار الفضاء"
+
+msgid "Partners Page"
+msgstr "صفحة الشركاء"
+
+msgid "Partner"
+msgstr "شريك"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "(إقرأ المزيد من أخبار الفضاء) تستند على بيان صحفي صادر عن  INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "(اعرف المزيد) حول INSTITUTION|_NAME"
+
+msgid "Newsletter"
+msgstr "النشرة الإخبارية"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "اشترك بالتشرة الإخبارية الأن,واحصل على أحدث الأخبار شهريا"
+
+msgid "Write your name here..."
+msgstr "اكتب اسمك هنا..."
+
+msgid "Write your e-mail here..."
+msgstr "اكتب بريدك الإلكتروني هنا...."
+
+msgid "Subscribe"
+msgstr "اشترك"
+
+msgid "Misc"
+msgstr "متفرقات"
+
+msgid "No articles are available."
+msgstr "لا يوجد مقالات متاحة."
+
+msgid "Sorry, no results found that match your query."
+msgstr "عذرا, لا يوجد نتائج تطابق تساؤلك"
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "هذه الصفحة غير متوفرة بلغتك بعد, إن كنت تريد تقديم ترجمة الرجاء الإتصال بنا عن طريق CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "مواضيع"
+
+msgid "Atoms and Molecules"
+msgstr "الذرات والجزيئات"
+
+msgid "Cosmology"
+msgstr "علم الكونيات"
+
+msgid "Black Holes"
+msgstr "الثفوب السوداء"
+
+msgid "Dark Matter"
+msgstr "المادة المظلمة"
+
+msgid "Missions"
+msgstr "البعثات (المهمات)"
+
+msgid "Technology"
+msgstr "تكنولوجيا"
+
+msgid "Gravity"
+msgstr "الجاذبية"
+
+msgid "Solar System"
+msgstr "المجموعة الشمسية"
+
+msgid "Planets"
+msgstr "الكواكب"
+
+msgid "Comets"
+msgstr "المذنبات"
+
+msgid "Asteroids"
+msgstr "الكويكبات"
+
+msgid "Supernova Remnants"
+msgstr "بقايا المستعرات العظمى"
+
+msgid "Planetary Nebulae"
+msgstr "سديم كوكبي"
+
+msgid "Star Forming Nebulae"
+msgstr "سديم التشكيل النجمي"
+
+msgid "Irregular Galaxies"
+msgstr "المجرات غير المنتظمة"
+
+msgid "Elliptical Galaxies"
+msgstr "المجرات الإهليلجية"
+
+msgid "Spiral Galaxies"
+msgstr "المجرات الحلزونية"
+
+msgid "Stars"
+msgstr "النجوم"
+
+msgid "Open clusters"
+msgstr "العناقيد النجمية المفتوحة"
+
+msgid "Globular clusters"
+msgstr "العناقيد النجمية المغلقة"
+
+msgid "Glossary"
+msgstr "قاموس المصطلحات"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "تم إطلاق هذا الموقع بتمويل من برنامج الاتحاد الأوروبي (Horizon 2020) بموجب إتفاقية المنحة (n"
