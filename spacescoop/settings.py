@@ -301,7 +301,7 @@ MEDIA_ROOT = os.path.join('/data/media/')
 THUMBNAIL_ALIASES = {
     '': {
         'avatar': {'size': (50, 50), 'crop': True},
-        'original_news_source': {'size': (60, 60), 'crop': True},
+        'original_news_source': {'size': (60, 60), 'crop': 'scale'},
         'article_feature': {'size': (880,410), 'crop': True},
         'article_cover': {'size': (680, 400), 'crop': True},
         'article_thumb': {'size': (320, 320), 'crop': True},

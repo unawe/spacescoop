@@ -3,6 +3,7 @@
 import uuid
 import os
 import re
+import io
 
 from django.conf import settings
 from django.db import models
@@ -13,6 +14,9 @@ from django.utils.timezone import now
 from django.urls import reverse
 from django.dispatch import receiver
 from django.db.models.signals import pre_save, post_save
+from django.template.loader import render_to_string
+from django.contrib.staticfiles import finders
+
 # from django.contrib.admin.models import LogEntry
 # from django.contrib.contenttypes.models import ContentType
 from parler.models import TranslatableModel, TranslatedFieldsModel
@@ -22,6 +26,7 @@ from parler.managers import TranslatableManager, TranslatableQuerySet
 from taggit_autosuggest.managers import TaggableManager
 from ckeditor.fields import RichTextField
 from autoslug import AutoSlugField
+from weasyprint import HTML, CSS
 
 from django_ext.models import PublishingModel, PublishingManager, BaseAttachmentModel
 from glossary.models import Entry as GlossaryEntry
@@ -217,6 +222,24 @@ class ArticleTranslation(TranslatedFieldsModel):
     translation_credit_url = models.CharField(max_length=255, blank=True, null=True, )
     creation_date = models.DateTimeField(auto_now_add=True, null=True)
     modification_date = models.DateTimeField(auto_now=True, null=True)
+
+    def generate_pdf(self, no_trans=False):
+        context = {
+            'object': self,
+            'pdf': True,
+            'no_trans' : no_trans
+        }
+        with open(finders.find('css/print.css')) as f:
+            css = CSS(string=f.read())
+        html_string = render_to_string('spacescoops/article_detail_print.html', context)
+        html = HTML(string=html_string, base_url="http://www.spacescoop.org")
+        filename = f'scoop-{self.master.code}-{self.language_code}.pdf'
+        fileobj = io.BytesIO()
+        html.write_pdf(fileobj, stylesheets=[css])
+        # return filename
+        pdf = fileobj.getvalue()
+        fileobj.close()
+        return pdf
 
     class Meta:
         unique_together = (

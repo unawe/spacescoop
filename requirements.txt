@@ -16,4 +16,5 @@ django-taggit-autosuggest
 pillow
 sorl-thumbnail
 easy_thumbnails
-reportlab
+WeasyPrint
+django-weasyprint

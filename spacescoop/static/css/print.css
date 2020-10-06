@@ -1,0 +1,118 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+  body {
+    background-color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Dosis", sans-serif;
+    font-size: 18px;
+    color: #036F9E; }
+
+
+    h1 {
+      font-family: "Bowlby One SC", cursive; }
+
+    h2 {
+      font-family: "Comfortaa", sans-serif;
+      text-align: center;
+      margin-bottom: 1.5em; }
+
+.coolfact {
+  padding: 20px 30px 20px 30px;
+  border-radius: 10px;
+  background-color: #036F9E;
+  color: white; }
+
+.coolfact .title {
+  font-family: "Bowlby One SC", cursive;
+  font-size: 32px; }
+
+.coolfact .title img {
+  height: 32px;
+  margin-left: -10px; }
+
+.coolfact .text {
+  opacity: .7;
+  font-size: 22px; }
+
+:lang(ta) { }
+  :lang(ta) .slide-categories .title, :lang(ta) #more-info p, :lang(ta) .category-list .title {
+    font-family: 'Lohit Tamil', sans-serif; }
+  :lang(ta) .slide-categories .title, :lang(ta) #more-info p {
+    font-size: 14px; }
+  :lang(ta) .category-list .title {
+    font-size: 16px; }
+
+html[dir=rtl] .slick-prev {
+  left: auto;
+  right: 0px; }
+
+html[dir=rtl] .slick-next {
+  left: 0px;
+  right: auto; }
+
+html[dir=rtl] .home-feature .title, html[dir=rtl] .home-feature .date {
+  left: auto;
+  right: 25px; }
+
+html[dir=rtl] .home-feature .categories {
+  left: 35px;
+  right: auto; }
+
+html[dir=rtl] .article-title .left {
+  float: right; }
+
+html[dir=rtl] .article-title .right {
+  float: left; }
+
+  .article-title {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display:table;
+  }
+
+  .article-title-text,
+  .sslogo {
+    display:table-cell;
+  }
+
+  .sslogo img {
+    width:200px;
+  }
+
+    .article-title .title {
+      font-size: 40px;
+      font-weight: bold; }
+    .article-title .date {
+      font-size: 16px; }
+    .article-title .categories img {
+      height: 70px;
+      width: 70px;
+      padding-left: 10px;
+      display: inline-block; }
+
+  .left {
+    float: left; }
+
+  .right {
+    float: right; }
+
+#sponsors img {
+  max-width:50px;
+}
+
+img.main_visual {
+  max-width:600px;
+}
+
+.warning {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: beige;
+}

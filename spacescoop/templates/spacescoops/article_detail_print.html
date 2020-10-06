@@ -1,0 +1,108 @@
+{% load i18n parler_tags static easy_thumbnails_tags %}
+<!DOCTYPE html>
+
+{% get_current_language as LANGUAGE_CODE %}
+{% get_current_language_bidi as LANGUAGE_BIDI %}
+<html lang="{{ LANGUAGE_CODE }}" dir="{{ LANGUAGE_BIDI|yesno:'rtl,ltr' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Space Scoop</title>
+
+    <link href="{% static 'css/print.css' %}" rel="stylesheet" />
+
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Bowlby+One+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa:300&subset=latin,greek,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dosis:300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+      <div class="article-title">
+        <div class="sslogo">
+          <img class="large" src="{% static 'img/logo.svg' %}"/>
+        </div>
+        <div class="article-title-text">
+          <div class="left">
+            <div class="title">{{ object.title }}</div>
+            <div class="date">{{ object.master.release_date|date:"DATE_FORMAT" }}</div>
+          </div>
+          <div class="categories right">
+            {% for category in object.master.categories.all %}
+                <img style="width:40px" src="{% static 'img/categories/' %}{{ category.code }}.svg" title="{{ category.title }}"/>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+{% if object.master.main_visual %}
+        <img src="{{ object.master.main_visual.url}}" class="main_visual"/>
+{% endif %}
+      </div>
+
+{% if no_trans %}
+      <div class="row">
+        <div class="warning">
+        {% trans "This page isn't available in your language yet, if you'd like to provide a translation please contact us at " %}<a href="mailto:info@unawe.org">info@unawe.org</a>
+        </div>
+      </div>
+{% endif %}
+
+      <div class="row" aria-haspopup="true">
+{{ object.story|safe }}
+      </div>
+
+      <div class="row">
+        <div class="coolfact">
+          <div class="title"><img src="{% static 'img/coolfact-ship.svg' %}"/> {% trans 'Cool Fact' %}</div>
+          <div class="text">
+{{ object.cool_fact|safe }}
+          </div>
+        </div>
+      </div>
+
+      <div class="row originalnews">
+{% if object.master.originalnews_set %}
+        <div class="text">
+  {% if object.master.originalnews_set.all|length == 1 %}
+          {% trans 'This Space Scoop is based on a Press Release from ' %}
+    {% with n=object.master.originalnews_set.all.0 %}<a target="_blank" href="{{n.url}}">{{n.institution.name}}</a>{% endwith %}.
+  {% elif object.master.originalnews_set.all|length > 1 %}
+          {% trans 'This Space Scoop is based on Press Releases from ' %}
+    {% for n in object.master.originalnews_set.all %}<a target="_blank" href="{{n.url}}">{{n.institution.name}}</a>{% if not forloop.last %}, {% endif %}{% endfor %}.
+  {% endif %}
+        </div>
+        <div class="text">
+  {% for n in object.master.originalnews_set.all %}
+          <a href="{{ n.institution.url }}"><img src="{{ n.institution.logo }}" alt="{{ n.institution.name }}"/></a>
+  {% endfor %}
+        </div>
+{% endif %}
+      </div>
+
+{% if object.translated_credit %}
+      <div class="row">
+        {{ object.translated_credit|safe }}
+      </div>
+{% endif %}
+
+
+<div class="row">
+<div id="sponsors">
+    <img src="{% static 'img/sponsors/eu.png' %}" />
+    <img src="{% static 'img/sponsors/spaceawareness.png' %}" />
+    <img src="{% static 'img/sponsors/unawe.png' %}" />
+    <img src="{% static 'img/sponsors/LCO_logo.jpg' %}" />
+    <img src="{% static 'img/sponsors/naoj.png' %}" />
+    <img src="{% static 'img/sponsors/eso.png' %}" />
+  <div>{% trans "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653" %}</div>
+</div>
+</div>
+
+  </body>
+</html>

@@ -1,20 +1,20 @@
 from django.db.models.query import Prefetch
-from django.http import Http404
-
+from django.http import Http404, HttpResponseRedirect, HttpResponse
 from django.views.generic import ListView, DetailView
 from django.shortcuts import redirect
 from django.urls import reverse
 from django.shortcuts import render
 from parler.views import TranslatableSlugMixin, ViewUrlMixin
 from django.contrib.syndication.views import Feed
+from django.contrib import messages
 from django.utils.translation import ugettext as _
 from django.utils.translation import get_language
 from django.conf import settings
+from django.core.exceptions import ObjectDoesNotExist
 
-from .models import Article, Category
+from .models import Article, Category, ArticleTranslation
 from django_ext import compiler
 from institutions.models import Institution
-
 
 def home(request):
     try:
@@ -116,6 +116,31 @@ class ArticleDetailView(DetailView):
 
 class ArticleDetailPrintView(ArticleDetailView):
     template_name = 'spacescoops/article_detail_print.html'
+
+class ArticlePDFView(DetailView):
+    """Generate a pdf from the detailview, and append and file attachments to the end
+    """
+    model = Article
+    slug_field = 'code'
+    slug_url_kwarg = 'code'
+
+    def render_to_response(self, context, **kwargs):
+        context['pdf'] = True
+        pdf_response = HttpResponse(content_type='application/pdf')
+        response = super().render_to_response(context, **kwargs)
+        response.render()
+        try:
+            pdf = self.object.translations.get(language_code=get_language()).generate_pdf()
+        except ObjectDoesNotExist:
+            pdf = self.object.translations.get(language_code='en').generate_pdf(no_trans=True)
+        except Exception as exc:
+            error = 'There was an error generating your pdf. {}'
+            messages.error(self.request, error.format(str(exc)))
+            return HttpResponseRedirect(reverse('home'))
+        pdf_response.write(pdf)
+        filename = f"scoop-{self.object.code}-{get_language()}.pdf"
+        pdf_response['Content-Disposition'] = f'attachment; filename="{filename}"'
+        return pdf_response
 
 
 def detail_by_code(request, code):
