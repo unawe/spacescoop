@@ -53,7 +53,7 @@ class ArticleListView(ViewUrlMixin, ListView):
     # context_object_name = 'object_list'
     # model = Article
     view_url_name = 'scoops:list'
-    # paginate_by = 10
+    paginate_by = 20
 
     def get_queryset(self):
         qs = _article_queryset(self.request)
