@@ -254,7 +254,9 @@ USE_TZ = True
 
 PARLER_LANGUAGES = {
     None: (
-        # {'code': 'en',},
+        {'code': 'en',},
+        {'code': 'it',},
+        {'code': 'kr',},
         # {'code': 'de',},
         # {'code': 'pt',},
         # {'code': 'ar',},
