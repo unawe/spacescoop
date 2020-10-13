@@ -4,7 +4,6 @@ from ..models import SmartPage, SmartEmbed
 
 register = template.Library()
 
-
 @register.simple_tag(takes_context=True)
 def smartpage_url(context, value, lang=None):
     try:

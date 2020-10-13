@@ -16,6 +16,10 @@ from .models import Article, Category, ArticleTranslation
 from django_ext import compiler
 from institutions.models import Institution
 
+import logging
+
+logger = logging.getLogger(__name__)
+
 def home(request):
     try:
         articles = Article.objects.featured().active_translations()
@@ -134,9 +138,8 @@ class ArticlePDFView(DetailView):
         except ObjectDoesNotExist:
             pdf = self.object.translations.get(language_code='en').generate_pdf(no_trans=True)
         except Exception as exc:
-            error = 'There was an error generating your pdf. {}'
-            messages.error(self.request, error.format(str(exc)))
-            return HttpResponseRedirect(reverse('home'))
+            logger.error(f'There was an error generating your pdf. {exc}')
+            
         pdf_response.write(pdf)
         filename = f"scoop-{self.object.code}-{get_language()}.pdf"
         pdf_response['Content-Disposition'] = f'attachment; filename="{filename}"'

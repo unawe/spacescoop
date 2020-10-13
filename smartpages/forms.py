@@ -24,7 +24,7 @@ class SmartPageForm(TranslatableModelForm):
                 code='missing_leading_slash',
             )
         if (settings.APPEND_SLASH and
-                'django.middleware.common.CommonMiddleware' in settings.MIDDLEWARE_CLASSES and
+                'django.middleware.common.CommonMiddleware' in settings.MIDDLEWARE and
                 not url.endswith('/')):
             raise forms.ValidationError(
                 ugettext('URL is missing a trailing slash.'),

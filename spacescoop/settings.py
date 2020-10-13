@@ -242,6 +242,7 @@ LANGUAGES = (
     ('vi', 'Vietnamese'),
     ('cy', 'Welsh'),
 )
+PARLER_LANG_LIST = [{'code': l[0]} for l in LANGUAGES]
 LANGUAGES = sorted(LANGUAGES, key=operator.itemgetter(0))
 
 TIME_ZONE = 'UTC'
@@ -252,14 +253,9 @@ USE_L10N = True
 
 USE_TZ = True
 
+
 PARLER_LANGUAGES = {
-    None: (
-        {'code': 'en',},
-        {'code': 'nl',},
-        {'code': 'pt',},
-        # {'code': 'ar',},
-        # {'code': 'vi',},
-    ),
+    None: PARLER_LANG_LIST,
     'default': {
         'fallbacks': ['en'],
         'hide_untranslated': True,   # False is the default; let .active_translations() return fallbacks too.
