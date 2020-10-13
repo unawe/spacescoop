@@ -139,7 +139,7 @@ class ArticlePDFView(DetailView):
             pdf = self.object.translations.get(language_code='en').generate_pdf(no_trans=True)
         except Exception as exc:
             logger.error(f'There was an error generating your pdf. {exc}')
-            
+
         pdf_response.write(pdf)
         filename = f"scoop-{self.object.code}-{get_language()}.pdf"
         pdf_response['Content-Disposition'] = f'attachment; filename="{filename}"'
