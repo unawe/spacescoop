@@ -3,6 +3,7 @@
 import uuid
 import os
 import re
+from pathlib import Path
 import io
 
 from django.conf import settings
@@ -222,21 +223,23 @@ class ArticleTranslation(TranslatedFieldsModel):
     translation_credit_url = models.CharField(max_length=255, blank=True, null=True, )
     creation_date = models.DateTimeField(auto_now_add=True, null=True)
     modification_date = models.DateTimeField(auto_now=True, null=True)
+    pdf = models.FileField(upload_to='scoops/', blank=True, null=True)
 
-    def generate_pdf(self, no_trans=False):
+    def generate_pdf(self, no_trans=False, path=''):
         context = {
             'object': self,
             'pdf': True,
-            'no_trans' : no_trans
+            'no_trans' : no_trans,
+            'media_root' : settings.MEDIA_ROOT
         }
         with open(finders.find('css/print.css')) as f:
             css = CSS(string=f.read())
         html_string = render_to_string('spacescoops/article_detail_print.html', context)
-        html = HTML(string=html_string, base_url="http://www.spacescoop.org")
-        filename = f'scoop-{self.master.code}-{self.language_code}.pdf'
+        html = HTML(string=html_string, base_url="https://www.spacescoop.org")
+        # filepath = Path(path) / filename
         fileobj = io.BytesIO()
         html.write_pdf(fileobj, stylesheets=[css])
-        # return filename
+        # return filepath
         pdf = fileobj.getvalue()
         fileobj.close()
         return pdf

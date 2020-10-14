@@ -1,9 +1,11 @@
 import sys
+import tempfile
 
 from django.core.management.base import BaseCommand
 from django.conf import settings
 
-from spacescoops.models import Article
+from spacescoops.models import Article, ArticleTranslation
+from django.core.files.storage import default_storage
 
 
 class Command(BaseCommand):
@@ -11,25 +13,45 @@ class Command(BaseCommand):
 
     def add_arguments(self, parser):
         # Positional arguments
-        parser.add_argument('--code', help='Four digit code (YYnn) of the article')
+        parser.add_argument('--code', help='Four digit code (YYnn) of the article, will replace existing PDFs unless used with --new')
         parser.add_argument('--lang', help='Language of the article')
+        parser.add_argument(
+            '--new',
+            action='store_true',
+            help='Generate PDFs for new scoops',
+        )
 
 
     def handle(self, *args, **options):
-        try:
-            a = Article.objects.get(code=options['code'])
-        except:
-            self.stderr.write(f"Article {options['code']} not found")
+        if options['new'] and not options['code']:
+            versions = ArticleTranslation.objects.filter(pdf__isnull=True).order_by('-creation_date')
+        elif options['code']:
+            try:
+                a = Article.objects.get(code=options['code'])
+                versions = a.translations.all()
+            except:
+                self.stderr.write(f"Article {options['code']} not found")
+                sys.exit()
+        else:
+            self.stderr.write("Either select --new or enter --code or both")
             sys.exit()
         if options.get('lang',None):
             try:
-                version = a.translations.get(language_code=options['lang'])
+                version = versions.get(language_code=options['lang'])
             except:
                 self.stderr.write(f"Article {options['code']} in {options['lang']} not found")
                 sys.exit()
             versions = [version]
-        else:
-            versions = a.translations.all()
+        self.stdout.write(f'Generating PDFs for {len(versions)} scoops')
         for version in versions:
-            filename = version.generate_pdf()
+            if options['new'] and version.pdf:
+                self.stdout.write(f"Skipping {version.master.code} in {version.language_code}")
+                continue
+            file_obj = version.generate_pdf()
+            filename = f'scoop-{version.master.code}-{version.language_code}.pdf'
+            file = default_storage.open(filename, 'wb+')
+            file.write(file_obj)
+            version.pdf.save(filename, file)
+            version.save()
+            file.close()
             self.stdout.write(f'Written {filename}')

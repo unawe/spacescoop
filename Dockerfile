@@ -7,5 +7,6 @@ RUN apt-get update && \
 
 RUN pip install -r requirements.txt
 RUN python manage.py collectstatic --noinput
+RUN python manage.py migrate
 RUN python manage.py compilemessages
 CMD uwsgi --module=spacescoop.wsgi --http=0.0.0.0:80

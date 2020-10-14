@@ -97,11 +97,11 @@ class ArticleAdmin(TranslatableAdmin):
             {'fields': (('release_date', ),
                         ('published', 'featured', ),), }),
         (None,
-            {'fields': ('story', 'cool_fact', ), }),
+            {'fields': ('story', 'cool_fact', 'pdf'), }),
         ('Translation credits',
             {'fields': ('translation_credit_text', 'translation_credit_url', )}),
     ]
-    readonly_fields = ('creation_date', 'modification_date', 'is_released', )
+    readonly_fields = ('creation_date', 'modification_date', 'is_released')
 
 
 ArticleAdminForm.Meta.fields += ['categories', 'tags']
