@@ -1,11 +1,12 @@
 import sys
 import tempfile
+import base64
 
 from django.core.management.base import BaseCommand
 from django.conf import settings
 
 from spacescoops.models import Article, ArticleTranslation
-from django.core.files.storage import default_storage
+from django.core.files.base import ContentFile
 
 
 class Command(BaseCommand):
@@ -49,9 +50,6 @@ class Command(BaseCommand):
                 continue
             file_obj = version.generate_pdf()
             filename = f'scoop-{version.master.code}-{version.language_code}.pdf'
-            file = default_storage.open(filename, 'wb+')
-            file.write(file_obj)
-            version.pdf.save(filename, file)
+            version.pdf.save(filename, ContentFile(file_obj))
             version.save()
-            file.close()
             self.stdout.write(f'Written {filename}')
