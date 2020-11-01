@@ -49,7 +49,11 @@ class Command(BaseCommand):
             if options['new'] and version.pdf:
                 self.stdout.write(f"Skipping {version.master.code} in {version.language_code}")
                 continue
-            file_obj = version.generate_pdf()
+            try:
+                file_obj = version.generate_pdf()
+            except Exception as e:
+                self.stederr.write(f"{e}")
+                self.stederr.write(f"Failed to create  {version.master.code} in {version.language_code}")
             filename = f'scoop-{version.master.code}-{version.language_code}.pdf'
             version.pdf.delete(save=False)
             version.pdf.save(filename, ContentFile(file_obj))
