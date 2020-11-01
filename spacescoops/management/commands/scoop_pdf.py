@@ -2,11 +2,12 @@ import sys
 import tempfile
 import base64
 
-from django.core.management.base import BaseCommand
+from django.db.models import Q
 from django.conf import settings
+from django.core.management.base import BaseCommand
+from django.core.files.base import ContentFile
 
 from spacescoops.models import Article, ArticleTranslation
-from django.core.files.base import ContentFile
 
 
 class Command(BaseCommand):
@@ -25,7 +26,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         if options['new'] and not options['code']:
-            versions = ArticleTranslation.objects.filter(pdf__isnull=True).order_by('-creation_date')
+            versions = ArticleTranslation.objects.filter(Q(pdf='')|Q(pdf=None)).order_by('-creation_date')
         elif options['code']:
             try:
                 a = Article.objects.get(code=options['code'])
@@ -50,6 +51,7 @@ class Command(BaseCommand):
                 continue
             file_obj = version.generate_pdf()
             filename = f'scoop-{version.master.code}-{version.language_code}.pdf'
+            version.pdf.delete(save=False)
             version.pdf.save(filename, ContentFile(file_obj))
             version.save()
             self.stdout.write(f'Written {filename}')
