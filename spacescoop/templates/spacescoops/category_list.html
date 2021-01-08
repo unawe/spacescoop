@@ -2,26 +2,31 @@
 {% load static i18n %}
 
 {% block content %}
-  {% if object_list %}
-      <div class="row">
-        <div class="page-title">
-          <div class="section-title category">{% trans 'Topics' %}</div>
-        </div>
-    {% for object in object_list %}
-      {% if forloop.counter0|divisibleby:4 %}</div> <div class="row category-list">{% endif %}
-        <div class="col-md-3 category-entry">
-        {% include 'spacescoops/category_inline_icon.html' with category=object %}
-          <div class="legend">
-            <div class="title"><a href="{% url 'categories:detail' slug=object.slug %}">{{ object.title }}</a></div>
-          </div>
-        </div>
-    {% endfor %}
-      </div>
+    <div class="row justify-content-center">
+
+        {% if object_list %}
+            <div class="col-10 py-4">
+                <div class="category-title text-green">{% trans 'Topics' %}</div>
+            </div>
+            <div class="col-10">
+                <div class="row">
+                    {% for object in object_list %}
+                        <div class="col text-center topic">
+                            {% include 'spacescoops/category_inline_icon.html' with category=object img_class="xl" %}
+                            <div class="title pt-2 pb-4">
+                                <a class="fs-3" href="{% url 'categories:detail' slug=object.slug %}">{{ object.title }}</a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
 
 
-  {% else %}
-      <div class="row">
-        <p>{% trans 'No articles are available.' %}</p>
-      </div>
-  {% endif %}
+        {% else %}
+            <div class="col-10">
+                <p>{% trans 'No articles are available.' %}</p>
+            </div>
+        {% endif %}
+    </div>
+
 {% endblock %}

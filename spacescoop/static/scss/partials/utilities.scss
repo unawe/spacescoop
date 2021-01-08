@@ -1,0 +1,48 @@
+@import "variables";
+
+// backgrounds
+.bg-blue {
+  background-color: $blue;
+}
+
+.bg-lightblue {
+  background-color: $light-blue;
+}
+
+.bg-light-blue-3 {
+  background-color: $light-blue-3;
+}
+
+.bg-beige {
+  background-color: beige;
+}
+
+// font families
+.font-bowlby {
+  font-family: $font-bowlby;
+}
+
+.font-comfortaa {
+  font-family: $font-comfortaa;
+}
+
+// font colors
+.text-initial {
+  color: $blue;
+}
+
+.text-pink {
+  color: $pink;
+}
+
+.text-blue {
+  color: $blue-2;
+}
+
+.text-lightblue {
+  color: $light-blue-2;
+}
+
+.text-green {
+  color: $green;
+}

@@ -1,0 +1,39 @@
+.more-info-img {
+  min-width: 100px;
+  max-width: 160px;
+}
+
+#contact-us {
+  background-size: 110%, 140%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top center, top center;
+
+  .content {
+    padding-top: 28%;
+  }
+
+  #social-icons {
+    img {
+      height: 70px;
+      width: 70px;
+      padding: 8px;
+    }
+  }
+
+  .sponsors {
+    margin-left: 20%;
+    margin-right: 20%;
+
+    .img-50 {
+      height: 35px;
+    }
+
+    .img-100 {
+      height: 70px;
+    }
+  }
+
+  .sponsor-eu {
+    font-size: 14px;
+  }
+}

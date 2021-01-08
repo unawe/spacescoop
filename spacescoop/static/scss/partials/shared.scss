@@ -1,0 +1,67 @@
+@import "variables";
+
+body {
+  background-attachment: fixed;
+  background-color: $background-color;
+  background-image: url(../img/background.png);
+  background-position: 50% 0%;
+  background-size: 100% auto;
+  font-family: $font-dosis;
+  font-size: 18px;
+  color: $blue;
+}
+
+.container {
+  background-color: white;
+  max-width: 880px;
+}
+
+a {
+  color: $light-blue-3;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: $font-bowlby;
+}
+
+h2,
+h3 {
+  font-family: $font-comfortaa;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.article-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.article-subtitle {
+  font-size: 16px;
+}
+
+.category-title {
+  font-size: 36px;
+  font-family: $font-bowlby;
+}
+
+.category-icon {
+  height: 45px;
+  width: 45px;
+
+  &.medium {
+    height: 60px;
+    width: 60px;
+  }
+
+  &.large {
+    height: 90px;
+    width: 90px;
+  }
+
+  &.xl {
+    height: 140px;
+    width: 140px;
+  }
+}

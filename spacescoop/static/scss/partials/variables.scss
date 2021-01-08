@@ -1,0 +1,25 @@
+// Variables
+$font-bowlby: "Bowlby One SC", cursive;
+$font-comfortaa: "Comfortaa", sans-serif;
+$font-dosis: "Dosis", sans-serif;
+
+$blue: #036f9e;
+$blue-2: #01a9e0;
+$pink: #db02bc;
+$green: #42d400;
+$orange: #fb7505;
+$light-blue: #e2f2f8;
+$light-blue-2: #86c2c8;
+$light-blue-3: #5dc3e2;
+$light-orange: #f0bc9e;
+$background-color: $blue;
+
+// Bootstrap 5
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);

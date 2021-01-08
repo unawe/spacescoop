@@ -1,55 +1,48 @@
 {% extends 'base.html' %}
 {% load static easy_thumbnails_tags i18n %}
 
-
-{% block homelink %}<div style="min-height: 20px;"></div>{% endblock %}
-
 {% block top %}
-      <div class="row" id="frontispiece">
-        <div class="background"><img src="/static/img/frontispiece/backgound.bac.svg" /></div>
-        <div class="frontispiece-img">
-          <div class="rotate"></div>
-          <div class="static"></div>
+    <div class="row" id="frontispiece">
+        <div class="col-12 col-sm-8 col-md-4 m-auto mt-3 position-relative">
+            <img class="rotate" src="{% static 'img/frontispiece/image-moving' %}.svg" title="{{ category.title }}"/>
+            <div class="static"></div>
         </div>
-        <!-- <div id="logo"><img src="{% static 'img/logo.svg' %}"/></div> -->
-        <div class="slogan">{% trans 'News from Across the Universe' %}</div>
-      </div>
+        <div class="col-12 text-center">
+            <h3>{% trans 'News from Across the Universe' %}</h3>
+        </div>
+    </div>
 {% endblock %}
 
 
 {% block content %}
-
-      <div id="article-slider" class="row" dir="lrt">
+    <div class="row">
         <div class="slide-featured">
-{% for object in featured %}
-          <a href="{{ object.get_absolute_url }}">
-            <div class="home-feature" style="background-image: url({{ object.main_visual|thumbnail_url:'article_feature' }});" dir="{{ LANGUAGE_BIDI|yesno:'rtl,ltr' }}">
-            <div class="title">{{ object.title }}</div>
-            <div class="date">{{ object.release_date|date:"DATE_FORMAT" }}</div>
-            <div class="categories">
-              {% for category in object.categories.all %}
-                {% include 'spacescoops/category_inline_icon.html' with category=category do_link=False %}
-              {% endfor %}
-            </div>
-          </div></a>
-{% endfor %}
-        </div>
-      </div>
+            {% for object in featured %}
+                <a href="{{ object.get_absolute_url }}">
+                    <div class="home-feature" style="background-image: url({{ object.main_visual|thumbnail_url:'article_feature' }});" dir="{{ LANGUAGE_BIDI|yesno:'rtl,ltr' }}">
+                        <div class="title">{{ object.title }}</div>
+                        <div class="date">{{ object.release_date|date:"DATE_FORMAT" }}</div>
 
-<!--       <div class="row page-down-arrow">
-        <img src="{% static 'img/page-down-arrow.svg' %}"/>
-      </div>
- -->
-      <div class="row">
-        <h2>{% trans 'Discover more awesome topics!' %}</h2>
-        <div class="slide-categories" dir="lrt">
-{% for category in categories %}
-            {% if forloop.first %}<div class="col-md-2" dir="rtl"></div>
-            {% elif forloop.counter0|divisibleby:4 %}<div class="col-md-2"></div><div class="col-md-2"></div>{% endif %}
-            <div class="col-md-2">{% include 'spacescoops/category_inline_icon.html' with category=category img_class='category-icon' title=category.title %}</div>
-            {% if forloop.last %}<div class="col-md-2"></div>{% endif %}
-{% endfor %}
+                        <div class="categories">
+                            {% for category in object.categories.all %}
+                                <img src="{% static 'img/categories/' %}{{ category.code }}.svg" title="{{ category.title }}"/>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </a>
+            {% endfor %}
         </div>
-      </div>
+    </div>
 
+    <div class="row justify-content-center py-5">
+        <div class="col-10">
+            <h2>{% trans 'Discover more awesome topics!' %}</h2>
+        </div>
+
+        <div class="slide-categories col-10">
+            {% for category in categories %}
+                {% include 'spacescoops/category_inline_icon.html' with category=category img_class='large' title=category.title %}
+            {% endfor %}
+        </div>
+    </div>
 {% endblock %}

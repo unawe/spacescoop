@@ -1,35 +1,50 @@
 {% load static i18n %}
 
-  {% if object_list %}
-      <div class="row">
-        <div class="grid article-list">
-    {% for object in object_list %}
-      {% include 'spacescoops/article_list_item.html' %}
-    {% endfor %}
+{% if object_list %}
+    <div class="row justify-content-center">
+        <div class="col-10">
+            <!-- mind the single/double quotes! must be '{"key": "value"}' for masonry to work -->
+            <div data-masonry='{"percentPosition": true, "itemSelector": ".masonry-item" }'>
+                <div class="row">
+                    {% for object in object_list %}
+                        {% include 'spacescoops/article_list_item.html' %}
+                    {% endfor %}
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="row " style="clear: both"></div>
+    </div>
 
-      {% if paginator.num_pages > 1 %}
-      <div class="row pagination">
-        <span class="step-links">
-          {% if page_obj.has_previous %}
-            <a href="?page={{ page_obj.previous_page_number }}"> &lt; </a>
-          {% endif %}
+    {% if paginator.num_pages > 1 %}
+        <div class="row justify-content-center pagination">
+            <div class="col-12 text-center mt-3 mb-5">
+                <span class="step-links">
+                    {% if page_obj.has_previous %}
+                        <a href="?page={{ page_obj.previous_page_number }}">
+                            &lt;
+                        </a>
+                    {% endif %}
 
-          <span class="current" style="font-size: smaller;">
-            Page {{ page_obj.number }} of {{ paginator.num_pages }}
-          </span>
+                    <span class="current" style="font-size: smaller;">
+                        Page
+                        {{ page_obj.number }}
+                        of
+                        {{ paginator.num_pages }}
+                    </span>
 
-          {% if page_obj.has_next %}
-            <a href="?page={{ page_obj.next_page_number }}"> &gt; </a>
-          {% endif %}
-        </span>
-      </div>
-      {% endif %}
+                    {% if page_obj.has_next %}
+                        <a href="?page={{ page_obj.next_page_number }}">
+                            &gt;
+                        </a>
+                    {% endif %}
+                </span>
+            </div>
+        </div>
+    {% endif %}
 
-  {% else %}
-      <div class="row">
-        <p>{% trans 'No articles are available.' %}</p>
-      </div>
-  {% endif %}
+{% else %}
+    <div class="row justify-content-center">
+        <div class="col-10">
+            <p>{% trans 'No articles are available.' %}</p>
+        </div>
+    </div>
+{% endif %}

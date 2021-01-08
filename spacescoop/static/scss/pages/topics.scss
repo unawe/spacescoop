@@ -1,0 +1,11 @@
+.topic {
+  img {
+    opacity: 0.6;
+  }
+
+  &:hover {
+    img {
+      opacity: 1;
+    }
+  }
+}

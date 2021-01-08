@@ -1,19 +1,18 @@
 {% load easy_thumbnails_tags %}
-
-          <div class="grid-item">
-            <div class="categories">
-              {% for category in object.categories.all %}
-                {% include 'spacescoops/category_inline_icon.html' with category=category do_link=False %}
-              {% endfor %}
-            </div>
-      {% if object.main_visual %}
-            <a href="{% url 'scoops:detail' code=object.code slug=object.slug %}">
-              {% thumbnail object.main_visual 320x320 as thumb %}
-              <img src="{{ thumb.url }}" width="{{ thumb.width }}" height="{{ thumb.height }}" />
-      {% endif %}
-            </a>
-            <div class="legend">
-              <div class="date">{{ object.release_date|date:"DATE_FORMAT" }}</div>
-              <div class="title"><a href="{% url 'scoops:detail' code=object.code slug=object.slug %}">{{ object.title }}</a></div>
-            </div>
-          </div>
+<div class="masonry-item col-12 col-sm-6">
+    <div class="d-flex flex-column position-absolute end-0">
+        {% for category in object.categories.all %}
+            {% include 'spacescoops/category_inline_icon.html' with category=category img_class="mt-1 me-3" %}
+        {% endfor %}
+    </div>
+    {% if object.main_visual %}
+        <a href="{% url 'scoops:detail' code=object.code slug=object.slug %}">
+            {% thumbnail object.main_visual 320x320 as thumb %}
+            <img class="w-100" src="{{ thumb.url }}"/>
+        {% endif %}
+    </a>
+    <div class="d-flex justify-content-between fs-6 my-2">
+        <a class="fw-bold text-initial" href="{% url 'scoops:detail' code=object.code slug=object.slug %}">{{ object.title }}</a>
+        <p class="text-nowrap">{{ object.release_date|date:"DATE_FORMAT" }}</p>
+    </div>
+</div>

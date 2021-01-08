@@ -2,22 +2,25 @@
 {% load static i18n %}
 
 {% block extra_js %}
-  {{ block.super }}
-  {% include 'spacescoops/article_list_component_js.html' %}
+    {{ block.super }}
+    {% include 'spacescoops/article_list_component_js.html' %}
 {% endblock %}
 
 
 {% block content %}
-      <div class="row">
-        <div class="page-title">
-          <div class="section-title category"><a href="{% url 'categories:list' %}">{% trans 'Topics' %}</a></div>
-          <div class="entry-title">
-            {% include 'spacescoops/category_inline_icon.html' with category=object do_link=False %}
-            {{ object.title }}
-          </div>
+    <div class="row justify-content-center">
+        <div class="col-10 py-4">
+            <div class="d-flex justify-content-between">
+                <div class="d-flex align-items-center">
+                    {% include 'spacescoops/category_inline_icon.html' with category=object img_class="medium" %}
+                    <span class="ms-3 category-title">{{ object.title }}</span>
+                </div>
+
+                <a class="category-title text-green" href="{% url 'categories:list' %}">{% trans 'Topics' %}</a>
+            </div>
         </div>
-      </div>
+    </div>
     {% with articles as object_list %}
-      {% include 'spacescoops/article_list_component.html' %}
+    {% include 'spacescoops/article_list_component.html' %}
     {% endwith %}
 {% endblock %}

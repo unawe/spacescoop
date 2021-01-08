@@ -1,0 +1,23 @@
+.coolfact {
+  padding: 20px 30px 20px 30px;
+  border-radius: 10px;
+  background-color: $blue;
+  color: white;
+
+  .text {
+    opacity: 0.7;
+    font-size: 22px;
+  }
+}
+
+.dotted-border {
+  border: dotted 2px $blue;
+  border-radius: 10px;
+}
+
+.trailing-dots {
+  background-image: url(../img/dotted-line-right.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 50% auto;
+}

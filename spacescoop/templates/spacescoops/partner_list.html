@@ -4,37 +4,33 @@
 
 {% block content %}
 
-    <div class="row">
-        <div class="page-title">
-            <div class="section-title">{% trans 'Space Scoop Friends' %}</div>
+    <div class="row justify-content-center">
+        <div class="col-10 py-4">
+            <div class="category-title">{% trans 'Space Scoop Friends' %}</div>
         </div>
-    </div>
 
-    {% for object in object_list %}
-      {% if object.scoops_available|length > 0 %}
-          <div class="row partner-item">
-            <div class="col-md-12">
-              <a href="{{ object.url }}" class="logo" target="_blank">
-                {% thumbnail object.logo 60x60 crop=scale  as thumb %}
-                  <img src="{{ thumb.url }}"/>
-              </a>
-              <div class="title"><a href="{% url 'partners:detail' slug=object.slug %}">{{ object.title }}</a></div>
-            </div>
-          </div>
-          <div class="row">
-        {% include 'spacescoops/article_list_component_small.html' with object_list=object.scoops_available|slice:':3' %}
-          </div>
-          <div class="row">
-            <div class="col-md-12 right">
-              {% url 'partners:detail' slug=object.slug as partner_detail_url %}
-              <a href="{% url 'scoops:list_by_institution' institution=object.slug %}">Read more Space Scoops</a> based on {{ object.name }} Press Releases.
-              {% blocktrans with partner_name=object.name partner_url=object.url %}<a href="{{ partner_url }}" target="_blank">Learn more</a> about {{ partner_name }}.{% endblocktrans %}
-            </div>
-          </div>
-      {% endif %}
-    {% endfor %}
+        {% for object in object_list %}
+            {% if object.scoops_available|length > 0 %}
+                <div class="col-10 d-flex align-items-center justify-content-between">
+                    <a class="fs-2 fw-bold text-initial" href="{% url 'partners:detail' slug=object.slug %}">{{ object.title }}</a>
 
-    <div class="row buffer">
+                    <a href="{{ object.url }}" class="logo" target="_blank">
+                        {% thumbnail object.logo 60x60 crop=scale  as thumb %}
+                        <img src="{{ thumb.url }}"/>
+                    </a>
+                </div>
+                <div class="col-10 mb-5">
+                    {% url 'partners:detail' slug=object.slug as partner_detail_url %}
+                    <a href="{{ object.slug }}">Read more Space Scoops</a>
+                    based on
+                    {{ object.name }}
+                    Press Releases.
+                    {% blocktrans with partner_name=object.name partner_url=object.url %}<a href="{{ partner_url }}" target="_blank">Learn more</a>
+                    about
+                    {{ partner_name }}.{% endblocktrans %}
+                </div>
+            {% endif %}
+        {% endfor %}
     </div>
 
 {% endblock %}

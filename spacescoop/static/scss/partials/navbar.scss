@@ -1,0 +1,45 @@
+@import "variables";
+
+nav {
+  background-image: linear-gradient(to right, $pink, $blue, $green);
+  background-position: bottom;
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+
+  .navbar-toggler:focus {
+    color: $blue;
+  }
+
+  .nav-link {
+    img {
+      width: 60px;
+      height: 60px;
+    }
+
+    // size (md) needs to match navbar-expand-{size} class
+    @media (min-width: map-get($grid-breakpoints, lg)) {
+      &:hover .show-on-parent-hover {
+        width: 100%;
+      }
+
+      .show-on-parent-hover {
+        width: 0px;
+        overflow: hidden;
+      }
+    }
+  }
+
+  .nav-item.dropdown .dropdown-menu {
+    min-height: 200px;
+    max-height: 50vh;
+  }
+
+  #search-input {
+    margin: 0 5px 2px;
+    max-width: 77%;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}

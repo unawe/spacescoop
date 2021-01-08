@@ -2,36 +2,45 @@
 {% load static easy_thumbnails_tags i18n %}
 
 {% block extra_js %}
-  {{ block.super }}
-  {% include 'spacescoops/article_list_component_js.html' %}
+    {{ block.super }}
+    {% include 'spacescoops/article_list_component_js.html' %}
 {% endblock %}
 
 
 {% block content %}
-      <div class="row">
-        <div class="page-title">
-          <div class="section-title partner"><a href="{% url 'partners:list' %}">{% trans 'Partner' %}</a></div>
-          <div class="entry-title">
-          </div>
+    <div class="row justify-content-center">
+        <div class="col-10 py-4 text-end">
+            <a class="category-title text-initial" href="{% url 'partners:list' %}">
+                {% trans 'Partner' %}
+            </a>
         </div>
-      </div>
-      <div class="row partner-item">
-        <div class="col-md-12">
-          <a href="{{object.url}}" class="logo" target="_blank"><img src="{{ object.logo|thumbnail_url:'original_news_source' }}"></a>
-          <div class="title">{{ object.name }}</div>
-          <div class="description">
-            {{ object.description|safe }}
-          </div>
+
+        <div class="col-10 d-flex align-items-center justify-content-between">
+            <a class="fs-2 fw-bold text-initial" href="{{object.url}}">{{ object.name }}</a>
+
+            <a href="{{ object.url }}" class="logo" target="_blank">
+                {% thumbnail object.logo 60x60 crop=scale  as thumb %}
+                <img src="{{ object.logo|thumbnail_url:'original_news_source' }}">
+            </a>
         </div>
-      </div>
-      <div class="row">
-    {% include 'spacescoops/article_list_component_small.html' with object_list=object.scoops.all|slice:':3' %}
-      </div>
-        <div class="row">
-        <div class="col-md-12 right">
-          {% url 'partners:detail' slug=object.slug as partner_detail_url %}
-          {<a href="{% url 'scoops:list_by_institution' institution=object.slug %}">Read more Space Scoops</a> based on {{ object.name }} Press Releases.
-          {% blocktrans with partner_name=object.name partner_url=object.url %}<a href="{{ partner_url }}" target="_blank">Learn more</a> about {{ partner_name }}.{% endblocktrans %}
+
+        <div class="col-10">
+            <p>{{ object.description|safe }}</p>
         </div>
-      </div>      <div class="buffer"></div>
+
+        <div class="col-10">
+            {% include 'spacescoops/article_list_component_small.html' with object_list=object.scoops.all|slice:':3' %}
+        </div>
+
+        <div class="col-10 py-5">
+            {% url 'partners:detail' slug=object.slug as partner_detail_url %}
+            <a href="{% url 'scoops:list_by_institution' institution=object.slug %}">Read more Space Scoops</a>
+            based on
+            {{ object.name }}
+            Press Releases.
+            <a href="{{ object.url }}" target="_blank">Learn more</a>
+            about
+            {{ object.name }}.
+        </div>
+    </div>
 {% endblock %}

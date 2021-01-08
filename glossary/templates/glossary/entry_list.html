@@ -2,27 +2,25 @@
 {% load thumbnail static i18n %}
 
 {% block content %}
-  {% if object_list %}
-      <div class="row">
-        <div class="page-title">
-          <div class="section-title glossary">{% trans 'Space Words' %}</div>
+    <div class="row justify-content-center">
+        {% if object_list %}
+            <div class="col-10 py-4">
+                <div class="category-title text-pink">{% trans 'Space Words' %}</div>
+            </div>
+            <div class="col-10">
+                {% for object in object_list %}
+                    <div class="mb-3">
+                        <a href="{% url 'glossary:detail' slug=object.slug %}">
+                            <span class="text-pink font-bowlby me-1">{{ object.title }}</span>
+                            {{ object.short_description }}
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <div class="col-10 py-4">
+                <p>{% trans 'No articles are available.' %}</p>
+            </div>
         </div>
-      </div>
-    {% for object in object_list %}
-       <div class="row glossary-list">
-        <div class="glossary-list-entry">
-          <a href="{% url 'glossary:detail' slug=object.slug %}">
-            <span class="title">{{ object.title }}</span> {{ object.short_description }}
-          </a>
-        </div>
-      </div>
-    {% endfor %}            
-
-  {% else %}
-      <div class="row">
-        <p>{% trans 'No articles are available.' %}</p>
-      </div>
-  {% endif %}
+    {% endif %}
 {% endblock %}
-
-

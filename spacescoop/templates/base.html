@@ -3,13 +3,17 @@
 
 {% get_current_language as LANGUAGE_CODE %}
 <html lang="{{ LANGUAGE_CODE }}" dir="{{ LANGUAGE_BIDI|yesno:'rtl,ltr' }}">
-  <head>
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>{% block site_title %}Space Scoop{% endblock %}</title>
-
+    
+    <title>
+        {% block site_title %}Space Scoop
+        {% endblock %}
+    </title>
+    
     <!-- favicons http://realfavicongenerator.net -->
     <link rel="apple-touch-icon" sizes="57x57" href="{% static 'favicons/apple-touch-icon-57x57.png' %}"/>
     <link rel="apple-touch-icon" sizes="60x60" href="{% static 'favicons/apple-touch-icon-60x60.png' %}"/>
@@ -26,196 +30,221 @@
     <link rel="icon" type="image/png" href="{% static 'favicons/favicon-16x16.png' %}" sizes="16x16"/>
     <link rel="manifest" href="{% static 'favicons/manifest.json' %}"/>
     <link rel="mask-icon" href="{% static 'favicons/safari-pinned-tab.svg' %}" color="#03709c"/>
-    <meta name="apple-mobile-web-app-title" content="Space Scoop"/>
-    <meta name="application-name" content="Space Scoop"/>
-    <meta name="msapplication-TileColor" content="#03709C"/>
-    <meta name="msapplication-TileImage" content="/mstile-144x144.png"/>
-    <meta name="theme-color" content="#03709C"/>
-
-    <link href="{% static 'css/main.css' %}" rel="stylesheet" />
+    <meta content="Space Scoop" name="apple-mobile-web-app-title"/>
+    <meta content="Space Scoop" name="application-name"/>
+    <meta content="#03709C" name="msapplication-TileColor"/>
+    <meta content="/mstile-144x144.png" name="msapplication-TileImage"/>
+    <meta content="#03709C" name="theme-color"/>
+    
+    <!-- stylesheets -->
+    <link rel="stylesheet" type="text/css" href="{% static 'scss/bootstrap/bootstrap.css' %}"/>
     <link rel="stylesheet" type="text/css" href="{% static 'slick/slick.css' %}"/>
     <link rel="stylesheet" type="text/css" href="{% static 'slick/slick-theme.css' %}"/>
-
-
+    <link href="{% static 'scss/main.css' %}" rel="stylesheet"/>
+    
     <!-- fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Bowlby+One+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Comfortaa:300&subset=latin,greek,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Dosis:300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300&subset=latin,greek,cyrillic-ext,latin-ext,cyrillic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,700&subset=latin,latin-ext" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-{% block extra_head %}{% endblock %}
-  </head>
-  <body class="{% block extra_body_class %}{% endblock %}">
-    <div>
-
-    </div>
-    <div class="container-fixed">
-      <div id="left-icons" aria-haspopup="true">
-        {% block homelink %}<div class="homelink"><a href="{% url 'home' %}"><img class="large" src="{% static 'img/buttons/home.svg' %}"/></a></div>{% endblock %}
-        <div class="button-link gallery">
-          <a href="{% url 'scoops:list' %}">
-            <div class="off"><div class="icon"></div></div>
-            <div class="on"><div class="left"></div><div class="title">{% trans 'Stories' %}</div><div class="right"></div></div>
-          </a>
-        </div>
-        <div class="button-link glossary">
-          <a href="{% url 'glossary:list' %}">
-            <div class="off"><div class="icon"></div></div>
-            <div class="on"><div class="left"></div><div class="title">{% trans 'Space Words' %}</div><div class="right"></div></div>
-          </a>
-        </div>
-        <div class="button-link categories">
-
-            <div class="off"><a href="{% url 'categories:list' %}"><div class="icon"></div></a></div>
-            <div class="on"><a href="{% url 'categories:list' %}"><div class="left"></div><div class="title">{% trans 'Topics' %}</div><div class="right"></div></a></div>
-
-        </div>
-      </div>
-
-      <div id="right-icons">
-        <div id="search-bar">
-          <div class="off"></div>
-          <div class="on"><form action="{% url 'search' %}" method="get" id="search_form"><input id="id_q" name="q" type="text" value="{{ form.cleaned_data.q }}" placeholder="{% trans 'Search' %}"><!-- {{ form.q }} --></form></div>
-        </div>
-
-        <a href="{% url 'search' %}"><img src="{% static 'img/buttons/search.svg' %}"/></a>
-        <img id="laguage_selector" src="{% static 'img/buttons/language.svg' %}"/>
-        <div id="languages_menu">
-          <ul>
-            {% for lang_code, title in LANGUAGES %}
-                {% get_language_info for lang_code as lang %}
-                {% get_translated_url lang_code as tr_url %}
-                {% if tr_url %}<li{% if lang_code == LANGUAGE_CODE %} class="is-selected"{% endif %}><a href="{{ tr_url }}" hreflang="{{ lang_code }}" title="{{ title }}">{{ lang.name_local|capfirst }}</a></li>{% endif %}
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </div>
-
+    
+    {% block extra_head %}{% endblock %}
+</head>
+<body class="{% block extra_body_class %}{% endblock %}">
     <div class="container">
-
-{% block top %}{% endblock %}
-
-{% block content %}{% endblock %}
-
-      <div id="more-info" class="row">
-        <h2>{% trans 'Still curious? Learn more...' %}</h2>
-        <div class="col-md-3"><a href="{% smartpage_url 'about' %}"><img src="{% static 'img/resources/resource-space-scoop.svg' %}" /></a><p>{% trans 'What is Space Scoop?' %}</p></div>
-        <div class="col-md-3"><a href="http://www.unawe.org/"><img src="{% static 'img/resources/resource-unawe.svg' %}" /></a><p>{% trans 'Discover more Astronomy' %}</p></div>
-        <div class="col-md-3"><a href="http://www.space-awareness.org/"><img src="{% static 'img/resources/resource-space-awareness.svg' %}" /></a><p>{% trans 'Inspiring a New Generation of Space Explorers' %}</p></div>
-        <div class="col-md-3"><a href="{% url 'partners:list' %}"><img src="{% static 'img/resources/resource-partners.svg' %}" /></a><p>{% trans 'Space Scoop Friends' %}</p></div>
-      </div>
-
-      <div class="row contact-us">
-        <h2 class="comfortaa">{% trans 'Contact Us' %}</h2>
-      </div>
-
-    </div><!-- /.container -->
-
-    <div id="earthscape">
-      <div class="container">
-        <img class="earthscape" src="{% static 'img/earthscape-rocket.svg' %}" />
-        <!-- <img class="earthscape" src="{% static 'img/earthscape/earthscape-text-'|add:LANGUAGE_CODE|add:'.svg' %}" /> -->
-        <div class="earthscape" style="background-image:url({% static 'img/earthscape/earthscape-text-'|add:LANGUAGE_CODE|add:'.svg' %});"></div>
-
-        <img class="earthscape rotate" src="{% static 'img/earthscape.svg' %}" />
-        <div id="social-icons">
-          <!-- a href=""><img src="{% static 'img/social/newsletter.svg' %}"></a -->
-          <a href="http://twitter.com/unawe" target="_blank"><img src="{% static 'img/social/twitter.svg' %}"></a>
-          <a href="http://instagram.com/spaceeuorg/" target="_blank"><img src="{% static 'img/social/instagram.svg' %}"></a>
-          <a href="http://www.facebook.com/unawe" target="_blank"><img src="{% static 'img/social/facebook.svg' %}"></a>
+        <div class="row sticky-top">
+            <!-- navbar-expand-{size} class needs to match navbar media query size in stylesheet -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <a href="{% url 'home' %}" class="navbar-brand">
+                    <img height="120" width="120" src="{% static 'img/buttons/home.svg' %}"/>
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <img width="30" src="{% static 'img/page-down-arrow.svg' %}" alt="menu" />
+                </button>
+                
+                <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center" href="{% url 'scoops:list' %}">
+                                <img src="{% static 'img/buttons/gallery.svg' %}"/>
+                                <div class="show-on-parent-hover font-bowlby ms-2 text-blue">{% trans 'Stories' %}</div>
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center" href="{% url 'glossary:list' %}">
+                                <img src="{% static 'img/buttons/glossary.svg' %}"/>
+                                <div class="show-on-parent-hover font-bowlby ms-2 text-pink">{% trans 'Space Words' %}</div>
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link d-flex align-items-center" href="{% url 'categories:list' %}">
+                                <img src="{% static 'img/buttons/categories.svg' %}"/>
+                                <div class="show-on-parent-hover font-bowlby ms-2 text-green">{% trans 'Topics' %}</div>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img id="language_selector" src="{% static 'img/buttons/language.svg' %}"/>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark overflow-auto border-0 bg-light-blue-3" aria-labelledby="navbarDropdownMenuLink">
+                                {% for lang_code, title in LANGUAGES %}
+                                {% get_language_info for lang_code as lang %}
+                                {% get_translated_url lang_code as tr_url %}
+                                {% if tr_url %}
+                                <li class="dropdown-item d-flex{% if lang_code == LANGUAGE_CODE %} bg-blue{% endif %}">
+                                    <a class="text-white flex" href="{{ tr_url }}" hreflang="{{ lang_code }}" title="{{ title }}">{{ lang.name_local|capfirst }}</a>
+                                </li>
+                                {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item my-auto">
+                            <form action="{% url 'search' %}" method="get" class="position-relative">
+                                <img height="60" src="{% static 'img/buttons/search-on.svg' %}"/>
+                                <input id="search-input" class="form-control me-auto position-absolute top-0 left-0 bottom-0 right-0 border-0 bg-transparent" name="q" type="search" value="{{ form.cleaned_data.q }}" placeholder="{% trans 'Search' %}">
+                            </form>
+                        </li>  
+                    </ul>
+                </div>
+            </nav>
         </div>
-        <div id="sponsors">
-          <div>
-            <img class="small" src="{% static 'img/sponsors/eu.png' %}" />
-            <a href="http://www.spaceeu.org/" target="_blank"><img src="{% static 'img/sponsors/spaceEU_red.png' %}" /></a>
-            <a href="http://www.unawe.org/" target="_blank"><img src="{% static 'img/sponsors/unawe.png' %}" /></a>
-            <a href="http://www.lco.global/" target="_blank"><img src="{% static 'img/sponsors/LCO_logo.jpg' %}" /></a>
-            <a href="http://www.nao.ac.jp/en/" target="_blank"><img src="{% static 'img/sponsors/naoj.png' %}" /></a>
-            <a href="http://www.eso.org/" target="_blank"><img src="{% static 'img/sponsors/eso.png' %}" /></a>
-          </div>
-          <div>{% trans "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 821832" %}</div>
+        
+        {% block top %}{% endblock %}
+        {% block content %}{% endblock %}
+        
+        <div class="row justify-content-center p-5 bg-lightblue text-center" id="more-info">
+            <div class="col-10">
+                <h2>
+                    {% trans 'Still curious? Learn more...' %}
+                </h2>
+            </div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <a href="{% smartpage_url 'about' %}">
+                            <img class="more-info-img" src="{% static 'img/resources/resource-space-scoop.svg' %}" class="mb-3" />
+                        </a>
+                        <p>{% trans 'What is Space Scoop?' %}</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <a href="http://www.unawe.org/">
+                            <img class="more-info-img" src="{% static 'img/resources/resource-unawe.svg' %}" class="mb-3" />
+                        </a>
+                        <p>{% trans 'Discover more Astronomy' %}</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <a href="http://www.space-awareness.org/">
+                            <img class="more-info-img" src="{% static 'img/resources/resource-space-awareness.svg' %}" class="mb-3" />
+                        </a>
+                        <p>{% trans 'Inspiring a New Generation of Space Explorers' %}</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <a href="{% url 'partners:list' %}">
+                            <img class="more-info-img" src="{% static 'img/resources/resource-partners.svg' %}" class="mb-3" />
+                        </a>
+                        <p>{% trans 'Space Scoop Friends' %}</p>
+                    </div> 
+                </div>
+            </div>
         </div>
-      </div>
+        
+        <div class="row justify-content-center">
+            <div class="col-10 mt-5">
+                <h2>{% trans 'Contact Us' %}</h2>
+            </div>
+            
+            
+            <div class="col-12">
+                <div id="contact-us" class="text-center"
+                style="background-image: url({% static 'img/contact-us.svg' %}), url({% static 'img/earthscape/earthscape-text-'|add:LANGUAGE_CODE|add:'.svg' %});">
+                <div class="offset"></div>
+                <div class="content">
+                    <div id="social-icons" class="my-3">
+                        <a href="http://twitter.com/unawe" target="_blank"><img src="{% static 'img/social/twitter.svg' %}"></a>
+                        <a href="http://instagram.com/spaceeuorg/" target="_blank"><img src="{% static 'img/social/instagram.svg' %}"></a>
+                        <a href="http://www.facebook.com/unawe" target="_blank"><img src="{% static 'img/social/facebook.svg' %}"></a>
+                    </div>
+                
+                    <div class="sponsors my-3 d-flex flex-wrap align-items-center justify-content-center">
+                        <img class="img-50" src="{% static 'img/sponsors/eu.png' %}"/>
+                        <a href="http://www.spaceeu.org/" target="_blank"><img class="img-100 m-2" src="{% static 'img/sponsors/spaceEU_red.png' %}"/></a>
+                        <a href="http://www.unawe.org/" target="_blank"><img class="img-100 m-2" src="{% static 'img/sponsors/unawe.png' %}"/></a>
+                        <a href="http://www.lco.global/" target="_blank"><img class="img-100 m-2" src="{% static 'img/sponsors/LCO_logo.jpg' %}"/></a>
+                        <a href="http://www.nao.ac.jp/en/" target="_blank"><img class="img-100 m-2" src="{% static 'img/sponsors/naoj.png' %}"/></a>
+                        <a href="http://www.eso.org/" target="_blank"><img class="img-100 m-2" src="{% static 'img/sponsors/eso.png' %}"/></a>
+                    </div>
+                    <div class="my-3 sponsor-eu">{% trans "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 821832" %}</div>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="{% static 'slick/slick.min.js' %}"></script>
-    <script src="{% static 'js/jquery.sharrre.min.js' %}"></script>
-    <script src="{% static 'js/menus.js' %}"></script>
-    <script>
-	jQuery(document).ready(function(){
-		jQuery('.slide-featured').slick({
-			autoplay: true,
-			// mobileFirst: true,
-			prevArrow: '<div><img class="slick-prev" src="{% static 'img/slide/arrow-image-prev.svg' %}"></div>',
-			nextArrow: '<div><img class="slick-next" src="{% static 'img/slide/arrow-image-next.svg' %}"></div>',
-			dots: false, //TODO
-			pauseOnDotsHover: true,
-		});
-		jQuery('.slide-categories').slick({
-			autoplay: false,
-			// infinite: false,
-			// mobileFirst: true,
-			pauseOnDotsHover: true,
-			slidesToShow: 6,
-			slidesToScroll: 6,
-			prevArrow: '<div><img class="slick-prev" src="{% static 'img/slide/arrow-fat-prev.svg' %}"></div>',
-			nextArrow: '<div><img class="slick-next" src="{% static 'img/slide/arrow-fat-next.svg' %}"></div>',
-		});
-
-		/* left menu items grow on hover */
-		jQuery('.button-link div').hover(function() {
-			if(jQuery(this).hasClass('off')) {
-				jQuery('#left-icons').width('100%');
-				jQuery('#left-icons').find('.on').hide();
-				jQuery('#left-icons').find('.off').show();
-				jQuery(this).parent().find('.on').show();
-				jQuery(this).hide();
-			}
-		}, function() {
-			if(jQuery(this).hasClass('on')) {
-				jQuery(this).parent().find('.off').show();
-				jQuery(this).hide();
-				if (jQuery('#left-icons').find('.on:visible').length == 0) {
-					jQuery('#left-icons').width(90);
-				}
-			}
-		});
-		/* search box is displayed on hover */
-		if (jQuery('body.search-page').length == 0) {
-			jQuery('#search-bar').hover(function() {
-					jQuery('#search-bar .on').show();
-					jQuery('#search-bar .off').hide();
-					jQuery('#search-bar input').focus();
-				}, function() {
-					jQuery('#search-bar .off').show();
-					jQuery('#search-bar .on').hide();
-				});
-		}
-
-		jQuery('.glossary').tooltip({
-			'placement': 'bottom',
-		});
-});
-    </script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="{% static 'slick/slick.min.js' %}"></script>
+<script src="{% static 'js/jquery.sharrre.min.js' %}"></script>
+<script src="{% static 'js/bootstrap-5/bootstrap.bundle.min.js' %}"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    jQuery(document).ready(function(){
+        jQuery('.slide-featured').slick({
+            autoplay: true,
+            prevArrow: '<img class="slick-prev" src="{% static 'img/slide/arrow-image-prev.svg' %}">',
+            nextArrow: '<img class="slick-next" src="{% static 'img/slide/arrow-image-next.svg' %}">',
 
-  ga('create', 'UA-69659340-1', 'auto');
-  ga('send', 'pageview');
-
+        });
+        
+        jQuery('.slide-categories').slick({
+            autoplay: false,
+            pauseOnDotsHover: true,
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            prevArrow: '<img class="slick-prev" src="{% static 'img/slide/arrow-fat-prev.svg' %}">',
+            nextArrow: '<img class="slick-next" src="{% static 'img/slide/arrow-fat-next.svg' %}">',
+            responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                }
+            }, 
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            }, 
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            }
+            ]
+        });
+    });
 </script>
-{% block extra_js %}{% endblock %}
-
-  </body>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-69659340-1', 'auto');
+        ga('send', 'pageview');
+        
+    </script>
+    {% block extra_js %}{% endblock %}
+</body>
+</body>
 </html>
