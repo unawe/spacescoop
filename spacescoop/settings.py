@@ -41,7 +41,7 @@ DIVIO_DOMAIN_ALIASES = [
 ]
 
 ALLOWED_HOSTS = [DIVIO_DOMAIN] + DIVIO_DOMAIN_ALIASES
-SITE_URL = 'http://www.spacescoop.org'
+SITE_URL = 'https://www.spacescoop.org'
 
 
 # Application definition
@@ -342,3 +342,35 @@ CKEDITOR_CONFIGS['spacescoop'] = copy.deepcopy(CKEDITOR_CONFIGS['default'])
 CKEDITOR_CONFIGS['spacescoop']['extraPlugins'] = 'glossary'
 CKEDITOR_CONFIGS['spacescoop']['contentsCss'] = ['%sckeditor/ckeditor/contents.css' % STATIC_URL, '%scss/ckeditor-content.css' % STATIC_URL]
 CKEDITOR_CONFIGS['spacescoop']['toolbar_Custom'].insert(2, ['Glossary', ])
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format' : "[%(asctime)s] %(levelname)s [%(name)s:%(lineno)s] %(message)s",
+            'datefmt' : "%d/%b/%Y %H:%M:%S"
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        },
+    },
+    'handlers': {
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose',
+        }
+    },
+    'loggers': {
+        'django.request': {
+            'handlers':['console'],
+            'propagate': True,
+            'level':'ERROR',
+        },
+        '': {
+            'handlers': ['console'],
+            'level': 'ERROR',
+        },
+    }
+}
