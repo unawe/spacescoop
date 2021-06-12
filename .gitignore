@@ -17,3 +17,6 @@ db.sqlite3
 /staticfiles
 django.mo
 .env-local
+
+#IDE
+.idea/*
