@@ -81,7 +81,7 @@ class ArticleAdmin(TranslatableAdmin):
 
     list_display = ('code', 'title', 'all_languages_column', 'is_released', 'release_date_fmt', 'published', 'featured', )
     date_hierarchy = 'release_date'
-    search_fields = ('code', 'translations__title', )
+    search_fields = ('code', 'translations__title', 'original_news__name')
 
     form = ArticleAdminForm
 
