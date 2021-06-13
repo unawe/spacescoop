@@ -1,15 +1,16 @@
-from datetime import timedelta
-
 from django.contrib.admin import AdminSite
 from django.test import TestCase, RequestFactory
-from django.urls import reverse
+
+from datetime import timedelta
 from django.utils.timezone import now
+from django.urls import reverse
 
 from .admin import ArticleAdmin
 from .models import Article, Institution
 
 
 class ArticlesTestCase(TestCase):
+
     create_article_running_code = 9900
 
     # def login_user(self, user):
@@ -30,12 +31,12 @@ class ArticlesTestCase(TestCase):
     def create_article(self, name, release_date=now(), embargo_date=None, published=False, featured=False):
         self.create_article_running_code += 1
         return Article.objects.create(
-            code='%04d' % self.create_article_running_code,
-            slug=name, title=name,
-            release_date=release_date,
-            embargo_date=embargo_date,
-            published=published,
-            featured=featured)
+                code='%04d'%self.create_article_running_code,
+                slug=name, title=name,
+                release_date=release_date,
+                embargo_date=embargo_date,
+                published=published,
+                featured=featured)
 
     def create_institution(self, name, slug):
         return Institution.objects.create(
@@ -44,28 +45,19 @@ class ArticlesTestCase(TestCase):
         )
 
     def setUp(self):
+
         self.user = self.create_user(username='testuser', password='p', groups=['staff'])
         self.press_user = self.create_user(username='pressuser', password='p', groups=['press'])
-        self.institution_one = self.create_institution(name="Institution One", slug="inst1")
-        self.institution_two = self.create_institution(name="Institution Two", slug="inst2")
+
         one_minute = timedelta(minutes=1)
 
         # print(Article.__mro__)
-        self.obj_draft = self.create_article('draft', release_date=now() + one_minute, published=False)
-        self.obj_ready = self.create_article('ready', release_date=now() + one_minute, published=True)
-        self.obj_embargoed = self.create_article('embargoed', release_date=now() + one_minute, published=True,
-                                                 embargo_date=now() - one_minute)
-        self.obj_released = self.create_article('released', release_date=now() - one_minute, published=True)
-        self.obj_featured = self.create_article('featured', release_date=now() - one_minute, published=True,
-                                                featured=True)
-        self.obj_retracted = self.create_article('retracted', release_date=now() - one_minute, published=False)
-        self.obj_ready_with_one_original_news = self.create_article('one_original_news',
-                                                                    release_date=now() + one_minute, published=True)
-        self.obj_ready_with_one_original_news.original_news.add(self.institution_one)
-        self.obj_ready_with_two_original_news = self.create_article('two_original_news',
-                                                                    release_date=now() + one_minute, published=True)
-        self.obj_ready_with_two_original_news.original_news.add(self.institution_one, self.institution_two)
-        self.article_admin = ArticleAdmin(Article, AdminSite())
+        self.obj_draft = self.create_article('draft', release_date=now()+one_minute, published=False)
+        self.obj_ready = self.create_article('ready', release_date=now()+one_minute, published=True)
+        self.obj_embargoed = self.create_article('embargoed', release_date=now()+one_minute, published=True, embargo_date=now()-one_minute)
+        self.obj_released = self.create_article('released', release_date=now()-one_minute, published=True)
+        self.obj_featured = self.create_article('featured', release_date=now()-one_minute, published=True, featured=True)
+        self.obj_retracted = self.create_article('retracted', release_date=now()-one_minute, published=False)
 
 
 class PublishingTests(ArticlesTestCase):
@@ -161,7 +153,7 @@ class ArticlesEmptyListViewTests(TestCase):
         '''
         If no items exist, an appropriate message should be displayed.
         '''
-        response = self.client.get(reverse('admin:list'))
+        response = self.client.get(reverse('scoops:list'))
         self.assertEqual(response.status_code, 200)
         self.assertQuerysetEqual(response.context['object_list'], [])
         self.assertContains(response, 'No articles are available.')
@@ -220,19 +212,43 @@ class ArticlesDetailViewTests(ArticlesTestCase):
 
 
 class ArticlesAdminSearchTests(ArticlesTestCase):
-    def test_field_arguments(self):
-        admin = self.article_admin
+    def setUp(self):
+        super(ArticlesAdminSearchTests, self).setUp()
+        self.institution_one = self.create_institution(name="Institution One", slug="inst1")
+        self.institution_two = self.create_institution(name="Institution Two", slug="inst2")
+
+        self.article_one_original_news = self.create_article('one_original_news')
+        self.article_one_original_news.original_news.add(self.institution_one)
+        self.article_two_original_news = self.create_article('two_original_news')
+        self.article_two_original_news.original_news.add(self.institution_one, self.institution_two)
+
+        self.admin = ArticleAdmin(Article, AdminSite())
+        self.article_admin_view_name = 'admin:spacescoops_article_changelist'
         self.user.is_superuser = True
 
-        request = RequestFactory().get(reverse('admin:spacescoops_article_changelist'), {'q': 'Institution One'})
-        request.user = self.user
+    def setup_request(self, user, view_name, query=None):
+        self.request_base = RequestFactory()
+        request = self.request_base.get(reverse(view_name), query)
+        request.user = user
+        return request
 
-        self.assertEqual(list(admin.get_search_fields(request)), ['code', 'translations__title', 'original_news__name'])
-        self.assertEqual(admin.changelist_view(request).status_code, 200)
-        self.assertIn('one_original_news', str(admin.changelist_view(request).render().getvalue()))
-        self.assertIn('two_original_news', str(admin.changelist_view(request).render().getvalue()))
+    def test_field_arguments(self):
+        request = self.setup_request(self.user, self.article_admin_view_name)
 
-        request = RequestFactory().get(reverse('admin:spacescoops_article_changelist'), {'q': 'Institution Two'})
-        request.user = self.user
-        self.assertNotIn('one_original_news', str(admin.changelist_view(request).render().getvalue()))
-        self.assertIn('two_original_news', str(admin.changelist_view(request).render().getvalue()))
+        self.assertEqual(list(self.admin.get_search_fields(request)),
+                         ['code', 'translations__title', 'original_news__name'])
+        self.assertEqual(self.admin.changelist_view(request).status_code, 200)
+
+    def test_search_multiple_result(self):
+        query = {'q': 'Institution One'}
+        request = self.setup_request(self.user, self.article_admin_view_name, query)
+
+        self.assertIn('one_original_news', str(self.admin.changelist_view(request).render().getvalue()))
+        self.assertIn('two_original_news', str(self.admin.changelist_view(request).render().getvalue()))
+
+    def test_search_one_result(self):
+        query = {'q': 'Institution Two'}
+        request = self.setup_request(self.user, self.article_admin_view_name, query)
+
+        self.assertNotIn('one_original_news', str(self.admin.changelist_view(request).render().getvalue()))
+        self.assertIn('two_original_news', str(self.admin.changelist_view(request).render().getvalue()))
