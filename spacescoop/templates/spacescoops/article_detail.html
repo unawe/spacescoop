@@ -48,11 +48,11 @@
                 <div class="d-flex justify-content-between align-items-center my-4">
                     <div class="">
                         {% if object.originalnews_set.all|length == 1 %}
-                            {% trans 'This Space Scoop is based on a Press Release from ' %}
+                            {% trans 'This Space Scoop is based on a ' %}{{object.get_source_type_display}}{% trans ' from ' %}
                             {% with n=object.originalnews_set.all.0 %}<a target="_blank" href="{{n.url}}">{{n.institution.name}}</a>
                             {% endwith %}.
                         {% elif object.originalnews_set.all|length > 1 %}
-                            {% trans 'This Space Scoop is based on Press Releases from ' %}
+                            {% trans 'This Space Scoop is based on a ' %}{{object.get_source_type_display}}{% trans ' from ' %}
                             {% for n in object.originalnews_set.all %}
                                 <a target="_blank" href="{{n.url}}">{{n.institution.name}}</a>
                                 {% if not forloop.last %},

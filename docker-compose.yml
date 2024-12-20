@@ -1,29 +1,26 @@
-version: "2"
-
 services:
-
   web:
-    # the application's web service (container) will use an image based on our Dockerfile
-    build: "."
-    # Map the internal port 80 to port 8000 on the host
+    build: .
     ports:
       - "8000:80"
-    # Map the host directory to app (which allows us to see and edit files inside the container)
     volumes:
       - ".:/app:rw"
       - "./data:/data:rw"
-    # The default command to run when launching the container
-    command: python manage.py runserver 0.0.0.0:80
-    # the URL 'postgres' will point to the application's db service
+    environment:
+      DATABASE_URL: postgres://postgres@database_default:5432/db
     links:
-      - "db:postgres"
-    env_file: .env-local
+      - "database_default"
+    command: python manage.py runserver 0.0.0.0:80
 
-  db:
-    # the application's web service will use an off-the-shelf image
-    image: postgres:9.6-alpine
+  database_default:
+    image: postgres:15.7-alpine
     environment:
       POSTGRES_DB: "db"
       POSTGRES_HOST_AUTH_METHOD: "trust"
+      SERVICE_MANAGER: "fsm-postgres"
     volumes:
       - ".:/app:rw"
+      - "database-default:/var/lib/postgresql/data/"
+
+volumes:
+  database-default:

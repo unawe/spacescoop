@@ -96,6 +96,7 @@ class ArticleAdmin(TranslatableAdmin):
             {'fields': ('code', 'title', ), }),
         ('Publishing',
             {'fields': (('release_date', ),
+                        ('source_type',),
                         ('published', 'featured', ),), }),
         (None,
             {'fields': ('story', 'cool_fact', 'pdf'), }),

@@ -15,11 +15,10 @@ import copy
 import operator
 
 import dj_database_url
-from django_storage_url import dsn_configured_storage_class
+from pathlib import Path
 
-
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Build paths inside the project like this: BASE_DIR / 'subdir'.
+BASE_DIR = Path(__file__).resolve().parent.parent
 PARENT_DIR = os.path.dirname(BASE_DIR)
 
 # Quick-start development settings - unsuitable for production
@@ -40,7 +39,7 @@ DIVIO_DOMAIN_ALIASES = [
     if d.strip()
 ]
 
-ALLOWED_HOSTS = [DIVIO_DOMAIN] + DIVIO_DOMAIN_ALIASES
+ALLOWED_HOSTS = ["*"]
 SITE_URL = 'https://www.spacescoop.org'
 
 
@@ -58,16 +57,15 @@ INSTALLED_APPS = [
     'ckeditor',
     'taggit',
     'taggit_autosuggest',
-    # 'compressor',
 
     'easy_thumbnails',
-
+    'storages',
     'django_ext',
     'glossary',
     'institutions',
     'search',
     'smartpages',
-    'spacescoops',
+    # 'spacescoops',
     'spacescoop'
 ]
 
@@ -112,8 +110,15 @@ WSGI_APPLICATION = 'spacescoop.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-DEFAULT_DATABASE_DSN = os.environ.get('DEFAULT_DATABASE_DSN', 'sqlite://:memory:')
-DATABASES = {'default': dj_database_url.parse(DEFAULT_DATABASE_DSN)}
+if "DATABASE_URL" in os.environ:
+    DATABASES = {'default': dj_database_url.config(conn_max_age=500)}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
 
 
 # Password validation
@@ -272,25 +277,40 @@ PARLER_LANGUAGES = {
 # )
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-#  media
-# DEFAULT_FILE_STORAGE is configured using DEFAULT_STORAGE_DSN
+# AWS S3 storage configuration
+AWS_STORAGE_BUCKET_NAME = os.environ.get('DEFAULT_STORAGE_BUCKET', '')
+AWS_ACCESS_KEY_ID = os.environ.get('DEFAULT_STORAGE_ACCESS_KEY_ID', '')
+AWS_SECRET_ACCESS_KEY = os.environ.get('DEFAULT_STORAGE_SECRET_ACCESS_KEY', '')
+AWS_S3_CUSTOM_DOMAIN = os.environ.get('DEFAULT_STORAGE_CUSTOM_DOMAIN', '')
+AWS_S3_REGION_NAME = os.environ.get('DEFAULT_STORAGE_REGION', '')
+AWS_S3_OBJECT_PARAMETERS = {
+    'ACL': 'public-read',
+    'CacheControl': 'max-age=86400',
+}
+AWS_S3_FILE_OVERWRITE = False
 
-# read the setting value from the environment variable
-DEFAULT_STORAGE_DSN = os.environ.get('DEFAULT_STORAGE_DSN')
 
-# dsn_configured_storage_class() requires the name of the setting
-DefaultStorageClass = dsn_configured_storage_class('DEFAULT_STORAGE_DSN')
+# Default storage settings, with the staticfiles storage updated.
+# See https://docs.djangoproject.com/en/5.1/ref/settings/#std-setting-STORAGES
+STORAGE_BACKEND = "django.core.files.storage.FileSystemStorage"
 
-# Django's DEFAULT_FILE_STORAGE requires the class name
-DEFAULT_FILE_STORAGE = 'spacescoop.settings.DefaultStorageClass'
+if AWS_SECRET_ACCESS_KEY:
+    STORAGE_BACKEND = "storages.backends.s3boto3.S3Boto3Storage"
 
-THUMBNAIL_DEFAULT_STORAGE  = DEFAULT_FILE_STORAGE
+STORAGES = {
+    "default": {
+        "BACKEND": STORAGE_BACKEND,
+    },
+    # ManifestStaticFilesStorage is recommended in production, to prevent
+    # outdated JavaScript / CSS assets being served from cache
+    # See https://docs.djangoproject.com/en/5.1/ref/contrib/staticfiles/#manifeststaticfilesstorage
+    "staticfiles": {
+        "BACKEND": "django.contrib.staticfiles.storage.ManifestStaticFilesStorage",
+    },
+}
 
-MEDIA_URL = 'media/'
-MEDIA_ROOT = os.path.join('/data/media/')
 
 # Thumbnails
 

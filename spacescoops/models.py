@@ -135,6 +135,7 @@ class Article(TranslatableModel, PublishingModel, SpaceaweModel, SearchModel):
     code = models.CharField(max_length=4, blank=False, db_index=True, help_text='The 4 digit code that identifies the Article, in the format "YY##": year, folowed by sequential number.')
     categories = models.ManyToManyField(Category, blank=True, related_name='articles', limit_choices_to={'translations__language_code': 'en'})
     original_news = models.ManyToManyField(Institution, through='OriginalNews', related_name='scoops', )
+    source_type = models.PositiveSmallIntegerField(_('source type'), default=0, choices=((0, _('Press Release')), (1, _('Paper')), ), help_text=_('Press release, paper, etc.'))
 
     objects = ArticleManager()
     tags = TaggableManager(blank=True)
