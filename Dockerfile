@@ -24,4 +24,4 @@ RUN python manage.py collectstatic --noinput
 
 EXPOSE 80
 
-CMD ["gunicorn", "myapp.wsgi:application", "--bind", "0.0.0.0:80"]
+CMD ["gunicorn", "spacescoop.wsgi:application", "--bind", "0.0.0.0:80"]
