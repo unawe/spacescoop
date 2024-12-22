@@ -14,7 +14,6 @@ import os
 import copy
 import operator
 
-import dj_database_url
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -29,15 +28,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'z2=$*^40@k+--2u@z8j8&c5!^3_o1-lc06#ih
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DJANGO_DEBUG') == "True"
+DEBUG = True
 
-DIVIO_DOMAIN = os.environ.get('DOMAIN', '')
-
-DIVIO_DOMAIN_ALIASES = [
-    d.strip()
-    for d in os.environ.get('DOMAIN_ALIASES', '').split(',')
-    if d.strip()
-]
 
 ALLOWED_HOSTS = ["*"]
 SITE_URL = 'https://www.spacescoop.org'
@@ -110,15 +102,9 @@ WSGI_APPLICATION = 'spacescoop.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-os.environ.setdefault("PGDATABASE", "spacescoop_dev")
-os.environ.setdefault("PGUSER", "username")
-os.environ.setdefault("PGPASSWORD", "")
-os.environ.setdefault("PGHOST", "localhost")
-os.environ.setdefault("PGPORT", "5432")
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': os.environ["PGDATABASE"],
         'USER': os.environ["PGUSER"],
         'PASSWORD': os.environ["PGPASSWORD"],
