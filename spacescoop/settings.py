@@ -111,17 +111,7 @@ DATABASES = {
         'HOST': os.environ["PGHOST"],
         'PORT': os.environ["PGPORT"],
     }
-}
 
-# if "DATABASE_URL" in os.environ:
-#     DATABASES = {'default': dj_database_url.config(conn_max_age=500)}
-# else:
-#     DATABASES = {
-#         'default': {
-#             'ENGINE': 'django.db.backends.sqlite3',
-#             'NAME': BASE_DIR / 'db.sqlite3',
-#         }
-#     }
 
 
 # Password validation
@@ -282,25 +272,13 @@ PARLER_LANGUAGES = {
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-# AWS S3 storage configuration
-AWS_STORAGE_BUCKET_NAME = os.environ.get('DEFAULT_STORAGE_BUCKET', '')
-AWS_ACCESS_KEY_ID = os.environ.get('DEFAULT_STORAGE_ACCESS_KEY_ID', '')
-AWS_SECRET_ACCESS_KEY = os.environ.get('DEFAULT_STORAGE_SECRET_ACCESS_KEY', '')
-AWS_S3_CUSTOM_DOMAIN = os.environ.get('DEFAULT_STORAGE_CUSTOM_DOMAIN', '')
-AWS_S3_REGION_NAME = os.environ.get('DEFAULT_STORAGE_REGION', '')
-AWS_S3_OBJECT_PARAMETERS = {
-    'ACL': 'public-read',
-    'CacheControl': 'max-age=86400',
-}
-AWS_S3_FILE_OVERWRITE = False
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'data/'
 
 
 # Default storage settings, with the staticfiles storage updated.
 # See https://docs.djangoproject.com/en/5.1/ref/settings/#std-setting-STORAGES
 STORAGE_BACKEND = "django.core.files.storage.FileSystemStorage"
-
-if AWS_SECRET_ACCESS_KEY:
-    STORAGE_BACKEND = "storages.backends.s3boto3.S3Boto3Storage"
 
 STORAGES = {
     "default": {
@@ -397,3 +375,8 @@ LOGGING = {
         },
     }
 }
+
+try:
+    import .local_settings
+except ImportError:
+    pass

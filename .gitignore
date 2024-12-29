@@ -9,6 +9,7 @@
 *.pyc
 *.pyo
 db.sqlite3
+local_settings.py
 
 # Divio
 .divio
