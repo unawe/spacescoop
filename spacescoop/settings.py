@@ -378,6 +378,6 @@ LOGGING = {
 }
 
 try:
-    import .local_settings
+    import local_settings
 except ImportError:
     pass
