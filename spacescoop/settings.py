@@ -34,6 +34,7 @@ DEBUG = True
 ALLOWED_HOSTS = ["*"]
 SITE_URL = 'https://www.spacescoop.org'
 
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
 # Application definition
 
@@ -280,8 +281,11 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'data/'
+MEDIA_ROOT = BASE_DIR / 'media'
 
+print("*************************")
+print(MEDIA_ROOT)
+print("*************************")
 
 # Default storage settings, with the staticfiles storage updated.
 # See https://docs.djangoproject.com/en/5.1/ref/settings/#std-setting-STORAGES
