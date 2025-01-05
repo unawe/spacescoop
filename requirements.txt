@@ -1,8 +1,6 @@
 django~=3.2
-psycopg2==2.8.5
+psycopg2==2.9.6
 gunicorn>=23
-django-storages>=1.14
-boto3>=1.35
 whitenoise
 
 django-pipeline

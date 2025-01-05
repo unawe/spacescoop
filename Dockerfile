@@ -10,13 +10,12 @@ RUN apt-get update && \
     libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev shared-mime-info \
     postgresql-client libpq-dev postgresql-contrib -y
 
-COPY requirements.in /app/
+COPY requirements.txt /app/
 
 RUN pip install --upgrade pip && \
     pip install pip-tools
 
-RUN pip-compile requirements.in && \
-    pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . /app/
 

@@ -52,7 +52,7 @@ INSTALLED_APPS = [
     'taggit_autosuggest',
 
     'easy_thumbnails',
-    'storages',
+    # 'storages',
     'django_ext',
     'glossary',
     'institutions',
@@ -282,10 +282,6 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, MEDIA_URL)
-
-print("*************************")
-print(MEDIA_ROOT)
-print("*************************")
 
 # Default storage settings, with the staticfiles storage updated.
 # See https://docs.djangoproject.com/en/5.1/ref/settings/#std-setting-STORAGES

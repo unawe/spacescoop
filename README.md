@@ -45,3 +45,5 @@ From the local directory, you need to run any commands to sync the current code 
 ```
 railway run python manage.py migrate
 ```
+
+This will only work if you have the `public` hostname for the database in the settings
