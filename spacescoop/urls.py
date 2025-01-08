@@ -29,6 +29,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('ckeditor/', include('ckeditor_uploader.urls')),
     path('taggit_autosuggest/', include('taggit_autosuggest.urls')),
+    re_path(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT})
 ]
 
 urlpatterns += i18n_patterns(
@@ -39,5 +40,4 @@ urlpatterns += i18n_patterns(
     path('words/', include('glossary.urls', namespace='glossary')),
     path('search/', simplesearch, name='search'),
     path('<url>/', SmartPageView.as_view(), name='smartpage'),
-    re_path(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT})
 )
