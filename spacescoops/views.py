@@ -11,7 +11,6 @@ from django.utils.translation import ugettext as _
 from django.utils.translation import get_language
 from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
-import os
 
 from .models import Article, Category, ArticleTranslation
 from django_ext import compiler
@@ -22,7 +21,6 @@ import logging
 logger = logging.getLogger(__name__)
 
 def home(request):
-    [print(f) for f in os.listdir(os.path.join(settings.MEDIA_ROOT , "media", "articles","attach","6a272c89-f88a-4c4e-8239-ade5f1347461"))]
     try:
         articles = Article.objects.featured().active_translations()
         featured = Article.add_prefetch_related(articles)[:4]
