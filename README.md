@@ -25,7 +25,7 @@ To migrate from the Divio Cloud
 Need to create the Divio database user
 
 ```
-createuser -s spacescoop-live-8e5e7e124f284780baf074fb522c258b-a560e1d  -U postgres --host=junction.proxy.rlwy.net --port=21798
+createuser -s spacescoop-live-8e5e7e124f284780baf074fb522c258b-a560e1d  -U postgres --host=autorack.proxy.rlwy.net --port=10577
 ```
 
 If the DB has been reployed you may need to change host and port
@@ -35,7 +35,7 @@ Download the database dump file from Divio cloud
 Then use `pg_restore` to import the database
 
 ```
-pg_restore -c --if-exists -U postgres -d railway -1 spacescoop.dump --host=autorack.proxy.rlwy.net --port=42553
+pg_restore -c --if-exists -U postgres -d railway -1 spacescoop.dump --host=autorack.proxy.rlwy.net --port=10577
 ```
 
 ## Apply migrations
