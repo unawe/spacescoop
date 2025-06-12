@@ -120,17 +120,6 @@ DATABASES = {
     }
 }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': "railway",
-#         'USER': "postgres",
-#         'PASSWORD': "ZwaSVEgYvbqOVunafFgqmfGsztVmqDuf",
-#         'HOST': "autorack.proxy.rlwy.net",
-#         'PORT': "10577",
-#     }
-# }
-
 
 
 # Password validation
@@ -395,7 +384,7 @@ LOGGING = {
 }
 
 try:
-    import spacescoop.local_settings
+    from .local_settings import *
 except ImportError as e:
     print(e)
     pass

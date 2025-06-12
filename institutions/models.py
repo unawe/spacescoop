@@ -25,6 +25,7 @@ class Institution(TranslatableModel):
     url = models.URLField(blank=True, null=True, max_length=255, )
     logo = models.FileField(null=True, blank=True, upload_to='institutions')
     spacescoop_count = models.IntegerField(default=0, editable=False, )
+    active = models.BooleanField(default=True, help_text='If unchecked, the institution will not be shown in the list of institutions', )
 
     @property
     def main_visual(self):

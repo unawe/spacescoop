@@ -11,6 +11,8 @@ from django.utils.translation import ugettext as _
 from django.utils.translation import get_language
 from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
+from itertools import groupby
+from operator import attrgetter
 
 from .models import Article, Category, ArticleTranslation
 from django_ext import compiler
@@ -228,7 +230,16 @@ class PartnerListView(ListView):
         return qs
 
     def get_context_data(self, **kwargs):
-        context = super().get_context_data()
+        context = super().get_context_data(**kwargs)
+        partners = context['object_list']
+        grouped_partners = {}
+        for active, group in groupby(partners, key=attrgetter('active')):
+            if active:
+                state = 'Active'
+            else:
+                state = 'Legacy'
+            grouped_partners[state] = list(group)
+        context['grouped_partners'] = grouped_partners
         return context
 
 
